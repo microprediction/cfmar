@@ -18,3 +18,18 @@ Additional Info:
 - Enables real-time market analysis
 - Provides infrastructure for trading prediction markets
 - Focuses on risk-adjusted performance optimization 
+
+​Subnet 8, known as the Proprietary Trading Network (PTN), is a decentralized network within the Bittensor ecosystem focused on simulating and optimizing trading strategies across various financial markets, including cryptocurrencies like Bitcoin and Ethereum, as well as traditional assets such as forex and indices. The primary objective of PTN is to create a permissionless environment where miners can develop, test, and refine trading algorithms, providing valuable insights and strategies for real-world trading applications.​
+Medium
+
+Miners in PTN act as traders who submit long and short trading orders based on their developed strategies. They engage in simulated trading activities, managing portfolios and executing trades according to predefined rules within the network. The performance of their strategies is evaluated using metrics such as return rate, Omega ratio, and Sortino ratio, which assess the risk-adjusted returns of their portfolios. Miners are incentivized to optimize their strategies to achieve high performance, as their rewards are directly tied to the effectiveness of their trading algorithms.​
+Medium
+
+Validators play a crucial role in PTN by processing the trading orders submitted by miners. They track the performance of each miner's portfolio in real-time, ensuring that trades are executed according to the network's rules and evaluating the outcomes based on the established performance metrics. Validators assign scores to miners' strategies, and only the top-performing miners receive TAO emissions incentives. This evaluation process ensures that the network rewards effective and efficient trading strategies while maintaining the integrity of the system.​
+Medium
++1
+Binance
++1
+
+The incentive mechanism within PTN is designed to promote the development of high-quality trading strategies. Miners receive rewards based on their performance, as determined by the scoring system employed by validators. However, miners can face penalties if their strategies result in significant losses or fail to meet the network's performance standards. This system encourages miners to continuously improve their strategies, leading to the evolution of more sophisticated and effective trading algorithms within the network.​
+
