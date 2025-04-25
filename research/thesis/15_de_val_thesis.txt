@@ -1,64 +1,69 @@
-# Subnet 15 (de_val) and the Microprediction Thesis
+# Subnet 15 (de val) and the Microprediction Thesis
 
 ## Overview
-Subnet 15, the de_val subnet, advances the microprediction thesis by demonstrating how advanced evaluation and validation can enhance prediction systems, providing essential infrastructure for assessing and improving prediction quality.
+Subnet 15, the de val subnet, represents a significant advancement in the microprediction thesis by demonstrating how decentralized, specialized agents can collaborate to create a robust prediction and analysis system.
 
 ## Alignment with Microprediction Principles
 
-### 1. Evaluation Infrastructure
-- **Performance Assessment**: Implements the thesis's vision of quality prediction systems
-- **Metric Development**: Aligns with the thesis's emphasis on proper scoring
-- **Benchmark Creation**: Supports the thesis's goal of robust prediction verification
+### 1. Mini-Machines and Economic Agency
+- **Decentralized Validation**: The subnet's validator-miner system embodies the microprediction concept of distributed, autonomous agents
+- **Economic Incentives**: Validators and miners operate as independent economic agents, staking value on their performance
+- **Performance Assessment**: The system includes sophisticated scoring mechanisms for prediction accuracy
 
-### 2. Quality Analysis
-- **Model Evaluation**: Demonstrates specialized assessment capabilities
-- **Quality Metrics**: Shows how predictions can be measured
-- **Validation Protocols**: Implements continuous quality validation
+### 2. Specialized Supply Chains
+- **Mixture of Experts (MoE)**: Implements the thesis's vision of specialized agents working in concert
+- **Task Routing**: Demonstrates how different agents can specialize in specific prediction tasks
+- **Layered Processing**: Shows how multiple agents can process and refine predictions
 
-### 3. Network Assessment
-- **Evaluation Infrastructure**: Supports the thesis's emphasis on quality measurement
-- **Assessment Mechanisms**: Enables robust model testing
-- **Validation Systems**: Facilitates the creation of quality prediction markets
+### 3. Proper Scoring and Economic Alignment
+- **Multi-dimensional Scoring**: Combines accuracy and confidence metrics
+- **Challenge Generation**: Uses diverse datasets to ensure robust prediction capabilities
+- **Performance-Based Rewards**: Aligns with the thesis's emphasis on proper scoring rules
+
+### 4. Reusable Building Blocks
+- **Model Development**: Creates reusable prediction models
+- **Dataset Generation**: Produces training data for other models
+- **Modular Architecture**: Supports the thesis's vision of composable prediction components
 
 ## Contributions to the Thesis
 
 ### 1. Technical Implementation
-- Demonstrates practical implementation of evaluation systems
-- Shows how quality assessment can enhance prediction quality
-- Proves the viability of validated prediction markets
+- Demonstrates practical implementation of decentralized prediction systems
+- Shows how models can be integrated into a microprediction framework
+- Proves the viability of economic incentives in maintaining prediction quality
 
-### 2. Innovation in Assessment
-- Introduces novel evaluation mechanisms
-- Implements sophisticated quality metrics
-- Shows how to optimize assessment for predictions
+### 2. Innovation in Evaluation
+- Introduces novel prediction challenge techniques
+- Implements sophisticated scoring mechanisms
+- Shows how to balance accuracy and confidence metrics
 
 ### 3. Network Architecture
-- Validates the thesis's vision of quality systems
-- Demonstrates how evaluation can improve prediction markets
-- Shows the potential for assessed prediction environments
+- Validates the thesis's vision of distributed prediction systems
+- Demonstrates how specialized agents can collaborate effectively
+- Shows the potential for cross-subnet communication
 
 ## Limitations and Future Directions
 
 ### 1. Current Limitations
-- Focus primarily on LLM evaluation
-- Limited to specific types of quality assessment
-- Still developing cross-subnet integration
+- Focus primarily on current prediction tasks
+- Limited to current model capabilities
+- Still developing inter-subnet communication
 
 ### 2. Potential Improvements
-- Could expand to other types of model evaluation
-- Might benefit from additional assessment mechanisms
-- Could enhance cross-subnet evaluation integration
+- Could incorporate more dynamic prediction tasks
+- Might benefit from additional specialized agents
+- Could expand scoring mechanisms
 
 ### 3. Future Research Directions
-- Development of more sophisticated evaluation models
 - Integration with other prediction-focused subnets
-- Expansion of quality assessment capabilities
+- Development of more sophisticated economic mechanisms
+- Expansion of specialized agent types
 
 ## Conclusion
-Subnet 15 provides significant support for the microprediction thesis by demonstrating:
-1. The importance of evaluation infrastructure
-2. The feasibility of quality assessment systems
-3. The potential for validated prediction markets
-4. The role of measurement in prediction systems
+Subnet 15 provides strong evidence for the microprediction thesis by demonstrating:
+1. The viability of decentralized prediction systems
+2. The effectiveness of economic incentives in maintaining quality
+3. The potential for specialized agents to collaborate
+4. The importance of proper scoring mechanisms
 
-While primarily focused on LLM evaluation, the subnet's architecture and mechanisms are crucial for implementing the microprediction vision, providing essential infrastructure for quality prediction systems. 
+While primarily focused on prediction tasks, the subnet's architecture and mechanisms align closely with the microprediction vision, providing a valuable case study in implementing the thesis's principles. 

@@ -11,253 +11,303 @@ Each subnet is scored out of 100 points across 5 categories:
 
 ## Subnet Scores
 
-### Subnet 1 (Text Prompting)
-- Challenge to Make Predictions: 18/20
-  - High volume of text predictions
-  - Continuous prediction generation
-  - Scalable prediction system
-- Time-Series Focus: 15/20
-  - Some temporal analysis
-  - Sequential prediction capabilities
-  - Limited time-series optimization
-- Low-Cost Bespoke ML Uses: 18/20
-  - Flexible model adaptation
-  - Cost-effective deployment
-  - Accessible to diverse users
-- Market Mechanisms: 17/20
-  - Quality-based evaluation
-  - Performance metrics
-  - Market-inspired rewards
-- Focus on Live Data: 18/20
-  - Real-time text processing
-  - Continuous learning
-  - Fast data adaptation
-**Total Score: 86/100**
-
-### Subnet 2 (Image Generation)
-- Challenge to Make Predictions: 16/20
-  - High volume of image predictions
-  - Continuous generation
+### Subnet 1 (Apex)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous model operation
   - Scalable system
-- Time-Series Focus: 12/20
-  - Limited temporal analysis
-  - Basic sequential generation
-  - Minimal time-series optimization
-- Low-Cost Bespoke ML Uses: 16/20
-  - Customizable image generation
-  - Efficient resource usage
-  - Accessible creation tools
-- Market Mechanisms: 15/20
-  - Quality-based validation
-  - Performance assessment
-  - Market-driven rewards
-- Focus on Live Data: 16/20
-  - Real-time image processing
-  - Continuous model updates
-  - Fast adaptation
-**Total Score: 75/100**
-
-### Subnet 3 (Data Storage)
-- Challenge to Make Predictions: 15/20
-  - High volume of data predictions
-  - Continuous storage optimization
-  - Scalable system
-- Time-Series Focus: 14/20
-  - Temporal data management
-  - Sequential storage optimization
-  - Time-series data handling
-- Low-Cost Bespoke ML Uses: 17/20
-  - Efficient data access
-  - Cost-effective storage
-  - Flexible data management
-- Market Mechanisms: 16/20
-  - Storage quality metrics
-  - Performance evaluation
-  - Market-based incentives
-- Focus on Live Data: 17/20
-  - Real-time data access
-  - Continuous updates
-  - Fast data retrieval
-**Total Score: 79/100**
-
-### Subnet 4 (Targon)
-- Challenge to Make Predictions: 18/20
-  - High volume of verification predictions
-  - Continuous multi-modal analysis
-  - Scalable verification system
-- Time-Series Focus: 18/20
-  - Strong temporal analysis
-  - Sequential verification
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
-- Low-Cost Bespoke ML Uses: 18/20
-  - Customizable verification models
-  - Efficient multi-modal processing
-  - Accessible verification tools
-- Market Mechanisms: 18/20
-  - Deterministic verification
-  - Performance metrics
-  - Market-driven rewards
-- Focus on Live Data: 18/20
-  - Real-time verification
-  - Continuous monitoring
-  - Fast adaptation
-**Total Score: 90/100**
-
-### Subnet 6 (Infinite Games)
-- Challenge to Make Predictions: 34/40
-  - High volume of game predictions
-  - Continuous strategy development
-  - Scalable system
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable game strategies
-  - Efficient resource usage
-  - Accessible game theory tools
-- Proper Scoring Rules: 16/20
-  - Strategy-based evaluation
-  - Performance assessment
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time strategy adaptation
-  - Continuous learning
-  - Fast response
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
 **Total Score: 84/100**
 
-### Subnet 8 (Proprietary Trading Network)
-- Challenge to Make Predictions: 19/20
-  - Very high volume of trading predictions
-  - Continuous market making
-  - Highly scalable system
-- Time-Series Focus: 19/20
-  - Strong temporal analysis
-  - Sequential trading patterns
-  - Time-series optimization
-- Low-Cost Bespoke ML Uses: 19/20
-  - Customizable trading strategies
-  - Efficient market access
-  - Accessible trading tools
-- Market Mechanisms: 18/20
-  - Performance-based evaluation
-  - Market metrics
-  - Trading-driven rewards
-- Focus on Live Data: 19/20
-  - Real-time market analysis
-  - Continuous adaptation
-  - Fast trading decisions
-**Total Score: 94/100**
-
-### Subnet 11 (Text To Speech)
-- Challenge to Make Predictions: 15/20
-  - High volume of speech predictions
-  - Continuous voice generation
+### Subnet 2 (Omron)
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
-- Time-Series Focus: 14/20
-  - Temporal voice patterns
-  - Sequential speech generation
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable voice models
-  - Efficient synthesis
-  - Accessible speech tools
-- Market Mechanisms: 15/20
-  - Quality-based evaluation
-  - Performance metrics
-  - Market-driven rewards
-- Focus on Live Data: 16/20
-  - Real-time speech synthesis
-  - Continuous model updates
-  - Fast adaptation
-**Total Score: 76/100**
-
-### Subnet 12 (Image To Text)
-- Challenge to Make Predictions: 16/20
-  - High volume of image analysis predictions
-  - Continuous text generation
-  - Scalable system
-- Time-Series Focus: 14/20
-  - Temporal image analysis
-  - Sequential text generation
-  - Basic time-series optimization
-- Low-Cost Bespoke ML Uses: 17/20
-  - Customizable analysis
+  - Customizable models
   - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
-  - Accuracy-based evaluation
-  - Performance metrics
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
-- Focus on Live Data: 17/20
-  - Real-time analysis
-  - Continuous learning
+- Focus on Live Data: 16/20
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
-**Total Score: 80/100**
+**Total Score: 79/100**
 
-### Subnet 13 (Dataverse)
+### Subnet 3 (MyShell)
 - Challenge to Make Predictions: 17/20
-  - High volume of data predictions
-  - Continuous data analysis
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal data analysis
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 4 (Targon)
+- Challenge to Make Predictions: 18/20
+  - High volume of predictions
+  - Continuous operation
+  - Highly scalable system
+- Time-Series Focus: 18/20
+  - Strong temporal analysis
   - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 18/20
-  - Flexible data processing
-  - Cost-effective analysis
+  - Customizable models
+  - Efficient processing
   - Accessible tools
-- Market Mechanisms: 17/20
-  - Quality-based evaluation
-  - Performance metrics
+- Market Mechanisms: 18/20
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 18/20
-  - Real-time data processing
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 90/100**
+
+### Subnet 5 (Open Kaito)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 6 (Infinite Games)
+- Challenge to Make Predictions: 18/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 17/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
   - Continuous updates
   - Fast adaptation
 **Total Score: 86/100**
 
-### Subnet 14 (Paladin)
-- Challenge to Make Predictions: 17/20
-  - High volume of security predictions
-  - Continuous threat analysis
+### Subnet 7 (Subvortex)
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
-- Time-Series Focus: 16/20
-  - Temporal threat analysis
-  - Sequential security monitoring
-  - Time-series optimization
-- Low-Cost Bespoke ML Uses: 17/20
-  - Customizable security models
-  - Efficient threat detection
-  - Accessible security tools
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
+  - Basic time-series optimization
+- Low-Cost Bespoke ML Uses: 16/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
 - Market Mechanisms: 16/20
-  - Security-based evaluation
-  - Performance metrics
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
-- Focus on Live Data: 17/20
-  - Real-time threat detection
-  - Continuous monitoring
-  - Fast response
-**Total Score: 83/100**
+- Focus on Live Data: 16/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 79/100**
 
-### Subnet 15 (De Val)
-- Challenge to Make Predictions: 18/20
-  - High volume of validation predictions
-  - Continuous model validation
+### Subnet 8 (Proprietary Trading Network)
+- Challenge to Make Predictions: 19/20
+  - Very high volume of predictions
+  - Continuous operation
   - Highly scalable system
-- Time-Series Focus: 17/20
-  - Temporal validation
-  - Sequential verification
+- Time-Series Focus: 19/20
+  - Strong temporal analysis
+  - Sequential processing
   - Time-series optimization
-- Low-Cost Bespoke ML Uses: 18/20
-  - Customizable validation
-  - Efficient verification
+- Low-Cost Bespoke ML Uses: 19/20
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 18/20
-  - Quality-based evaluation
-  - Performance metrics
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 19/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 94/100**
+
+### Subnet 11 (Dippy Roleplay)
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
+  - Basic time-series optimization
+- Low-Cost Bespoke ML Uses: 16/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 16/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 16/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 79/100**
+
+### Subnet 12 (ComputeHorde)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 13 (Omron)
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
+  - Basic time-series optimization
+- Low-Cost Bespoke ML Uses: 16/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 16/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 16/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 79/100**
+
+### Subnet 14 (Paladin)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 15 (de val)
+- Challenge to Make Predictions: 18/20
+  - High volume of predictions
+  - Continuous operation
+  - Highly scalable system
+- Time-Series Focus: 17/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 18/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 18/20
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 18/20
-  - Real-time validation
-  - Continuous monitoring
-  - Fast verification
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
 **Total Score: 89/100**
 
 ### Subnet 16 (Code Classification)
@@ -283,210 +333,325 @@ Each subnet is scored out of 100 points across 5 categories:
   - Fast adaptation
 **Total Score: 81/100**
 
-### Subnet 17 (Code Embedding)
+### Subnet 17 (Three Gen)
 - Challenge to Make Predictions: 16/20
-  - High volume of embedding predictions
-  - Continuous code analysis
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal code analysis
-  - Sequential embedding
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable embeddings
+  - Customizable models
   - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
-  - Quality-based evaluation
-  - Performance metrics
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time embedding
+  - Real-time processing
   - Continuous updates
-  - Fast processing
+  - Fast adaptation
 **Total Score: 79/100**
 
-### Subnet 18 (Text Classification)
+### Subnet 18 (Cortext)
 - Challenge to Make Predictions: 17/20
-  - High volume of text predictions
-  - Continuous classification
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal text analysis
-  - Sequential classification
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable classification
+  - Customizable models
   - Efficient processing
   - Accessible tools
-- Market Mechanisms: 16/20
-  - Accuracy-based evaluation
-  - Performance metrics
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time classification
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
-**Total Score: 83/100**
+**Total Score: 84/100**
 
-### Subnet 19 (Text Embedding)
+### Subnet 19 (Nineteen)
 - Challenge to Make Predictions: 16/20
-  - High volume of embedding predictions
-  - Continuous text analysis
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal text analysis
-  - Sequential embedding
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable embeddings
+  - Customizable models
   - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
-  - Quality-based evaluation
-  - Performance metrics
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time embedding
+  - Real-time processing
   - Continuous updates
-  - Fast processing
-**Total Score: 79/100**
-
-### Subnet 20 (Time Series Embedding)
-- Challenge to Make Predictions: 17/20
-  - High volume of embedding predictions
-  - Continuous time series analysis
-  - Scalable system
-- Time-Series Focus: 18/20
-  - Strong temporal analysis
-  - Sequential embedding
-  - Time-series optimization
-- Low-Cost Bespoke ML Uses: 17/20
-  - Customizable embeddings
-  - Efficient processing
-  - Accessible tools
-- Market Mechanisms: 17/20
-  - Quality-based evaluation
-  - Performance metrics
-  - Market-driven rewards
-- Focus on Live Data: 18/20
-  - Real-time embedding
-  - Continuous updates
-  - Fast processing
-**Total Score: 87/100**
-
-### Subnet 23 (Social Tensor)
-- Challenge to Make Predictions: 16/20
-  - High volume of social predictions
-  - Continuous network analysis
-  - Scalable system
-- Time-Series Focus: 15/20
-  - Temporal social analysis
-  - Sequential network processing
-  - Basic time-series optimization
-- Low-Cost Bespoke ML Uses: 16/20
-  - Customizable analysis
-  - Efficient processing
-  - Accessible tools
-- Market Mechanisms: 16/20
-  - Quality-based evaluation
-  - Performance metrics
-  - Market-driven rewards
-- Focus on Live Data: 16/20
-  - Real-time analysis
-  - Continuous learning
   - Fast adaptation
 **Total Score: 79/100**
 
-### Subnet 29 (Coldint)
-- Challenge to Make Predictions: 17/20
-  - High volume of collaborative predictions
-  - Continuous model training
-  - Scalable system
-- Time-Series Focus: 16/20
-  - Temporal collaboration
-  - Sequential training
-  - Time-series optimization
-- Low-Cost Bespoke ML Uses: 18/20
-  - Customizable training
-  - Efficient collaboration
-  - Accessible research tools
-- Market Mechanisms: 17/20
-  - Quality-based evaluation
-  - Performance metrics
-  - Market-driven rewards
-- Focus on Live Data: 18/20
-  - Real-time collaboration
-  - Continuous learning
-  - Fast adaptation
-**Total Score: 86/100**
-
-### Subnet 31 (NAS Chain)
+### Subnet 20 (BitAgent)
 - Challenge to Make Predictions: 18/20
-  - High volume of architecture predictions
-  - Continuous neural search
+  - High volume of predictions
+  - Continuous operation
   - Highly scalable system
 - Time-Series Focus: 17/20
-  - Temporal architecture analysis
-  - Sequential neural search
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 18/20
-  - Customizable architecture search
-  - Efficient optimization
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 18/20
   - Performance-based evaluation
-  - Architecture metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 18/20
-  - Real-time architecture search
-  - Continuous optimization
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 89/100**
+
+### Subnet 23 (Social Tensor)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 24 (Omega)
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
+  - Basic time-series optimization
+- Low-Cost Bespoke ML Uses: 16/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 16/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 16/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 79/100**
+
+### Subnet 25 (Protein Folding)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 26 (Subnet 26)
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
+  - Basic time-series optimization
+- Low-Cost Bespoke ML Uses: 16/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 16/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 16/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 79/100**
+
+### Subnet 27 (Neural Internet)
+- Challenge to Make Predictions: 18/20
+  - High volume of predictions
+  - Continuous operation
+  - Highly scalable system
+- Time-Series Focus: 17/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 18/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 18/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 88/100**
+
+### Subnet 28 (S&P 500 Oracle)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 29 (Coldint)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 31 (NAS Chain)
+- Challenge to Make Predictions: 18/20
+  - High volume of predictions
+  - Continuous operation
+  - Highly scalable system
+- Time-Series Focus: 17/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 18/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 18/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 18/20
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 89/100**
 
 ### Subnet 33 (Ready AI)
 - Challenge to Make Predictions: 19/20
   - Very high volume of predictions
-  - Continuous inference
+  - Continuous operation
   - Highly scalable system
 - Time-Series Focus: 18/20
   - Strong temporal analysis
-  - Sequential inference
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 19/20
-  - Customizable inference
+  - Customizable models
   - Efficient processing
   - Accessible tools
 - Market Mechanisms: 18/20
-  - Quality-based evaluation
-  - Performance metrics
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 19/20
-  - Real-time inference
-  - Continuous optimization
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 93/100**
 
 ### Subnet 34 (BitMind)
 - Challenge to Make Predictions: 16/20
-  - High volume of AI predictions
-  - Continuous learning
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal AI analysis
-  - Sequential learning
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable training
-  - Efficient learning
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
   - Performance-based evaluation
-  - Learning metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time learning
-  - Continuous optimization
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 79/100**
 
@@ -676,302 +841,325 @@ Each subnet is scored out of 100 points across 5 categories:
 
 ### Subnet 46 (NeuralAI)
 - Challenge to Make Predictions: 17/20
-  - High volume of neural predictions
-  - Continuous network operation
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal neural analysis
-  - Sequential network processing
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable networks
-  - Efficient development
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 17/20
   - Performance-based evaluation
-  - Network metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time network operation
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 84/100**
 
 ### Subnet 47 (Condense AI)
-- Challenge to Make Predictions: 16/20
-  - High volume of compression predictions
-  - Continuous model optimization
-  - Scalable system
-- Time-Series Focus: 15/20
-  - Temporal compression analysis
-  - Sequential optimization
-  - Basic time-series optimization
-- Low-Cost Bespoke ML Uses: 16/20
-  - Customizable compression
-  - Efficient optimization
-  - Accessible tools
-- Market Mechanisms: 16/20
-  - Performance-based evaluation
-  - Compression metrics
-  - Market-driven rewards
-- Focus on Live Data: 16/20
-  - Real-time compression
-  - Continuous optimization
-  - Fast adaptation
-**Total Score: 79/100**
-
-### Subnet 48 (Nextplace AI)
-- Challenge to Make Predictions: 16/20
-  - High volume of location predictions
-  - Continuous analysis
-  - Scalable system
-- Time-Series Focus: 15/20
-  - Temporal location analysis
-  - Sequential prediction
-  - Basic time-series optimization
-- Low-Cost Bespoke ML Uses: 16/20
-  - Customizable analysis
-  - Efficient prediction
-  - Accessible tools
-- Market Mechanisms: 16/20
-  - Performance-based evaluation
-  - Location metrics
-  - Market-driven rewards
-- Focus on Live Data: 16/20
-  - Real-time location analysis
-  - Continuous learning
-  - Fast adaptation
-**Total Score: 79/100**
-
-### Subnet 49 (Hivetrain)
 - Challenge to Make Predictions: 17/20
-  - High volume of training predictions
-  - Continuous distributed learning
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal training analysis
-  - Sequential learning
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable training
-  - Efficient learning
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 17/20
   - Performance-based evaluation
-  - Training metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time training
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 84/100**
+
+### Subnet 48 (Nextplace AI)
+- Challenge to Make Predictions: 18/20
+  - High volume of predictions
+  - Continuous operation
+  - Highly scalable system
+- Time-Series Focus: 17/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 18/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 18/20
+  - Real-time processing
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 88/100**
+
+### Subnet 49 (Hivetrain)
+- Challenge to Make Predictions: 17/20
+  - High volume of predictions
+  - Continuous operation
+  - Scalable system
+- Time-Series Focus: 16/20
+  - Temporal analysis
+  - Sequential processing
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 17/20
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 17/20
+  - Performance-based evaluation
+  - Quality metrics
+  - Market-driven rewards
+- Focus on Live Data: 17/20
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 84/100**
 
 ### Subnet 51 (Celium)
 - Challenge to Make Predictions: 18/20
-  - High volume of network predictions
-  - Continuous cellular analysis
+  - High volume of predictions
+  - Continuous operation
   - Highly scalable system
 - Time-Series Focus: 17/20
-  - Temporal network analysis
-  - Sequential cellular processing
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 18/20
-  - Customizable network models
+  - Customizable models
   - Efficient processing
   - Accessible tools
 - Market Mechanisms: 18/20
   - Performance-based evaluation
-  - Network metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 18/20
-  - Real-time network analysis
-  - Continuous optimization
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 89/100**
 
 ### Subnet 52 (Dojo)
 - Challenge to Make Predictions: 16/20
-  - High volume of training predictions
-  - Continuous learning
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal training analysis
-  - Sequential learning
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable environment
-  - Efficient learning
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
   - Performance-based evaluation
-  - Training metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time training
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 79/100**
 
 ### Subnet 56 (Gradients)
 - Challenge to Make Predictions: 17/20
-  - High volume of gradient predictions
-  - Continuous computation
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal gradient analysis
-  - Sequential computation
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable computation
-  - Efficient optimization
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 17/20
   - Performance-based evaluation
-  - Gradient metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time computation
-  - Continuous optimization
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 84/100**
 
 ### Subnet 57 (Gaia)
 - Challenge to Make Predictions: 16/20
-  - High volume of environmental predictions
-  - Continuous analysis
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal environmental analysis
-  - Sequential prediction
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable analysis
-  - Efficient prediction
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
   - Performance-based evaluation
-  - Environmental metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time analysis
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 79/100**
 
 ### Subnet 58 (Dippy Speech)
-- Challenge to Make Predictions: 15/20
-  - High volume of speech predictions
-  - Continuous voice generation
+- Challenge to Make Predictions: 16/20
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
-- Time-Series Focus: 14/20
-  - Temporal voice patterns
-  - Sequential speech generation
+- Time-Series Focus: 15/20
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable voice models
-  - Efficient synthesis
-  - Accessible speech tools
-- Market Mechanisms: 15/20
-  - Quality-based evaluation
-  - Performance metrics
+  - Customizable models
+  - Efficient processing
+  - Accessible tools
+- Market Mechanisms: 16/20
+  - Performance-based evaluation
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time speech synthesis
-  - Continuous model updates
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
-**Total Score: 76/100**
+**Total Score: 79/100**
 
 ### Subnet 59 (Agent Arena)
 - Challenge to Make Predictions: 17/20
-  - High volume of agent predictions
-  - Continuous competition
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal agent analysis
-  - Sequential competition
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable agents
-  - Efficient competition
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 17/20
   - Performance-based evaluation
-  - Competition metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time competition
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 84/100**
 
 ### Subnet 61 (Red Team)
 - Challenge to Make Predictions: 17/20
-  - High volume of security predictions
-  - Continuous testing
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 16/20
-  - Temporal security analysis
-  - Sequential testing
+  - Temporal analysis
+  - Sequential processing
   - Time-series optimization
 - Low-Cost Bespoke ML Uses: 17/20
-  - Customizable testing
-  - Efficient evaluation
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 17/20
   - Performance-based evaluation
-  - Security metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 17/20
-  - Real-time security testing
-  - Continuous evaluation
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 84/100**
 
 ### Subnet 62 (Argentao)
 - Challenge to Make Predictions: 16/20
-  - High volume of financial predictions
-  - Continuous analysis
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal financial analysis
-  - Sequential prediction
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable analysis
-  - Efficient prediction
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
   - Performance-based evaluation
-  - Financial metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time analysis
-  - Continuous learning
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 79/100**
 
 ### Subnet 64 (Chutes)
 - Challenge to Make Predictions: 16/20
-  - High volume of deployment predictions
-  - Continuous serving
+  - High volume of predictions
+  - Continuous operation
   - Scalable system
 - Time-Series Focus: 15/20
-  - Temporal deployment analysis
-  - Sequential serving
+  - Temporal analysis
+  - Sequential processing
   - Basic time-series optimization
 - Low-Cost Bespoke ML Uses: 16/20
-  - Customizable deployment
-  - Efficient serving
+  - Customizable models
+  - Efficient processing
   - Accessible tools
 - Market Mechanisms: 16/20
   - Performance-based evaluation
-  - Deployment metrics
+  - Quality metrics
   - Market-driven rewards
 - Focus on Live Data: 16/20
-  - Real-time deployment
-  - Continuous optimization
+  - Real-time processing
+  - Continuous updates
   - Fast adaptation
 **Total Score: 79/100**
+
+### Subnet 41 (Sports Network)
+- Challenge to Make Predictions: 19/20
+  - High volume of sports predictions
+  - Continuous event analysis
+  - Highly scalable system
+- Time-Series Focus: 18/20
+  - Strong temporal analysis
+  - Sequential event prediction
+  - Time-series optimization
+- Low-Cost Bespoke ML Uses: 18/20
+  - Customizable prediction models
+  - Efficient analysis
+  - Accessible tools
+- Market Mechanisms: 19/20
+  - Performance-based evaluation
+  - Accuracy metrics
+  - Market-driven rewards
+- Focus on Live Data: 19/20
+  - Real-time event analysis
+  - Continuous updates
+  - Fast adaptation
+**Total Score: 93/100**
 
 ## Overall Analysis
 - Highest Scoring: Multiple subnets with 93-94/100
@@ -979,18 +1167,21 @@ Each subnet is scored out of 100 points across 5 categories:
   - Subnet 33 (Ready AI) - 93/100
   - Subnet 38 (Distributed Training) - 93/100
   - Subnet 39 (BitAgent) - 93/100
-- Strong Performers (89-90/100):
+  - Subnet 41 (Sports Network) - 93/100
+- Strong Performers (88-90/100):
   - Subnet 4 (Targon) - 90/100
-  - Subnet 15 (De Val) - 89/100
+  - Subnet 15 (de val) - 89/100
+  - Subnet 27 (Neural Internet) - 88/100
   - Subnet 31 (NAS Chain) - 89/100
+  - Subnet 48 (Nextplace AI) - 88/100
   - Subnet 51 (Celium) - 89/100
 - Consistent Performers (84-86/100):
-  - Subnet 1 (Text Prompting) - 86/100
-  - Subnet 13 (Dataverse) - 86/100
+  - Subnet 1 (Apex) - 84/100
+  - Subnet 13 (Omron) - 84/100
   - Subnet 29 (Coldint) - 86/100
-  - Subnet 14 (Paladin) - 83/100
-  - Subnet 18 (Text Classification) - 83/100
-  - Subnet 20 (Time Series Embedding) - 87/100
+  - Subnet 14 (Paladin) - 84/100
+  - Subnet 18 (Cortext) - 84/100
+  - Subnet 20 (BitAgent) - 89/100
   - Subnet 37 (Fine-tuning) - 85/100
   - Subnet 40 (Data Validation) - 84/100
   - Subnet 42 (Score Vision) - 84/100
@@ -1001,19 +1192,22 @@ Each subnet is scored out of 100 points across 5 categories:
   - Subnet 59 (Agent Arena) - 84/100
   - Subnet 61 (Red Team) - 84/100
 - Specialized Subnets (75-79/100):
-  - Subnet 2 (Image Generation) - 75/100
-  - Subnet 3 (Data Storage) - 79/100
-  - Subnet 11 (Text To Speech) - 76/100
-  - Subnet 12 (Image To Text) - 80/100
+  - Subnet 2 (Omron) - 79/100
+  - Subnet 3 (MyShell) - 84/100
+  - Subnet 5 (Open Kaito) - 84/100
+  - Subnet 6 (Infinite Games) - 86/100
+  - Subnet 7 (Subvortex) - 79/100
+  - Subnet 11 (Dippy Roleplay) - 79/100
+  - Subnet 12 (ComputeHorde) - 84/100
   - Subnet 16 (Code Classification) - 81/100
-  - Subnet 17 (Code Embedding) - 79/100
-  - Subnet 19 (Text Embedding) - 79/100
-  - Subnet 23 (Social Tensor) - 79/100
+  - Subnet 17 (Three Gen) - 79/100
+  - Subnet 19 (Nineteen) - 79/100
+  - Subnet 23 (Social Tensor) - 84/100
   - Subnet 34 (BitMind) - 79/100
   - Subnet 43 (Text To Speech) - 76/100
   - Subnet 45 (Text To Speech) - 76/100
-  - Subnet 47 (Condense AI) - 79/100
-  - Subnet 48 (Nextplace AI) - 79/100
+  - Subnet 47 (Condense AI) - 85/100
+  - Subnet 49 (Hivetrain) - 84/100
   - Subnet 52 (Dojo) - 79/100
   - Subnet 57 (Gaia) - 79/100
   - Subnet 58 (Dippy Speech) - 76/100

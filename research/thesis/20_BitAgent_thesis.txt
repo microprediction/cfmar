@@ -1,64 +1,69 @@
 # Subnet 20 (BitAgent) and the Microprediction Thesis
 
 ## Overview
-Subnet 20, the BitAgent subnet, advances the microprediction thesis by demonstrating how autonomous agents can enhance prediction systems, providing essential infrastructure for agent-based prediction markets.
+Subnet 20, the BitAgent subnet, represents a significant advancement in the microprediction thesis by demonstrating how decentralized, specialized agents can collaborate to create a robust prediction and analysis system.
 
 ## Alignment with Microprediction Principles
 
-### 1. Agent Infrastructure
-- **Autonomous Systems**: Implements the thesis's vision of independent prediction systems
-- **Behavior Modeling**: Aligns with the thesis's emphasis on adaptive prediction
-- **Task Automation**: Supports the thesis's goal of efficient prediction markets
+### 1. Mini-Machines and Economic Agency
+- **Decentralized Validation**: The subnet's validator-miner system embodies the microprediction concept of distributed, autonomous agents
+- **Economic Incentives**: Validators and miners operate as independent economic agents, staking value on their performance
+- **Performance Assessment**: The system includes sophisticated scoring mechanisms for prediction accuracy
 
-### 2. Agent Analysis
-- **Development Tools**: Demonstrates specialized agent capabilities
-- **System Integration**: Shows how agents can enhance predictions
-- **Behavior Protocols**: Implements continuous agent validation
+### 2. Specialized Supply Chains
+- **Mixture of Experts (MoE)**: Implements the thesis's vision of specialized agents working in concert
+- **Task Routing**: Demonstrates how different agents can specialize in specific prediction tasks
+- **Layered Processing**: Shows how multiple agents can process and refine predictions
 
-### 3. Network Integration
-- **Agent Infrastructure**: Supports the thesis's emphasis on autonomous systems
-- **Integration Mechanisms**: Enables robust agent deployment
-- **Automation Systems**: Facilitates the creation of agent-based prediction markets
+### 3. Proper Scoring and Economic Alignment
+- **Multi-dimensional Scoring**: Combines accuracy and confidence metrics
+- **Challenge Generation**: Uses diverse datasets to ensure robust prediction capabilities
+- **Performance-Based Rewards**: Aligns with the thesis's emphasis on proper scoring rules
+
+### 4. Reusable Building Blocks
+- **Model Development**: Creates reusable prediction models
+- **Dataset Generation**: Produces training data for other models
+- **Modular Architecture**: Supports the thesis's vision of composable prediction components
 
 ## Contributions to the Thesis
 
 ### 1. Technical Implementation
-- Demonstrates practical implementation of agent systems
-- Shows how autonomy can enhance prediction quality
-- Proves the viability of agent-based prediction markets
+- Demonstrates practical implementation of decentralized prediction systems
+- Shows how models can be integrated into a microprediction framework
+- Proves the viability of economic incentives in maintaining prediction quality
 
-### 2. Innovation in Automation
-- Introduces novel agent mechanisms
-- Implements sophisticated behavior modeling
-- Shows how to optimize agents for predictions
+### 2. Innovation in Evaluation
+- Introduces novel prediction challenge techniques
+- Implements sophisticated scoring mechanisms
+- Shows how to balance accuracy and confidence metrics
 
 ### 3. Network Architecture
-- Validates the thesis's vision of autonomous systems
-- Demonstrates how agents can improve prediction markets
-- Shows the potential for automated prediction environments
+- Validates the thesis's vision of distributed prediction systems
+- Demonstrates how specialized agents can collaborate effectively
+- Shows the potential for cross-subnet communication
 
 ## Limitations and Future Directions
 
 ### 1. Current Limitations
-- Focus primarily on agent development
-- Limited to specific types of automation
-- Still developing cross-subnet integration
+- Focus primarily on current prediction tasks
+- Limited to current model capabilities
+- Still developing inter-subnet communication
 
 ### 2. Potential Improvements
-- Could expand to other types of agent systems
-- Might benefit from additional automation mechanisms
-- Could enhance cross-subnet agent integration
+- Could incorporate more dynamic prediction tasks
+- Might benefit from additional specialized agents
+- Could expand scoring mechanisms
 
 ### 3. Future Research Directions
-- Development of more sophisticated agent models
 - Integration with other prediction-focused subnets
-- Expansion of automation capabilities
+- Development of more sophisticated economic mechanisms
+- Expansion of specialized agent types
 
 ## Conclusion
-Subnet 20 provides significant support for the microprediction thesis by demonstrating:
-1. The importance of autonomous infrastructure
-2. The feasibility of agent-based systems
-3. The potential for automated prediction markets
-4. The role of behavior modeling in prediction systems
+Subnet 20 provides strong evidence for the microprediction thesis by demonstrating:
+1. The viability of decentralized prediction systems
+2. The effectiveness of economic incentives in maintaining quality
+3. The potential for specialized agents to collaborate
+4. The importance of proper scoring mechanisms
 
-While primarily focused on agent development, the subnet's architecture and mechanisms are crucial for implementing the microprediction vision, providing essential infrastructure for autonomous prediction systems. 
+While primarily focused on prediction tasks, the subnet's architecture and mechanisms align closely with the microprediction vision, providing a valuable case study in implementing the thesis's principles. 

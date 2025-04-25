@@ -35,7 +35,15 @@ The following subnets demonstrate the strongest support for the microprediction 
    - Focus on Live Data: 19/20
    - Key contribution: Distributed agent operation and continuous learning
 
-5. Subnet 4 (Targon) - 90/100
+5. Subnet 41 (Sports Network) - 93/100
+   - Challenge to Make Predictions: 19/20
+   - Time-Series Focus: 18/20
+   - Low-Cost Bespoke ML Uses: 18/20
+   - Market Mechanisms: 19/20
+   - Focus on Live Data: 19/20
+   - Key contribution: Real-time sports predictions and continuous event analysis
+
+6. Subnet 4 (Targon) - 90/100
    - Challenge to Make Predictions: 18/20
    - Time-Series Focus: 18/20
    - Low-Cost Bespoke ML Uses: 18/20
@@ -43,7 +51,7 @@ The following subnets demonstrate the strongest support for the microprediction 
    - Focus on Live Data: 18/20
    - Key contribution: Deterministic verification and multi-modal AI processing
 
-6. Subnet 15 (De Val) - 89/100
+7. Subnet 15 (de val) - 89/100
    - Challenge to Make Predictions: 18/20
    - Time-Series Focus: 17/20
    - Low-Cost Bespoke ML Uses: 18/20
@@ -51,7 +59,7 @@ The following subnets demonstrate the strongest support for the microprediction 
    - Focus on Live Data: 18/20
    - Key contribution: Real-time validation and continuous monitoring
 
-7. Subnet 31 (NAS Chain) - 89/100
+8. Subnet 31 (NAS Chain) - 89/100
    - Challenge to Make Predictions: 18/20
    - Time-Series Focus: 17/20
    - Low-Cost Bespoke ML Uses: 18/20
@@ -59,7 +67,7 @@ The following subnets demonstrate the strongest support for the microprediction 
    - Focus on Live Data: 18/20
    - Key contribution: Neural architecture search and continuous optimization
 
-8. Subnet 51 (Celium) - 89/100
+9. Subnet 51 (Celium) - 89/100
    - Challenge to Make Predictions: 18/20
    - Time-Series Focus: 17/20
    - Low-Cost Bespoke ML Uses: 18/20
@@ -67,37 +75,29 @@ The following subnets demonstrate the strongest support for the microprediction 
    - Focus on Live Data: 18/20
    - Key contribution: Network analysis and real-time optimization
 
-9. Subnet 20 (Time Series Embedding) - 87/100
-   - Challenge to Make Predictions: 17/20
-   - Time-Series Focus: 18/20
-   - Low-Cost Bespoke ML Uses: 17/20
-   - Market Mechanisms: 17/20
-   - Focus on Live Data: 18/20
-   - Key contribution: Time series analysis and continuous embedding
-
-10. Subnet 1 (Text Prompting) - 86/100
+10. Subnet 27 (Neural Internet) - 88/100
     - Challenge to Make Predictions: 18/20
-    - Time-Series Focus: 15/20
+    - Time-Series Focus: 17/20
     - Low-Cost Bespoke ML Uses: 18/20
     - Market Mechanisms: 17/20
     - Focus on Live Data: 18/20
-    - Key contribution: High-volume text predictions and continuous learning
+    - Key contribution: Distributed computing and real-time processing
 
-11. Subnet 13 (Dataverse) - 86/100
-    - Challenge to Make Predictions: 17/20
-    - Time-Series Focus: 16/20
+11. Subnet 48 (Nextplace AI) - 88/100
+    - Challenge to Make Predictions: 18/20
+    - Time-Series Focus: 17/20
     - Low-Cost Bespoke ML Uses: 18/20
     - Market Mechanisms: 17/20
     - Focus on Live Data: 18/20
-    - Key contribution: Data analysis and continuous processing
+    - Key contribution: Location-based predictions and spatial analysis
 
-12. Subnet 29 (Coldint) - 86/100
-    - Challenge to Make Predictions: 17/20
-    - Time-Series Focus: 16/20
-    - Low-Cost Bespoke ML Uses: 18/20
+12. Subnet 6 (Infinite Games) - 86/100
+    - Challenge to Make Predictions: 18/20
+    - Time-Series Focus: 17/20
+    - Low-Cost Bespoke ML Uses: 17/20
     - Market Mechanisms: 17/20
-    - Focus on Live Data: 18/20
-    - Key contribution: Collaborative predictions and continuous training
+    - Focus on Live Data: 17/20
+    - Key contribution: Game theory predictions and continuous optimization
 
 13. Subnet 37 (Fine-tuning) - 85/100
     - Challenge to Make Predictions: 17/20
@@ -105,23 +105,19 @@ The following subnets demonstrate the strongest support for the microprediction 
     - Low-Cost Bespoke ML Uses: 18/20
     - Market Mechanisms: 17/20
     - Focus on Live Data: 17/20
-    - Key contribution: Model fine-tuning and continuous adaptation
+    - Key contribution: Model adaptation and continuous learning
 
-Key Patterns Among Top Performers:
-- All score 17+ in prediction volume (20 points max)
-- All maintain 16+ in time-series focus (20 points max)
-- All achieve 17+ in low-cost ML uses (20 points max)
-- All maintain 17+ in market mechanisms (20 points max)
-- All achieve 17+ in live data focus (20 points max)
-- Strong emphasis on real-time operations
-- Focus on continuous learning and adaptation
-- Distributed and decentralized approaches
+14. Subnet 47 (Condense AI) - 85/100
+    - Challenge to Make Predictions: 17/20
+    - Time-Series Focus: 16/20
+    - Low-Cost Bespoke ML Uses: 17/20
+    - Market Mechanisms: 17/20
+    - Focus on Live Data: 17/20
+    - Key contribution: Data compression and optimization
 
-These subnets collectively demonstrate strong support for the microprediction thesis through their:
-1. High-volume prediction capabilities
-2. Strong time-series data focus
-3. Efficient low-cost ML implementations
-4. Robust market mechanisms
-5. Focus on real-time data and operations
-6. Distributed and decentralized architectures
-7. Continuous learning and adaptation
+Key Observations:
+1. The top 5 subnets all score 93-94/100, demonstrating exceptional alignment with microprediction principles
+2. Strong focus on real-time processing and continuous learning across high-scoring subnets
+3. Market mechanisms and time-series focus are consistently strong in top performers
+4. Distributed systems and real-time analysis are common themes among high-scoring subnets
+5. The network shows a healthy distribution of specialized and general-purpose subnets
