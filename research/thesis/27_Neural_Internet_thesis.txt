@@ -1,0 +1,69 @@
+# Subnet 27 (Compute) and the Microprediction Thesis
+
+## Overview
+Subnet 27, the Compute subnet, represents a significant advancement in the microprediction thesis by demonstrating how decentralized computing resources can enhance prediction market capabilities and performance.
+
+## Alignment with Microprediction Principles
+
+### 1. Mini-Machines and Economic Agency
+- **Decentralized Computing**: The subnet's validator-miner system embodies the microprediction concept of distributed, autonomous agents
+- **Economic Incentives**: Validators and miners operate as independent economic agents, staking value on their performance
+- **Resource Assessment**: The system includes sophisticated mechanisms for evaluating computing capabilities
+
+### 2. Specialized Supply Chains
+- **Compute Protocols**: Implements the thesis's vision of specialized agents working in concert
+- **Resource Allocation**: Demonstrates how different agents can specialize in specific computing tasks
+- **Performance Assurance**: Shows how multiple agents can verify and validate computing output
+
+### 3. Proper Scoring and Economic Alignment
+- **Multi-dimensional Scoring**: Combines efficiency and reliability metrics
+- **Compute Challenges**: Uses diverse workloads to ensure robust capabilities
+- **Performance-Based Rewards**: Aligns with the thesis's emphasis on proper scoring rules
+
+### 4. Reusable Building Blocks
+- **Compute Models**: Creates reusable resource allocation frameworks
+- **Performance Metrics**: Produces standardized measures for computing quality
+- **Modular Architecture**: Supports the thesis's vision of composable compute components
+
+## Contributions to the Thesis
+
+### 1. Technical Implementation
+- Demonstrates practical implementation of decentralized computing
+- Shows how compute resources can be integrated into a microprediction framework
+- Proves the viability of economic incentives in maintaining compute quality
+
+### 2. Innovation in Computing
+- Introduces novel resource allocation techniques
+- Implements sophisticated performance evaluation mechanisms
+- Shows how to balance efficiency and reliability
+
+### 3. Network Architecture
+- Validates the thesis's vision of distributed computing systems
+- Demonstrates how specialized agents can collaborate effectively
+- Shows the potential for cross-subnet resource sharing
+
+## Limitations and Future Directions
+
+### 1. Current Limitations
+- Focus primarily on current computing tasks
+- Limited to specific resource types
+- Still developing inter-subnet integration
+
+### 2. Potential Improvements
+- Could incorporate more dynamic computing tasks
+- Might benefit from additional specialized agents
+- Could expand resource capabilities
+
+### 3. Future Research Directions
+- Integration with other compute-focused subnets
+- Development of more sophisticated allocation mechanisms
+- Expansion of resource types and capabilities
+
+## Conclusion
+Subnet 27 (Compute) provides strong evidence for the microprediction thesis by demonstrating:
+1. The viability of decentralized computing systems
+2. The effectiveness of economic incentives in maintaining quality
+3. The potential for specialized agents to collaborate
+4. The importance of proper scoring mechanisms
+
+While primarily focused on computing resources, the subnet's architecture and mechanisms align closely with the microprediction vision, providing a valuable case study in implementing the thesis's principles. 
