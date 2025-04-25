@@ -1,0 +1,5 @@
+Subnet 29: Coldint
+Description: Collaborative model training and research
+Primary Function: Distributed model training and research
+Key Features: Collaborative learning, model training, research tools
+Built By: Coldint 

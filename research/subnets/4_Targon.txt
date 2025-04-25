@@ -1,0 +1,33 @@
+Subnet 4: Targon
+Description: A specialized subnet within the Bittensor network focusing on deterministic verification and multi-modal AI processing, ensuring accuracy and reliability of AI outputs through redundant verification mechanisms and support for various data modalities.
+
+Primary Function: Deterministic verification and multi-modal AI processing with secure execution environment
+
+Key Features:
+- Deterministic verification mechanism
+- Multi-modality support across data types
+- Confidential Compute integration
+- Redundant verification processes
+- Secure execution environment
+- Cross-modal learning capabilities
+- Trustworthy AI operations
+
+Built By: Manifold Labs
+
+Team:
+- AI verification specialists
+- Multi-modal processing experts
+- Security and privacy engineers
+- Confidential Compute developers
+
+Additional Info:
+- Implements redundant deterministic verification for ground truth analysis
+- Supports processing and generation across multiple data modalities
+- Leverages Confidential Compute technology for secure AI operations
+- Provides verifiable and trustworthy AI execution environment
+- Enables secure processing from hardware to application layers
+- Current registration cost: ~0.02396 τ
+
+Participation:
+- Miners: Run AI models compliant with OpenAI endpoints, serving synthetic data
+- Validators: Assess quality and accuracy of miners' outputs using deterministic verification 

@@ -1,0 +1,5 @@
+Subnet 64: Chutes
+Description: AI Model Deployment Pipeline
+Primary Function: Model deployment and management
+Key Features: Deployment automation, pipeline management, model serving
+Built By: Chutes Team 

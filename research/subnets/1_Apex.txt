@@ -1,0 +1,23 @@
+Subnet 1: Text Prompting
+Description: The inaugural Bittensor subnet dedicated to text generation, termed the Finney Prompt Subnetwork. It supports prompt-based neural networks like GPT-3, GPT-4, and ChatGPT in a decentralized fashion.
+Primary Function: Advanced language model capabilities and conversation through a decentralized network of validators and miners
+Key Features: 
+- Human-like conversation through roleplay and persona simulation
+- Support for multiple task types (Q&A, text summarization, code debugging, translation, math)
+- Mixture of Experts (MoE) system for specialized task routing
+- Advanced challenge generation with corrupted prompts to prevent simple internet lookups
+- String literal and semantic similarity scoring
+Built By: Macrocosmos
+Team: 
+- Will Squires (CEO) - Infrastructure and AI expert
+- Steffen Cruz (CTO) - PhD in subatomic physics, core developer
+- Pedro Ferreira - Machine Learning Engineer
+- Kalei Brady - Data Scientist
+- Sergio Champoux - Data Scientist
+- Brian McCrindle - Machine Learning Researcher
+Additional Info: 
+- Operates through a validator-miner system where validators generate challenges and miners respond
+- Uses Large Language Models (LLMs) for both challenge generation and response
+- Implements innovative techniques for human-like conversation
+- Generates synthetic datasets for fine-tuning other LLMs
+- Developing API layer for inter-subnet communication 

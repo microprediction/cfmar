@@ -1,0 +1,20 @@
+Subnet 13: Text To Speech
+Description: Converts text into natural-sounding speech, enabling voice-based applications and accessibility features
+Primary Function: Text-to-speech conversion and voice synthesis
+Key Features:
+- Natural language processing
+- Voice synthesis
+- Audio generation
+- Accessibility features
+- Multi-language support
+Built By: Macrocosmos
+Team:
+- Audio engineers
+- NLP specialists
+- Voice synthesis experts
+Additional Info:
+- Focuses on text-to-speech conversion
+- Implements natural voice synthesis
+- Enables accessibility features
+- Supports multiple languages
+- Provides audio generation tools 

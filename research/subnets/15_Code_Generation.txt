@@ -1,0 +1,20 @@
+Subnet 15: De-Val
+Description: A decentralized evaluation system that assesses LLM outputs for accuracy, completeness, and relevance, providing comprehensive quality metrics for language model performance.
+Primary Function: Language model output evaluation and assessment with decentralized validation
+Key Features:
+- Output quality assessment
+- Accuracy verification
+- Completeness evaluation
+- Relevance scoring
+- Decentralized validation
+Built By: De-Val
+Team:
+- Language model evaluation experts
+- Quality assessment specialists
+- Validation system developers
+Additional Info:
+- Implements sophisticated evaluation metrics
+- Provides comprehensive output assessment
+- Focuses on creating reliable evaluation standards
+- Integrates with various LLM outputs
+- Enables decentralized validation of model performance 

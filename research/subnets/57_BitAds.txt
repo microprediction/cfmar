@@ -1,0 +1,20 @@
+Subnet 57: BitAds
+Description: Uses blockchain to decentralize advertising, enhancing transparency, reducing costs, and incentivizing performance
+Primary Function: Decentralized advertising platform
+Key Features:
+- Blockchain advertising
+- Transparency enhancement
+- Cost reduction
+- Performance incentives
+- Ad verification
+Built By: FirstTensor
+Team:
+- Advertising specialists
+- Blockchain experts
+- Performance analysts
+Additional Info:
+- Focuses on decentralized advertising
+- Implements transparency mechanisms
+- Enables cost-effective advertising
+- Supports performance tracking
+- Provides ad verification tools 

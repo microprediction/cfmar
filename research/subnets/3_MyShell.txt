@@ -1,0 +1,20 @@
+Subnet 3: MyShell
+Description: A specialized subnet focused on advancing text-to-speech technology and custom chatbot development, with a reward system for high-quality model contributions.
+Primary Function: Text-to-speech and chatbot development with quality-based incentives
+Key Features:
+- Advanced voice synthesis technology
+- Custom chatbot creation and training
+- Quality assessment and reward mechanisms
+- Voice cloning and personalization
+- Multi-language support
+Built By: MyShell
+Team:
+- AI and voice technology specialists
+- Natural language processing experts
+- Audio engineering professionals
+Additional Info:
+- Implements sophisticated quality metrics for voice synthesis
+- Provides tools for custom chatbot development
+- Focuses on creating natural and expressive voice models
+- Supports various voice styles and languages
+- Integrates with other Bittensor subnets for enhanced capabilities 

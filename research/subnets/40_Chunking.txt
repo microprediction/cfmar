@@ -1,0 +1,20 @@
+Subnet 40: Chunking
+Description: Advances RAG by developing smart chunking solutions for better data retrieval and use
+Primary Function: Data chunking and retrieval optimization
+Key Features:
+- Smart data chunking
+- Retrieval optimization
+- Data organization
+- Search efficiency
+- Information access
+Built By: VectorChat
+Team:
+- Data organization specialists
+- Search optimization experts
+- Information retrieval professionals
+Additional Info:
+- Focuses on improving data retrieval
+- Implements smart chunking algorithms
+- Enables efficient information access
+- Supports better data organization
+- Provides optimized search capabilities 

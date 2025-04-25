@@ -1,0 +1,20 @@
+Subnet 20: Data Universe
+Description: A comprehensive decentralized data storage and management system that enables efficient data collection, distribution, and access across the Bittensor network.
+Primary Function: Decentralized data storage and management with scalable infrastructure
+Key Features:
+- Distributed data storage
+- Efficient data distribution
+- Scalable collection systems
+- Cross-network data access
+- Data integrity verification
+Built By: Macrocosmos
+Team:
+- Data infrastructure experts
+- Distributed systems engineers
+- Storage optimization specialists
+Additional Info:
+- Implements sophisticated data management protocols
+- Provides infrastructure for decentralized data storage
+- Focuses on efficient data distribution and access
+- Enables cross-subnet data sharing
+- Ensures data integrity and availability 

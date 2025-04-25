@@ -1,0 +1,20 @@
+Subnet 34: BitMind
+Description: Focuses on blockchain and cryptocurrency analysis, providing insights into market trends and transaction patterns
+Primary Function: Blockchain analysis and cryptocurrency insights
+Key Features:
+- Blockchain analysis
+- Market trend analysis
+- Transaction pattern recognition
+- Cryptocurrency insights
+- Trading analytics
+Built By: BitMind Team
+Team:
+- Blockchain analysts
+- Cryptocurrency experts
+- Market researchers
+Additional Info:
+- Focuses on blockchain analysis
+- Implements market trend analysis
+- Enables transaction pattern recognition
+- Supports cryptocurrency insights
+- Provides trading analytics tools 

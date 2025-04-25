@@ -1,0 +1,20 @@
+Subnet 42: Masa
+Description: Empowers AI development and is the first dual-token reward model where you can earn both $MASA & $TAO emissions
+Primary Function: AI development with dual-token rewards
+Key Features:
+- Dual-token rewards
+- AI development tools
+- Token emission system
+- Development incentives
+- Platform integration
+Built By: Masa
+Team:
+- Token economics experts
+- AI development specialists
+- Platform integration engineers
+Additional Info:
+- Focuses on AI development empowerment
+- Implements dual-token reward system
+- Enables $MASA & $TAO emissions
+- Supports developer incentives
+- Provides comprehensive development tools 

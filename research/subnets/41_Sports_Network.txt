@@ -1,0 +1,72 @@
+Subnet 41: Sports Network (Sportstensor)
+=====================================
+
+Overview
+--------
+Sportstensor is a decentralized sports prediction platform built on the Bittensor network. It leverages collective intelligence from miners who deploy machine learning models to forecast sports outcomes, aiming to identify profitable betting opportunities.
+
+Key Features
+-----------
+1. Decentralized Prediction Market
+   - Miners contribute by developing and running ML models
+   - Models predict sports events
+   - Performance-based evaluation and rewards
+
+2. Alpha Token
+   - Utilizes SN41 Alpha Token
+   - Utility token within Bittensor ecosystem
+   - Incentivizes miner participation
+
+3. Incentive Mechanism
+   - Rewards based on prediction accuracy
+   - Value-based compensation
+   - Competitive environment for continuous improvement
+
+Participation Details
+-------------------
+1. Mining Requirements
+   - Bittensor wallet setup (coldkey and hotkey)
+   - TAO token funding
+   - Registration on Subnet 41
+   - ML model deployment for sports predictions
+
+2. Validation Process
+   - Validators assess prediction quality
+   - Ensures network integrity
+   - Maintains forecast accuracy
+
+Performance Metrics
+-----------------
+1. Network Statistics
+   - Emission Rate: 0.83% of total TAO emissions
+   - Market Cap: ~7,057.94 TAO
+   - Active Validators: 10
+   - Active Miners: 79
+
+2. Community Engagement
+   - Active social media presence
+   - Regular updates and communication
+   - Comprehensive development resources
+   - Detailed setup guides for miners
+
+Technical Implementation
+----------------------
+1. Prediction Framework
+   - ML model integration
+   - Real-time data processing
+   - Performance tracking
+   - Reward distribution
+
+2. Network Architecture
+   - Decentralized validation
+   - Secure transaction processing
+   - Efficient data handling
+   - Scalable infrastructure
+
+Current Status
+-------------
+- Active development
+- Growing community
+- Expanding miner base
+- Continuous model improvement
+- Regular network updates 

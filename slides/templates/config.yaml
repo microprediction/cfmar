@@ -1,0 +1,54 @@
+# Slide Generation Configuration
+
+presentation:
+  title: "Microprediction: An Update"
+  author: "Peter Cotton"
+  date: "2024"
+  theme: "default"
+  
+format:
+  aspect_ratio: "16:9"
+  font:
+    heading: "Helvetica"
+    body: "Arial"
+  colors:
+    primary: "#2C3E50"
+    secondary: "#3498DB"
+    accent: "#E74C3C"
+  
+sections:
+  - name: "introduction"
+    template: "section-intro.md"
+    duration: "5min"
+  - name: "core-concepts"
+    template: "section-core.md"
+    duration: "10min"
+  - name: "technical-foundations"
+    template: "section-technical.md"
+    duration: "15min"
+  - name: "applications"
+    template: "section-applications.md"
+    duration: "10min"
+  - name: "current-state"
+    template: "section-current.md"
+    duration: "10min"
+  - name: "case-studies"
+    template: "section-cases.md"
+    duration: "15min"
+  - name: "future-outlook"
+    template: "section-future.md"
+    duration: "10min"
+  - name: "conclusion"
+    template: "section-conclusion.md"
+    duration: "5min"
+
+assets:
+  images:
+    directory: "assets/images"
+    formats: ["png", "jpg", "svg"]
+  data:
+    directory: "assets/data"
+    formats: ["csv", "json"]
+  code:
+    directory: "assets/code"
+    formats: ["py", "ipynb"] 

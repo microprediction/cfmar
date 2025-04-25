@@ -1,0 +1,20 @@
+Subnet 6: Infinite Games
+Description: A subnet focused on future prediction through game theory and strategic decision-making, creating an environment for testing and validating prediction models in competitive scenarios.
+Primary Function: Future prediction and strategic decision-making
+Key Features:
+- Game theory implementation
+- Strategic prediction markets
+- Competitive validation
+- Future scenario modeling
+- Decision optimization
+Built By: Amadeo Gigaver / Yuma Group
+Team:
+- Game theorists
+- Prediction market experts
+- Strategic analysts
+Additional Info:
+- Specializes in competitive prediction environments
+- Implements game-theoretic approaches to prediction
+- Enables strategic decision-making validation
+- Provides infrastructure for competitive prediction markets
+- Focuses on future scenario analysis and optimization 

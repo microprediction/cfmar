@@ -1,0 +1,20 @@
+Subnet 18: Data Labeling
+Description: Specializes in data annotation and labeling services, providing high-quality labeled datasets for machine learning
+Primary Function: Data annotation and labeling
+Key Features:
+- Data labeling
+- Annotation services
+- Quality control
+- Label management
+- Dataset organization
+Built By: Data Labeling Team
+Team:
+- Data annotators
+- Quality control specialists
+- Label management experts
+Additional Info:
+- Focuses on data labeling
+- Implements annotation services
+- Enables quality control
+- Supports label management
+- Provides organization tools 

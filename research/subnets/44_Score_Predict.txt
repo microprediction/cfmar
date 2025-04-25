@@ -1,0 +1,20 @@
+Subnet 44: Score Predict
+Description: Rewards accurate football match predictions by validating and scoring them against actual outcomes
+Primary Function: Sports prediction validation and scoring
+Key Features:
+- Match prediction validation
+- Performance scoring
+- Outcome verification
+- Reward distribution
+- Accuracy assessment
+Built By: Score Predict
+Team:
+- Sports analytics experts
+- Prediction validation specialists
+- Scoring system developers
+Additional Info:
+- Focuses on football match predictions
+- Implements validation mechanisms
+- Enables performance scoring
+- Supports reward distribution
+- Provides accuracy assessment tools 

@@ -1,0 +1,20 @@
+Subnet 8: Proprietary Trading Network
+Description: A subnet focused on price prediction and trading strategies, creating an environment for testing and validating financial prediction models in real market conditions.
+Primary Function: Price prediction and trading strategy optimization
+Key Features:
+- Market price prediction
+- Trading strategy validation
+- Risk assessment
+- Market analysis
+- Performance optimization
+Built By: Taoshi
+Team:
+- Financial analysts
+- Trading strategy experts
+- Risk management specialists
+Additional Info:
+- Specializes in financial market prediction
+- Implements sophisticated trading strategies
+- Enables real-time market analysis
+- Provides infrastructure for trading prediction markets
+- Focuses on risk-adjusted performance optimization 

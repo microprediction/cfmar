@@ -1,0 +1,20 @@
+Subnet 47: BitAgent
+Description: Integrates LLMs with popular apps to automate and personalize task management across platforms
+Primary Function: Task automation and personalization
+Key Features:
+- App integration
+- Task automation
+- Personalization
+- Cross-platform support
+- LLM integration
+Built By: Rogue Tensor
+Team:
+- App integration specialists
+- Automation experts
+- Personalization engineers
+Additional Info:
+- Focuses on task automation
+- Implements app integration
+- Enables personalization
+- Supports cross-platform functionality
+- Provides LLM-powered automation 

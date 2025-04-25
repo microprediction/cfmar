@@ -1,0 +1,20 @@
+Subnet 13: Dataverse
+Description: A subnet focused on data scraping and storage, creating an environment for collecting, processing, and managing data across the network for AI model training and validation.
+Primary Function: Data collection and management
+Key Features:
+- Web scraping capabilities
+- Data processing pipelines
+- Storage optimization
+- Data validation
+- Quality assurance
+Built By: Macrocosmos
+Team:
+- Data engineers
+- Web scraping specialists
+- Storage optimization experts
+Additional Info:
+- Specializes in data collection and management
+- Implements efficient data processing
+- Enables quality data validation
+- Provides infrastructure for data storage
+- Focuses on data quality and accessibility 

@@ -1,0 +1,18 @@
+Subnet 2: Omron
+Description: A pioneering subnet that implements a Proof-of-Inference system to verify and secure AI-generated data and intelligence across the Bittensor network.
+Primary Function: AI inference verification and security through decentralized validation
+Key Features:
+- Proof-of-Inference protocol for verifying AI model outputs
+- Decentralized validation of AI-generated data
+- Secure data transmission and storage
+- Cross-subnet verification capabilities
+- Advanced cryptographic proofs for AI inference
+Built By: Inference Labs
+Team:
+- Core team of blockchain and AI security experts
+- Specialists in cryptographic proofs and verification systems
+Additional Info:
+- Focuses on ensuring the integrity and authenticity of AI-generated content
+- Implements novel verification mechanisms for AI model outputs
+- Provides security infrastructure for other Bittensor subnets
+- Enables trustless verification of AI inference processes 

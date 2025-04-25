@@ -1,0 +1,20 @@
+Subnet 14: Palaidn
+Description: A decentralized fraud detection system that combines blockchain technology with advanced AI to provide cost-effective and efficient security solutions for cryptocurrency transactions.
+Primary Function: Cryptocurrency fraud detection and prevention with AI integration
+Key Features:
+- Advanced fraud detection algorithms
+- Transaction pattern analysis
+- Real-time security monitoring
+- Cost-effective verification
+- Blockchain-based validation
+Built By: Palaidn
+Team:
+- Security experts
+- Blockchain developers
+- Fraud detection specialists
+Additional Info:
+- Implements sophisticated fraud detection mechanisms
+- Provides real-time transaction monitoring
+- Focuses on cost-effective security solutions
+- Integrates with various blockchain networks
+- Enables decentralized verification of transactions 

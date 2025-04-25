@@ -1,0 +1,20 @@
+Subnet 51: Vision
+Description: Leverages decentralized AI for efficient image generation and analysis using the DSIS framework
+Primary Function: Image generation and analysis
+Key Features:
+- Image generation
+- Visual analysis
+- DSIS framework
+- Decentralized processing
+- Efficiency optimization
+Built By: Corcel
+Team:
+- Computer vision experts
+- Image generation specialists
+- Framework developers
+Additional Info:
+- Focuses on image generation and analysis
+- Implements DSIS framework
+- Enables decentralized processing
+- Supports efficient operations
+- Provides visual analysis tools 

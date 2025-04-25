@@ -1,0 +1,31 @@
+Subnet 27: Compute
+Description: Provides distributed computing resources and infrastructure for AI model training and data processing
+Primary Function: Computing resource provision and management
+Key Features:
+- Distributed computing
+- Resource allocation
+- Performance optimization
+- Infrastructure management
+- Task scheduling
+Built By: Compute Team
+Team:
+- Infrastructure engineers
+- Resource managers
+- Performance specialists
+Additional Info:
+- Focuses on computing resources
+- Implements resource allocation
+- Enables performance optimization
+- Supports infrastructure management
+- Provides scheduling tools 
+
+
+Subnet 27, known as Neural Internet, is a decentralized compute layer within the Bittensor network. It functions as a permissionless compute market, enabling miners to contribute GPU and CPU resources, which are then utilized by AI applications and models. This approach decentralizes computational power, moving away from centralized cloud providers and fostering a more open and distributed infrastructure for AI development.
+
+Miners in Subnet 27 provide computational resources by setting up hardware, primarily GPUs, and registering them within the network. They specify the duration for which these resources are available, allowing for dynamic allocation based on demand. Validators assess the performance and reliability of these resources through a series of tests, including cryptographic challenges, to ensure that the computational power meets the network's standards.
+
+The validation process involves miners solving cryptographic puzzles, similar to proof-of-work mechanisms, to demonstrate the authenticity and capability of their hardware. This method prevents fraudulent reporting of hardware specifications and ensures that only legitimate resources are utilized. Validators verify the solutions provided by miners, adjusting the difficulty of the challenges based on the miner's performance history and hardware specifications.
+
+The network operates on a dual-token incentive system, utilizing both TAO and NI tokens. Miners are rewarded with these tokens based on the computational resources they provide and the accuracy of their hardware claims. This incentivizes participation and ensures that high-quality resources are consistently available to meet the demands of AI applications.
+
+In summary, Subnet 27 establishes a decentralized, trustless compute market within the Bittensor ecosystem. By allowing miners to contribute computational resources and validating their capabilities through cryptographic challenges, it creates a robust infrastructure that supports the scalable and efficient execution of AI models.

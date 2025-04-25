@@ -1,2 +1,29 @@
-# cfmar
-Related to public talk https://cfmar.pstat.ucsb.edu/
+# Microprediction: An Update
+
+This repository contains materials related to the microprediction thesis and serves as a companion to the public lecture at https://cfmar.pstat.ucsb.edu/.
+
+## Contents
+
+- `/slides`: Presentation materials and lecture slides
+- `/book`: The microprediction book and related materials
+- `/research`: Additional research materials and references
+- `/examples`: Code examples and demonstrations
+- `/resources`: Additional resources and links
+
+## About Microprediction
+
+Microprediction refers to the concept of making predictions at a very fine-grained level, often involving many small predictions that collectively form a larger predictive system. This approach contrasts with traditional macro-level prediction methods and has implications for various fields including economics, finance, and machine learning.
+
+## Getting Started
+
+1. Clone this repository
+2. Navigate to the relevant sections based on your interests
+3. Review the materials in the order that best suits your needs
+
+## Contributing
+
+This repository is primarily for educational and research purposes. If you have suggestions or would like to contribute, please feel free to open an issue or submit a pull request.
+
+## License
+
+See the [LICENSE](LICENSE) file for details.

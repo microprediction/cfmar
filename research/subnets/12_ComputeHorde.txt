@@ -1,0 +1,20 @@
+Subnet 12: ComputeHorde
+Description: A subnet focused on providing computational resources for Bittensor validation, creating an environment for distributed computing and validation of AI models across the network.
+Primary Function: Distributed computing and model validation
+Key Features:
+- Distributed computation
+- Model validation infrastructure
+- Resource allocation
+- Performance optimization
+- Network validation
+Built By: Backend Developers
+Team:
+- Systems engineers
+- Distributed computing experts
+- Performance optimization specialists
+Additional Info:
+- Specializes in computational resource management
+- Implements efficient resource allocation
+- Enables distributed model validation
+- Provides infrastructure for network validation
+- Focuses on performance optimization 

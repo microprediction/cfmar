@@ -1,0 +1,20 @@
+Subnet 11: Dippy Roleplay
+Description: A subnet focused on character roleplay and interactive storytelling, creating an environment for testing and validating conversational AI models in character-based scenarios.
+Primary Function: Character roleplay and interactive storytelling
+Key Features:
+- Character personality modeling
+- Interactive dialogue generation
+- Story context maintenance
+- Emotional response generation
+- Character consistency
+Built By: Impel Intelligence
+Team:
+- AI researchers
+- Story designers
+- Character development specialists
+Additional Info:
+- Specializes in character-based interactions
+- Implements sophisticated personality modeling
+- Enables consistent character behavior
+- Provides infrastructure for interactive storytelling
+- Focuses on emotional intelligence in AI 

@@ -1,0 +1,20 @@
+Subnet 15: de_val
+Description: A subnet focused on advanced evaluation tools for LLMs, creating an environment for comprehensive assessment and validation of language models across the network.
+Primary Function: LLM evaluation and validation
+Key Features:
+- Model performance assessment
+- Quality metrics development
+- Benchmark creation
+- Evaluation frameworks
+- Validation protocols
+Built By: De-val Technologies LLC
+Team:
+- AI researchers
+- Evaluation specialists
+- Benchmark developers
+Additional Info:
+- Specializes in LLM evaluation
+- Implements sophisticated assessment tools
+- Enables comprehensive model validation
+- Provides infrastructure for quality measurement
+- Focuses on performance benchmarking 

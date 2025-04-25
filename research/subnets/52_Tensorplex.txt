@@ -1,0 +1,20 @@
+Subnet 52: Cortex.t
+Description: Uses decentralized AI to provide high-quality text and image responses for developers via API
+Primary Function: Developer API services with AI responses
+Key Features:
+- API integration
+- Text responses
+- Image processing
+- Developer tools
+- Quality assurance
+Built By: Corcel
+Team:
+- API specialists
+- AI integration experts
+- Developer support professionals
+Additional Info:
+- Focuses on developer API services
+- Implements AI response systems
+- Enables text and image processing
+- Supports developer integration
+- Provides quality assurance tools 

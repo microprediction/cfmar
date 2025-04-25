@@ -1,0 +1,20 @@
+Subnet 14: Paladin
+Description: A subnet focused on combating crypto fraud through decentralized solutions, creating an environment for detecting and preventing fraudulent activities in the crypto space.
+Primary Function: Fraud detection and prevention
+Key Features:
+- Fraud detection algorithms
+- Pattern recognition
+- Risk assessment
+- Security monitoring
+- Threat analysis
+Built By: Nickel5
+Team:
+- Security experts
+- Fraud detection specialists
+- Risk assessment analysts
+Additional Info:
+- Specializes in crypto fraud prevention
+- Implements sophisticated detection algorithms
+- Enables real-time threat monitoring
+- Provides infrastructure for security validation
+- Focuses on pattern recognition and analysis 

@@ -1,0 +1,20 @@
+Subnet 58: Open-Kaito
+Description: Decentralizes web search by using community-driven indexing and validation, enhancing transparency and trust
+Primary Function: Decentralized web search and indexing
+Key Features:
+- Community-driven indexing
+- Search validation
+- Transparency enhancement
+- Trust mechanisms
+- Web search optimization
+Built By: Kaito AI
+Team:
+- Search specialists
+- Indexing experts
+- Community engagement professionals
+Additional Info:
+- Focuses on decentralized search
+- Implements community validation
+- Enables transparent indexing
+- Supports trust mechanisms
+- Provides search optimization tools 

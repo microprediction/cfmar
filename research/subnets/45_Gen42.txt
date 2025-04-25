@@ -1,0 +1,20 @@
+Subnet 45: Gen42
+Description: Uses the Bittensor network to provide decentralized code generation, Q&A, and completion services
+Primary Function: Decentralized code generation and assistance
+Key Features:
+- Code generation
+- Q&A services
+- Code completion
+- Decentralized development
+- Programming assistance
+Built By: Gen42
+Team:
+- Code generation specialists
+- Programming language experts
+- Development assistance professionals
+Additional Info:
+- Focuses on decentralized code services
+- Implements code generation tools
+- Enables programming assistance
+- Supports Q&A functionality
+- Provides code completion features 
