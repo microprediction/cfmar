@@ -21,3 +21,13 @@ Additional Info:
 - Implements innovative techniques for human-like conversation
 - Generates synthetic datasets for fine-tuning other LLMs
 - Developing API layer for inter-subnet communication 
+
+Subnet 1, known as Apex, is a specialized decentralized network within the Bittensor ecosystem, dedicated to advancing natural language processing and inference tasks. As the inaugural subnet, Apex serves as a testing ground for innovative AI models and incentive mechanisms, aiming to push the boundaries of decentralized AI capabilities.​
+
+Miners within Apex are responsible for performing complex natural language tasks, such as understanding and generating human-like responses to prompts. They engage in tasks that require high levels of reasoning, contextual understanding, and adaptability. The performance of miners is evaluated based on how effectively and accurately they complete these tasks, with their outputs being scored by validators. Miners are incentivized to continually improve their models to achieve higher scores and, consequently, greater rewards.​
+
+Validators in Apex play a critical role by assessing the quality of the work produced by miners. They evaluate the outputs based on predefined criteria, ensuring that the responses are coherent, contextually appropriate, and demonstrate a high level of understanding. Validators' evaluations are then used to determine the allocation of rewards, with higher-quality outputs leading to greater emissions for the miners involved.​
+
+The incentive mechanism within Apex is designed to promote continuous improvement and innovation. Emissions of TAO tokens are distributed among miners and validators based on their performance, encouraging active participation and the development of advanced AI models. This system fosters a competitive yet collaborative environment, where participants strive to enhance the capabilities of the network.​
+
+In summary, Apex addresses the challenges of advancing natural language processing and inference in a decentralized manner. Through its specialized focus, structured roles for miners and validators, and a robust incentive mechanism, Apex contributes to the evolution of decentralized AI, aiming to achieve state-of-the-art performance in natural language understanding and generation.

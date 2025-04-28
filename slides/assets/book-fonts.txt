@@ -1,0 +1,27 @@
+Here are the top RGB colors found in the image:
+
+White: (255, 255, 255) – most dominant (background/paper color)
+
+Steel blue-gray: (133, 153, 164)
+
+Variants of the above:
+
+(134, 154, 165)
+
+(132, 152, 163)
+
+(152, 169, 179)
+
+(148, 166, 176)
+
+(144, 162, 172)
+
+(146, 164, 174)
+
+(145, 163, 173)
+
+(147, 165, 175)
+
+These blue-gray tones are used across the book's cover, especially in the background and abstract network design. 
+
+

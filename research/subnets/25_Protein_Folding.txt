@@ -1,20 +1,26 @@
-Subnet 24: Red Team
-Description: A specialized cybersecurity subnet that focuses on solving real-world security challenges through advanced testing, vulnerability assessment, and threat analysis.
-Primary Function: Cybersecurity testing and analysis with real-world applications
-Key Features:
-- Security testing framework
-- Vulnerability assessment tools
-- Threat analysis capabilities
-- Real-world scenario simulation
-- Security protocol verification
-Built By: Yuma Group
-Team:
-- Cybersecurity experts
-- Penetration testing specialists
-- Security protocol developers
-Additional Info:
-- Implements sophisticated security testing protocols
-- Provides tools for vulnerability assessment
-- Focuses on real-world security challenges
-- Enables comprehensive threat analysis
-- Supports various security testing scenarios 
+Subnet 25: Protein Folding
+
+
+​Bittensor Subnet 25, known as Protein Folding, is a decentralized network dedicated to simulating protein structures using molecular dynamics. Developed by Macrocosmos AI, this subnet aims to democratize access to high-performance protein folding simulations by leveraging distributed computing resources. Protein folding is a complex and computationally intensive process that involves predicting the three-dimensional structure of a protein from its amino acid sequence. Accurate predictions are crucial for understanding biological functions and can aid in drug discovery and disease research.​
+Medium
++2
+Subnet Alpha
++2
+macrocosmos.ai
++2
+
+Miners in Subnet 25 are responsible for running simulations to determine the lowest energy configurations of protein structures. They utilize molecular dynamics software, such as GROMACS or OpenMM, to model the physical movements of atoms and molecules over time. Miners receive tasks from validators, each involving a specific protein structure to be simulated. They perform energy minimization routines to find stable configurations, aiming to achieve the lowest possible energy state, which corresponds to the most stable protein structure. Miners are incentivized based on the quality and efficiency of their simulations, with rewards distributed according to their performance.​
+Medium
+
+Validators in Subnet 25 oversee the simulation process by assigning tasks to miners and evaluating the results. They select protein structures from a public database, such as the RCSB Protein Data Bank, and prepare the necessary input files for simulations. Validators monitor the progress of simulations, ensuring that miners adhere to the required protocols and timelines. They assess the outcomes by calculating the energy levels of the resulting protein structures and verify the accuracy of the simulations. Based on these evaluations, validators assign scores to miners, influencing the distribution of rewards and maintaining the integrity of the subnet.​
+Subnet Alpha
+Medium
++1
+Subnet Alpha
++1
+
+The mechanism of Subnet 25 operates on a decentralized and incentive-based model. Miners and validators are rewarded with TAO tokens based on their contributions and performance. The subnet employs a competitive environment where miners strive to produce high-quality simulations, and validators ensure that the generated data meets the necessary standards. This system fosters innovation and excellence within the subnet, driving the development of advanced protein folding capabilities.​
+
+In summary, Protein Folding addresses the challenge of simulating protein structures by providing a decentralized platform that enables researchers to perform high-performance simulations. By leveraging distributed computing resources and a decentralized network of miners and validators, Subnet 25 aims to advance the understanding of protein functions and contribute to scientific research in the field of biochemistry.
+
+

@@ -18,3 +18,24 @@ Additional Info:
 - Enables distributed model validation
 - Provides infrastructure for network validation
 - Focuses on performance optimization 
+
+
+Subnet 12, known as ComputeHorde, functions as a decentralized GPU compute network within the Bittensor ecosystem. Its primary goal is to provide scalable, cost-effective, and verifiable GPU resources to validators across various subnets, thereby enhancing the overall computational capacity of the network.​
+Bittensor.ai | Home
++1
+GitHub
++1
+
+Miners in ComputeHorde operate GPU-equipped nodes capable of executing compute-intensive tasks. They run multiple executors, each handling individual jobs, which allows the network to scale beyond the traditional 256 miner UID limit. These miners advertise their hardware capabilities, such as specific GPU models, and are matched with tasks that align with their resources. This ensures that computational tasks are executed on appropriate hardware, maintaining efficiency and reliability.​
+GitHub
+
+Validators in ComputeHorde are responsible for verifying the authenticity and quality of the computational work performed by miners. They assign tasks to miners and assess the results to ensure they meet predefined standards. Validators also implement mechanisms to prevent dishonest behaviors, such as weight-copying, by ensuring that tasks are executed on the advertised hardware and that results are not duplicated or falsified. Their evaluations directly influence the rewards distributed to miners, incentivizing accurate and efficient computations.​
+GitHub
++1
+Bittensor.ai | Home
++1
+learnbittensor.org
+
+The incentive mechanism within ComputeHorde is designed to promote fair and reliable contributions from both miners and validators. Miners receive rewards based on the successful completion of tasks and the quality of their computational outputs, as determined by validators. Validators, in turn, are rewarded for accurately assessing miner performance and maintaining the integrity of the network. This system encourages continuous improvement and honest participation, fostering a robust and scalable decentralized compute infrastructure.​
+
+In summary, ComputeHorde addresses the challenge of providing decentralized, verifiable GPU compute resources within the Bittensor ecosystem. By enabling miners to offer their hardware for computational tasks and validators to ensure the quality and authenticity of the work, ComputeHorde enhances the scalability and reliability of the network's computational capabilities

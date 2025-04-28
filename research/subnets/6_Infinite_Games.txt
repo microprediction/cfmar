@@ -18,3 +18,53 @@ Additional Info:
 - Enables strategic decision-making validation
 - Provides infrastructure for competitive prediction markets
 - Focuses on future scenario analysis and optimization 
+
+
+Bittensor Subnet 6, known as Infinite Games, is a decentralized forecasting network that leverages large language models (LLMs) to predict binary future events. It aims to create a self-improving, automated forecasting system by integrating real-world data and prediction market information. The subnet's primary focus is to enhance the efficiency of prediction markets by providing accurate and timely forecasts.​
+Subnet Alpha
+
+Miners in Subnet 6 are tasked with predicting the outcomes of specific events, such as legal decisions or sporting results. They submit their probability estimates to validators, who evaluate the accuracy of these predictions once the events have settled. Miners utilize LLMs fine-tuned for forecasting tasks, aiming to outperform human forecasters and contribute valuable insights to the network.​
+Subnet Alpha
+
+Validators play a critical role by assessing the predictions made by miners. They record each miner's submissions and score them based on their accuracy after the event's outcome is known. Validators enforce submission deadlines to prevent late predictions and ensure the integrity of the forecasting process. They also maintain a historical record of miner performance, which is used to calculate rewards and penalties within the subnet.​
+Subnet Alpha
++1
+GitHub
++1
+
+The subnet employs a quadratic scoring rule, such as the Brier score, to evaluate miner predictions. This scoring system penalizes large errors more than smaller ones, encouraging miners to make more accurate forecasts. Miners who consistently perform poorly may be replaced by new participants, ensuring that only high-quality contributors remain active within the subnet.​
+Subnet Alpha
+ChainCatcher
++2
+AiCoin
++2
+Binance
++2
+
+Incentives within Subnet 6 are governed by the Yuma Consensus algorithm, which distributes TAO tokens to miners and validators based on their performance. The algorithm considers factors like prediction accuracy and consistency when determining rewards. This mechanism ensures that participants are motivated to provide valuable contributions, fostering a competitive environment that drives the continuous improvement of the subnet's forecasting capabilities.​
+AiCoin
++4
+Docs Home | Bittensor
++4
+AiCoin
++4
+AiCoin
+
+Looking ahead, Subnet 6 plans to expand its forecasting capabilities by integrating additional data sources and prediction markets. Future developments include implementing a sequentially shared scoring rule to better aggregate information and prevent latency issues among miners. These advancements aim to enhance the subnet's ability to provide accurate and timely forecasts, benefiting traders, analysts, and other stakeholders who rely on predictive insights.​
+
+
+In Bittensor Subnet 6, known as Infinite Games, the questions—meaning the binary events to be forecasted—are typically decided by the network itself or the broader ecosystem of participants. The process usually involves a decentralized mechanism where the community or a set of network participants can propose events or questions for forecasting.
+
+While the specifics can vary, there are generally two main ways in which questions are decided:
+
+Community-driven Proposals: In many decentralized networks, anyone can propose a question. This might be done through a governance mechanism or voting system. Miners and other stakeholders can propose events they believe are relevant and worth forecasting, such as elections, sports outcomes, economic indicators, or any other event with a binary outcome (yes/no, true/false). Once proposed, these questions may be subject to validation or approval by a governing body, consensus group, or voting mechanism within the subnet.
+
+Pre-defined Event Categories: Some questions may be predefined or come from existing data streams. These could include regularly occurring events, such as the outcome of a sports game, the result of a financial market action, or legal rulings in ongoing cases. These types of questions are often sourced from data providers or major events within particular industries or domains relevant to the subnet.
+
+In either case, once the questions are proposed and accepted, miners are then able to forecast the probabilities of the outcomes. The network ensures that only valid questions—ones that have a clear binary result—are included for forecasting, maintaining the integrity of the system.
+
+The validators in the subnet don’t typically decide on the questions but help ensure that the questions proposed align with the subnet’s rules and maintain the quality of the predictions by scoring the accuracy of the miners' forecasts once the events take place.
+
+Therefore, the key decision-making process on which questions are forecasted is driven by community interaction, governance structures, and the types of data and events that the network participants deem valuable to forecast.
+
+

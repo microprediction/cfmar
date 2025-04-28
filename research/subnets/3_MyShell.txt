@@ -18,3 +18,22 @@ Additional Info:
 - Focuses on creating natural and expressive voice models
 - Supports various voice styles and languages
 - Integrates with other Bittensor subnets for enhanced capabilities 
+
+known as MyShell, is a decentralized network within the Bittensor ecosystem focused on advancing text-to-speech (TTS) technology. The primary objective of MyShell is to enhance the quality, naturalness, and expressiveness of AI-generated speech, making it more human-like and suitable for various applications such as audiobooks, virtual assistants, and language learning tools.​
+Bankless
+
+Miners in MyShell are responsible for training and submitting TTS models to a shared pool, such as Hugging Face. They utilize their computational resources to develop models that can generate speech from text inputs, aiming to improve aspects like naturalness, intelligibility, expressiveness, and consistency. These models are then evaluated by validators to assess their performance across these key metrics.​
+app.myshell.ai
++1
+GitHub
++1
+
+Validators play a crucial role by generating test cases, assessing model performance via a custom evaluation protocol, and assigning weights accordingly. This protocol evaluates TTS models based on naturalness, intelligibility, expressiveness, and consistency, ensuring that only high-quality models are recognized and rewarded. The evaluations are aggregated using the Yuma Consensus algorithm, which determines the final miner weights and emissions, rewarding top contributions.​
+Bankless
++3
+app.myshell.ai
++3
+Docs Home | Bittensor
++3
+
+The incentive mechanism within MyShell is designed to motivate miners to create exceptional models while encouraging validators to provide accurate assessments. By rewarding high-quality contributions, MyShell fosters a self-sustaining ecosystem that continuously elevates open-source TTS quality. This approach not only advances the state of TTS technology but also promotes the development of high-quality, open-source AI models within the Bittensor networ

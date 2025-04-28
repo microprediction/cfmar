@@ -1,3 +1,80 @@
+Subnet 27: Compute (Neural Internet)
+================================
+
+Overview
+--------
+Subnet 27, known as Neural Internet, is a decentralized compute network built on Bittensor. It provides distributed computing resources for AI and machine learning tasks, enabling efficient model training and inference across a network of participating nodes.
+
+Key Features
+-----------
+1. Distributed Computing
+   - Decentralized compute resources
+   - AI and ML task processing
+   - Efficient resource allocation
+   - Scalable infrastructure
+
+2. Resource Management
+   - Dynamic load balancing
+   - Resource optimization
+   - Task scheduling
+   - Performance monitoring
+
+3. Incentive Mechanism
+   - Performance-based rewards
+   - Resource contribution incentives
+   - Quality of service metrics
+   - Continuous improvement
+
+Mechanics
+---------
+1. Task Processing
+   - Miners receive compute requests
+   - Resource allocation and scheduling
+   - Task execution and monitoring
+   - Results verification and delivery
+
+2. Validation Process
+   - Validators assess compute quality
+   - Performance evaluation
+   - Resource utilization tracking
+   - Reward distribution
+
+Participation Details
+-------------------
+1. Mining Requirements
+   - Bittensor wallet setup
+   - TAO token funding
+   - Registration on Subnet 27
+   - Compute resource contribution
+
+2. Validator Requirements
+   - Performance monitoring
+   - Quality assessment
+   - Resource verification
+   - Reward distribution
+
+Technical Implementation
+----------------------
+1. Compute Framework
+   - Distributed task processing
+   - Resource management
+   - Performance optimization
+   - Security protocols
+
+2. Network Architecture
+   - Decentralized validation
+   - Secure communication
+   - Efficient resource allocation
+   - Scalable infrastructure
+
+Current Status
+-------------
+- Active development
+- Growing network
+- Expanding resource pool
+- Continuous optimization
+- Regular updates
+
 Subnet 27: Compute
 Description: Provides distributed computing resources and infrastructure for AI model training and data processing
 Primary Function: Computing resource provision and management
@@ -29,3 +106,33 @@ The validation process involves miners solving cryptographic puzzles, similar to
 The network operates on a dual-token incentive system, utilizing both TAO and NI tokens. Miners are rewarded with these tokens based on the computational resources they provide and the accuracy of their hardware claims. This incentivizes participation and ensures that high-quality resources are consistently available to meet the demands of AI applications.
 
 In summary, Subnet 27 establishes a decentralized, trustless compute market within the Bittensor ecosystem. By allowing miners to contribute computational resources and validating their capabilities through cryptographic challenges, it creates a robust infrastructure that supports the scalable and efficient execution of AI models.
+
+
+
+Bittensor Subnet 27, known as Ni Compute, is a decentralized compute network designed to provide scalable and efficient computational resources for AI tasks. It integrates various cloud platforms, such as Runpod, Lambda, and AWS, into a cohesive unit, enabling seamless compute composability across different underlying platforms. This approach allows for efficient resource sharing and allocation, addressing the growing demand for high-performance computing in AI development.​
+Subnet Alpha
++3
+Notion
++3
+Medium
++3
+
+Miners in Subnet 27 contribute processing resources, notably GPU and CPU instances, to facilitate optimal performance in essential computing tasks. They have the autonomy to set specific timelines for each reservation of their computational resources, dictating the duration for which the resources are allocated to a particular task or user. Once the set timeline concludes, the reservation automatically expires, freeing up the resources for subsequent allocations. This dynamic reservation mechanism ensures efficient distribution of computational power, catering to varying demands within the network.​
+Medium
++1
+GitHub
++1
+
+Validators in Subnet 27 hold the critical responsibility of rigorously assessing and verifying the computational capabilities of miners. They request comprehensive performance data from miners, including metrics like processing speeds, RAM capacity, and disk space availability. Validators then present complex hashing challenges to miners to evaluate their processing power and reliability. The difficulty of these challenges is adjusted based on the miners' performance profiles. Validators meticulously verify the accuracy of the responses, considering both speed and precision, along with hardware utilization metrics. Based on this extensive analysis, validators update the miners' scores, reflecting their computational capacity, efficiency, and hardware quality. These scores determine the miners' weight within the network, influencing their potential rewards and standing.​
+Medium
++1
+GitHub
++1
+GitHub
++1
+Medium
++1
+
+The mechanism of Subnet 27 operates on a decentralized and incentive-based model. Miners and validators are rewarded with TAO tokens based on their contributions and performance. The subnet employs a competitive environment where miners strive to produce high-quality simulations, and validators ensure that the generated data meets the necessary standards. This system fosters innovation and excellence within the subnet, driving the development of advanced computing capabilities.​
+
+In summary, Ni Compute addresses the challenge of providing scalable and efficient computational resources for AI tasks by creating a decentralized platform that enables resource sharing across various cloud platforms. By leveraging distributed computing resources and a decentralized network of miners and validators, Subnet 27 aims to advance the development of AI technologies, making high-performance computing accessible to a broader audience

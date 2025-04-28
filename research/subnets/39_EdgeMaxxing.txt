@@ -18,3 +18,44 @@ Additional Info:
 - Enables resource-efficient deployment
 - Supports various device types
 - Provides performance optimization tools 
+
+
+Bittensor Subnet 39, known as EdgeMaxxing, is a decentralized network dedicated to optimizing artificial intelligence models for deployment on consumer devices, such as smartphones and laptops. The primary challenge it addresses is the efficient adaptation of large AI models to operate within the limited computational resources and power constraints of everyday consumer hardware. By focusing on this optimization, EdgeMaxxing aims to make advanced AI capabilities more accessible and practical for a broader range of users.​
+Followin - Mine Web3 Possibilities
++6
+Bittensor.ai | Home
++6
+Gate
++6
+
+Miners in the EdgeMaxxing subnet are tasked with submitting optimized versions of AI models that are tailored to run efficiently on specified consumer hardware platforms. They employ various algorithms and techniques to enhance model performance, ensuring that the models maintain high accuracy while reducing their computational demands. These optimized models are then submitted as checkpoints, which serve as snapshots of the model's state after training and optimization. Miners are incentivized to continually improve their models, as their submissions are evaluated based on performance metrics such as speed improvements, accuracy retention, and overall efficiency gains.​
+Gate.io
++4
+ChainCatcher
++4
+ODAILY-专业的区块链新闻资讯平台_区块链技术应用_元宇宙_web3
++4
+
+Validators in the EdgeMaxxing subnet play a crucial role in assessing the quality and effectiveness of the models submitted by miners. They are responsible for running the submitted models on specified target hardware, such as high-end consumer GPUs, to benchmark their performance. Validators compare the performance of each model against baseline checkpoints to determine improvements in speed, accuracy, and efficiency. Based on these evaluations, validators score the models and select the top-performing ones as winners of the daily competitions. This process ensures that only the most optimized and effective models are recognized and rewarded, driving continuous improvement within the subnet.​
+Followin - Mine Web3 Possibilities
++4
+Gate.io
++4
+Gate
++4
+ODAILY-专业的区块链新闻资讯平台_区块链技术应用_元宇宙_web3
++4
+Gate
++4
+Gate.io
++4
+
+The mechanism of EdgeMaxxing operates on a competitive reward system, with daily contests encouraging participants to enhance AI model performance on consumer devices. Miners and validators are rewarded with TAO tokens based on their contributions and performance. The subnet's focus on optimization for consumer hardware ensures that AI advancements are not limited to high-end infrastructure but are accessible to a wider audience, promoting the practical application of AI technologies in everyday devices.​
+Bittensor.ai | Home
++5
+Gate.io
++5
+Gate
++5
+
+In summary, EdgeMaxxing addresses the challenge of adapting AI models to function efficiently on consumer devices by creating a decentralized platform that incentivizes the optimization of models for limited hardware resources. Through the collaborative efforts of miners and validators, the subnet fosters the development of AI models that are both powerful and practical, expanding the reach and utility of artificial intelligence in daily life.

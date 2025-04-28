@@ -18,3 +18,48 @@ Additional Info:
 - Enables personalization
 - Supports cross-platform functionality
 - Provides LLM-powered automation 
+
+
+Subnet 44, known as Score Predict, is a decentralized platform within the Bittensor network that focuses on predicting football (soccer) match outcomes. It operates by incentivizing participants to generate accurate predictions for various football leagues and tournaments.​
+X (formerly Twitter)
+
+Functionality
+In Score Predict, validators distribute upcoming football match data to miners, who then use machine learning models to predict outcomes such as win, loss, or draw. These predictions are submitted back to the validators, who compare them against actual match results to assess accuracy. Miners are rewarded based on the precision of their predictions, encouraging the development of effective predictive models.​
+
+Leagues and Coverage
+The subnet covers a wide range of football leagues and tournaments, including:​
+
+Premier League​
+
+Ligue 1​
+GitHub
+
+Bundesliga​
+
+Serie A​
+
+Championship​
+
+Primeira Liga​
+
+Primera Division​
+Outposts
++7
+GitHub
++7
+X (formerly Twitter)
++7
+
+Campeonato Brasileiro Série A​
+
+Eredivisie​
+GitHub
+
+UEFA Nations League​
+
+Major League Soccer (MLS)​
+
+Jupiler Pro League​
+GitHub
+
+This extensive coverage allows for a diverse set of data and prediction opportunities

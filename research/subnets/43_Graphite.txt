@@ -18,3 +18,59 @@ Additional Info:
 - Enables complex problem solving
 - Supports various graph types
 - Provides performance analysis tools 
+
+
+Subnet 43, known as Graphite, is a decentralized network within the Bittensor ecosystem, specifically designed to tackle graph optimization problems, with a primary focus on the Traveling Salesman Problem (TSP). The TSP is a classic computational challenge that involves finding the shortest possible route that visits a set of cities and returns to the starting point.​
+Bittensor.ai | Home
++3
+gate.com.tr
++3
+Bee Network
++3
+gate.com.tr
++2
+GitHub
++2
+Bee Network
++2
+
+How It Works
+In Graphite, validators generate synthetic TSP instances and distribute them to miners across the network. Miners are responsible for solving these problems using algorithms they have developed or adapted. Once a miner computes a solution, it is sent back to the validator for evaluation. The validator assesses the quality of the solution based on its efficiency and accuracy in solving the TSP instance.​
+GitHub
++2
+gate.com.tr
++2
+Bee Network
++2
+GitHub
++1
+Bee Network
++1
+
+Supported Algorithms
+To assist miners, Graphite provides implementations of several algorithms for solving TSP:​
+
+Nearest Neighbour: A heuristic that builds a tour by repeatedly visiting the nearest unvisited city.​
+
+Dynamic Programming: An exact method that solves the problem optimally by breaking it down into smaller subproblems.​
+GitHub
+
+Beam Search: A heuristic search algorithm that explores a graph by expanding the most promising nodes.​
+GitHub
+
+Hybrid Pointer Network: An advanced deep learning-based approach that combines the strengths of neural networks and traditional optimization techniques.​
+GitHub
+
+Miners are encouraged to develop and implement their own algorithms to improve performance and contribute to the network's diversity of solutions.​
+GitHub
+
+Reward Mechanism
+Miners are incentivized based on the quality and efficiency of their solutions. Rewards are distributed by comparing each miner's solution to the best solution in the cohort and a benchmark solution, typically a greedy heuristic. Validators evaluate the solutions and assign rewards accordingly, promoting continuous improvement and innovation among miners.​
+
+Participation
+To participate in Subnet 43, miners and validators need to set up the necessary infrastructure and connect to the Bittensor network. Detailed installation guides and tutorials are available to assist participants in getting started. The Graphite team emphasizes accessibility and provides resources to support users of all skill levels.​
+
+Future Developments
+Graphite aims to develop a user-friendly frontend interface, allowing users to input their own graph problems and receive solutions from the network. This enhancement will enable broader access to the network's capabilities and facilitate practical applications of graph optimization solutions.​
+
+In summary, Subnet 43 (Graphite) leverages the decentralized structure of the Bittensor network to address complex graph optimization problems. By combining various algorithmic approaches and incentivizing high-quality solutions, Graphite fosters a collaborative environment for tackling computational challenges like the Traveling Salesman Problem.​

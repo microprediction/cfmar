@@ -1,20 +1,19 @@
 Subnet 24: Omega
-Description: Specializes in advanced optimization and performance enhancement, focusing on system efficiency and resource utilization
-Primary Function: System optimization and performance enhancement
-Key Features:
-- System optimization
-- Performance enhancement
-- Resource utilization
-- Efficiency improvement
-- Process optimization
-Built By: Omega Team
-Team:
-- System engineers
-- Performance specialists
-- Optimization experts
-Additional Info:
-- Focuses on system optimization
-- Implements performance enhancement
-- Enables resource utilization
-- Supports efficiency improvement
-- Provides optimization tools 
+
+
+
+
+Bittensor Subnet 24, known as Omega, is a decentralized initiative focused on creating the world's largest multimodal dataset to advance Artificial General Intelligence (AGI) research. Through the efforts of Omega Labs, the subnet aims to democratize access to a vast and diverse dataset that encompasses human knowledge and creativity, empowering researchers and developers to push the boundaries of AGI.​
+Subnet Alpha
++1
+learnbittensor.org
++1
+
+Miners in Omega are responsible for sourcing and processing video content to build the dataset. They conduct searches on platforms like YouTube, retrieving up to eight videos per query. For each video, miners specify a clip range (up to two minutes) and provide descriptive metadata, including the video title, tags, and description. Additionally, they obtain embeddings for the video, audio, and caption components using models like ImageBind. These embeddings facilitate the transformation of raw video data into structured, multimodal representations that can be utilized for training advanced AGI models.​
+Subnet Alpha
+
+Validators in Omega play a crucial role in ensuring the quality and accuracy of the data submitted by miners. They randomly select videos from the pool of submissions and compute embeddings for all modalities associated with each video. By comparing these embeddings to the ones provided by miners, validators assess the accuracy and consistency of the data. The evaluation criteria include relevance, novelty, and detail richness. Relevance is determined by measuring the similarity between the video's content and predefined topics. Novelty assesses the uniqueness of the video compared to existing entries in the dataset, while detail richness evaluates the depth and comprehensiveness of the video's information. Based on these assessments, validators assign scores to the miners' submissions, which influence the distribution of rewards and the overall quality of the dataset.​
+
+The mechanism governing Omega operates on a decentralized, incentive-based model. Miners and validators are rewarded with TAO tokens based on their contributions and performance. The Yuma Consensus algorithm aggregates the evaluations from validators to determine the emissions allocated to each participant. This system encourages continuous improvement and ensures that high-quality data is prioritized. Additionally, the subnet's design allows for scalability and adaptability, accommodating the growing demands of AGI research and the evolving landscape of multimodal data processing.​
+
+In essence, Omega addresses the challenges associated with developing AGI by providing a vast and diverse dataset that captures the complexities of human knowledge and experience across multiple modalities. Through the collaborative efforts of miners and validators, the subnet facilitates the creation of advanced models that can understand and generate content in a manner akin to human cognition. By leveraging the Bittensor network's decentralized infrastructure, Omega fosters an open and inclusive environment for AGI research, empowering contributors to advance the field while being rewarded for their efforts.

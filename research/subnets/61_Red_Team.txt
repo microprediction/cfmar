@@ -18,3 +18,38 @@ Additional Info:
 - Enables threat detection
 - Supports system hardening
 - Provides security monitoring tools 
+
+Subnet 61, known as RedTeam, is a decentralized platform within the Bittensor network focused on advancing cybersecurity through competitive programming challenges. Developed by Innerworks, RedTeam aims to create a hub for ethical hacking, fostering a community of engineers dedicated to enhancing collective intelligence in cybersecurity. ​
+delegate.tensorplex.ai
++2
+Taostats
++2
+learnbittensor.org
++2
+Taostats
++2
+delegate.tensorplex.ai
++2
+learnbittensor.org
++2
+
+Functionality
+RedTeam operates by incentivizing participants to solve complex cybersecurity problems. Validators present challenges that require innovative solutions, and miners—participants who develop these solutions—are rewarded based on the effectiveness and originality of their approaches. This competitive environment encourages continuous learning and the development of advanced cybersecurity techniques.​
+
+Incentive Mechanism
+The subnet employs a reward system that evaluates the quality of solutions provided by miners. Factors such as accuracy, efficiency, and novelty are considered in the assessment. By aligning rewards with performance, RedTeam motivates participants to refine their skills and contribute valuable insights to the field of cybersecurity.​
+Taostats
++2
+learnbittensor.org
++2
+delegate.tensorplex.ai
++2
+
+Community Engagement
+RedTeam emphasizes collaboration and knowledge sharing among its community members. By participating in challenges and discussions, engineers can exchange ideas, learn from each other, and collectively advance the state of cybersecurity practices.​
+
+In summary, Subnet 61 (RedTeam) serves as a decentralized platform that leverages competitive programming to drive innovation in cybersecurity. Through its incentive mechanisms and community-focused approach, it fosters the development of cutting-edge solutions and the growth of a collaborative engineering community
+
+ne of the challenges in RedTeam involves creating scripts that mimic human mouse movements to bypass bot detection systems. Miners develop Python scripts that simulate human-like cursor behavior, aiming to deceive detection algorithms. Validators assess these scripts based on their ability to replicate human patterns convincingly, and miners are rewarded accordingly
+
+

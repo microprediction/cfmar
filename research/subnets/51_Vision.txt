@@ -18,3 +18,21 @@ Additional Info:
 - Enables decentralized processing
 - Supports efficient operations
 - Provides visual analysis tools 
+
+
+Subnet 51, known as Celium, operates as a decentralized GPU rental marketplace within the Bittensor network, facilitating the provision of high-performance GPU resources like H100 and H200 to users requiring computational power for AI tasks. This platform addresses the challenge of accessing scalable and cost-effective GPU resources, which are essential for training and deploying advanced AI models.​
+Medium
+
+Miners in Celium contribute by offering their GPU resources to the network. They set up nodes equipped with high-performance GPUs and register them within the subnet. These miners are responsible for executing AI-related tasks assigned by validators, such as model inference or data processing, leveraging their GPU capabilities. Their performance is evaluated based on the efficiency and accuracy of the tasks they complete.​
+Medium
+AiCoin
++1
+Bitget
++1
+
+Validators play a crucial role in Celium by managing the distribution of tasks to miners and assessing the quality of their outputs. They receive requests for computational work, route these tasks to appropriate miners, and evaluate the results based on predefined criteria. The evaluations are then communicated to the blockchain, influencing the reward distribution among miners.​
+
+The incentive mechanism in Celium is designed to reward miners for their contributions to the network. Emissions of TAO tokens are distributed among miners and validators based on their performance. Typically, 41% of the emissions go to miners, 41% to validators, and 18% to the subnet owner. This distribution encourages active participation and ensures that those who contribute effectively to the network are compensated accordingly.​
+
+In summary, Celium addresses the need for decentralized access to high-performance GPU resources by creating a marketplace where miners can offer their capabilities, and users can access the computational power required for AI tasks. Through its incentive mechanisms and structured roles for miners and validators, Celium fosters a collaborative environment that supports the growth and scalability of AI applications within the Bittensor network.​
+M

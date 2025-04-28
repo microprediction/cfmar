@@ -18,3 +18,11 @@ Additional Info:
 - Enables performance optimization
 - Supports scalability management
 - Provides training coordination tools 
+
+​Subnet 38, known as Tatsu Identity, is a decentralized identity verification system built on the Bittensor network. Its primary function is to assess whether an online identity is human or automated by calculating a "human score."​
+
+This human score is derived from various data points, including GitHub activity, cryptocurrency balances, and social media presence. Validators collect this data, which is then processed by miners to compute the score. The system operates without relying on centralized databases, enhancing privacy and security.​
+
+Once a user's identity is verified, Tatsu generates a secure digital credential that can be used across multiple platforms, eliminating the need for repeated identity checks. This approach aligns with Web3 principles, emphasizing user control and privacy.​
+
+Tatsu Identity aims to provide a reliable and privacy-preserving method for verifying online identities, addressing the challenges of fraud and automation in digital interactions.

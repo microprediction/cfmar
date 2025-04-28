@@ -18,3 +18,14 @@ Additional Info:
 - Enables performance improvements
 - Supports model adaptation
 - Provides quality assessment tools 
+
+
+
+
+Bittensor Subnet 37, known as FineTuning, is a decentralized network focused on refining large language models (LLMs) to enhance their performance and adaptability. The subnet addresses the critical phase of AI model development where pre-trained models are fine-tuned to meet specific tasks or datasets, ensuring they perform optimally in real-world applications. By leveraging synthetic data generated from Subnet 18, FineTuning provides a continuous and dynamic benchmark for model evaluation, facilitating ongoing improvements and adaptations.
+
+Miners in Subnet 37 are responsible for training and fine-tuning LLMs using the synthetic data provided by Subnet 18. They periodically publish their best-performing models to the Hugging Face platform and commit the associated metadata to the Bittensor blockchain. This process allows validators to access and evaluate the models asynchronously, ensuring that the miners' models are up-to-date and reflect their latest improvements. Miners are incentivized based on the performance of their models, with rewards distributed according to how well their models perform against others in the network during competitions.
+
+Validators in Subnet 37 play a crucial role in evaluating the models submitted by miners. They download the models from Hugging Face and assess their performance using the synthetic data from Subnet 18. The evaluation process involves computing the loss for each model on various batches of data, determining which models perform best. Validators then assign weights to the models based on their performance, with higher-performing models receiving greater weights. These weights are recorded on the Bittensor blockchain and contribute to the overall consensus mechanism, influencing the distribution of rewards among miners and validators.
+
+The incentive mechanism within Subnet 37 is designed to promote continuous improvement and competition among miners. Each competition has predefined parameters, including model specifications, tokenizer settings, and sequence lengths, against which miners' models are evaluated. To succeed, miners must achieve the lowest loss on a significant number of random batches. The subnet employs a dynamic evaluation system, where the best-performing models are identified early in each competition, maximizing incentives for those miners. This approach ensures that only the most effective models are rewarded, driving the overall advancement of AI capabilities within the Bittensor ecosystem.

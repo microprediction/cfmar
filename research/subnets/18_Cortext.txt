@@ -1,20 +1,15 @@
-Subnet 18: Data Labeling
-Description: Specializes in data annotation and labeling services, providing high-quality labeled datasets for machine learning
-Primary Function: Data annotation and labeling
-Key Features:
-- Data labeling
-- Annotation services
-- Quality control
-- Label management
-- Dataset organization
-Built By: Data Labeling Team
-Team:
-- Data annotators
-- Quality control specialists
-- Label management experts
-Additional Info:
-- Focuses on data labeling
-- Implements annotation services
-- Enables quality control
-- Supports label management
-- Provides organization tools 
+Subnet 18: Cortex
+
+
+Bittensor Subnet 18, known as Cortex.t, is designed to serve as a high-performance platform for deep learning applications, offering substantial computational capacity to support advanced neural network training and inference tasks. This subnet aims to facilitate intricate machine learning processes, making it indispensable for research and innovation in the field of artificial intelligence.
+
+Miners within Cortex.t are tasked with executing complex deep learning computations. They engage in training sophisticated neural networks and performing inference operations that require significant processing power. These tasks are essential for developing and refining AI models that can handle advanced applications. Miners contribute to the subnet by providing the necessary computational resources to carry out these demanding tasks efficiently.
+
+Validators in Cortex.t play a critical role in assessing the quality and accuracy of the computations performed by miners. They evaluate the results of the deep learning tasks executed by miners to ensure that the outputs meet the required standards. Validators are responsible for verifying the correctness and reliability of the computations, which is crucial for maintaining the integrity and effectiveness of the AI models being developed within the subnet.
+
+The mechanism of Cortex.t operates on a decentralized, incentive-based model. Miners and validators are rewarded based on their contributions to the subnet, with emissions distributed according to their performance. This system encourages participants to maintain high standards of quality and efficiency in their work, driving continuous improvement and innovation within the subnet.
+
+In essence, Cortex.t addresses the need for a robust and scalable platform capable of supporting the computational demands of advanced deep learning applications. By providing a decentralized network of miners and validators, it enables the development and deployment of complex AI models, fostering progress in the field of artificial intelligence.
+
+
+Sources

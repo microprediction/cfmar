@@ -18,3 +18,29 @@ Additional Info:
 - Enables investment insights
 - Supports risk assessment
 - Provides performance tracking tools 
+
+
+Subnet 28, known as the Foundry S&P 500 Oracle, is a decentralized financial prediction platform within the Bittensor network. Its primary focus is to incentivize miners to forecast the S&P 500 index's price at specific future timestamps during U.S. market trading hours.
+
+How It Works
+Validators assign miners future timestamps, typically within the next six 5-minute intervals, and request predictions for the S&P 500's closing price at those times. Miners utilize machine learning models to generate these forecasts. Once the actual market data becomes available, validators compare the predictions to the real outcomes and evaluate the miners' accuracy.
+
+Scoring System
+The evaluation of miners' predictions is based on two key metrics:
+
+Root Mean Square Error (RMSE): This measures the average magnitude of the errors between predicted and actual values. A lower RMSE indicates higher accuracy in predictions.
+
+Directional Accuracy: This assesses whether the miner correctly predicted the direction of the price movement (up or down), regardless of the exact value.
+
+Each metric contributes equally to the overall score, promoting both precision and correct directional forecasting.
+
+Incentive Structure
+Miners are rewarded based on their performance, with higher accuracy leading to greater rewards. However, the current incentive distribution is relatively flat, with many miners receiving similar rewards. This suggests that while the system encourages participation, it may not yet effectively differentiate between varying levels of predictive accuracy.
+
+Current Performance
+Despite the structured approach, recent analyses indicate that the predictions made by miners often diverge significantly from actual market movements. This discrepancy highlights challenges in achieving consistently accurate short-term financial forecasts within the network.
+
+Future Directions
+To enhance the subnet's effectiveness, there is a push towards refining the scoring mechanisms and incorporating additional features, such as integrating with platforms like Hugging Face and adding more comprehensive historical data analysis. These improvements aim to foster a more competitive environment and improve the reliability of predictions.
+
+In summary, Subnet 28 serves as a decentralized platform for financial market predictions, focusing on the S&P 500 index. While it offers a structured approach to incentivizing accurate forecasts, ongoing developments are necessary to enhance its predictive capabilities and reward differentiation.

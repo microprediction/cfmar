@@ -1,20 +1,46 @@
 Subnet 34: BitMind
-Description: Focuses on blockchain and cryptocurrency analysis, providing insights into market trends and transaction patterns
-Primary Function: Blockchain analysis and cryptocurrency insights
-Key Features:
-- Blockchain analysis
-- Market trend analysis
-- Transaction pattern recognition
-- Cryptocurrency insights
-- Trading analytics
-Built By: BitMind Team
-Team:
-- Blockchain analysts
-- Cryptocurrency experts
-- Market researchers
-Additional Info:
-- Focuses on blockchain analysis
-- Implements market trend analysis
-- Enables transaction pattern recognition
-- Supports cryptocurrency insights
-- Provides trading analytics tools 
+
+
+Bittensor Subnet 34, known as BitMind, is a decentralized network dedicated to detecting AI-generated content, commonly referred to as deepfakes, across various media types. With the rapid advancement of generative AI technologies, distinguishing between authentic and synthetic media has become increasingly challenging, posing risks to information integrity and public trust. BitMind addresses this issue by leveraging a decentralized framework that incentivizes accurate detection and continuous improvement of detection models.​
+Medium
++4
+bitmindlabs.ai
++4
+Hugging Face
++4
+GitHub
++3
+Subnet Alpha
++3
+bitmindlabs.ai
++3
+GitHub
++6
+Medium
++6
+Hugging Face
++6
+
+Miners in the BitMind subnet are responsible for running binary classifiers that discern between genuine and AI-generated content. These classifiers analyze images and videos to determine their authenticity. The primary model employed by miners is based on insights from the 2024 CVPR paper "Rethinking the Up-Sampling Operations in CNN-based Generative Network for Generalizable Deepfake Detection," which utilizes Neighborhood Pixel Relationships to identify specific anomalies in AI-generated images. Miners are encouraged to enhance existing models and share their improvements regularly, fostering a collaborative environment. Additionally, miners can earn incentives by contributing to the canonical miner codebase, whether by identifying bugs, adding features and optimizations, or rewriting significant portions of the code.​
+Subnet Alpha
++3
+GitHub
++3
+GitHub
++3
+Subnet Alpha
++1
+GitHub
++1
+
+Validators in the BitMind subnet play a crucial role in ensuring the quality and accuracy of the models shared by miners. They evaluate the performance of the models by presenting them with a carefully balanced selection of real and synthetic images sourced from a wide array of inputs. Validators assess the outcomes by calculating the accuracy of the predictions made by miners and verify the consistency of the models. Based on these evaluations, validators assign scores to miners, influencing the distribution of rewards and maintaining the integrity of the subnet.​
+GitHub
++3
+Subnet Alpha
++3
+Hugging Face
++3
+
+The mechanism of BitMind operates on a decentralized and incentive-based model. Miners and validators are rewarded with TAO tokens based on their contributions and performance. The subnet employs a competitive environment where miners strive to produce high-quality detection models, and validators ensure that the generated models meet the necessary standards. This system fosters innovation and excellence within the subnet, driving the development of advanced detection capabilities.​
+
+In summary, BitMind addresses the challenge of detecting AI-generated content by providing a decentralized platform that enables researchers and developers to collaborate in identifying synthetic media. Through the efforts of miners and validators, the subnet facilitates the creation of advanced models that can accurately distinguish between real and fake content, contributing to the integrity of digital media and the fight against misinformation

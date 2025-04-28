@@ -1,20 +1,15 @@
-Subnet 19: Data Augmentation
-Description: Focuses on enhancing and expanding datasets through various augmentation techniques, improving model training quality
-Primary Function: Data augmentation and enhancement
-Key Features:
-- Data augmentation
-- Dataset expansion
-- Quality enhancement
-- Feature enrichment
-- Training improvement
-Built By: Data Augmentation Team
-Team:
-- Data scientists
-- Augmentation specialists
-- Quality enhancement experts
-Additional Info:
-- Focuses on data augmentation
-- Implements dataset expansion
-- Enables quality enhancement
-- Supports feature enrichment
-- Provides training improvement tools 
+Subnet 19: Nineteen
+
+
+Bittensor Subnet 19, known as Nineteen, is a decentralized subnet focused on image generation and reasoning. It utilizes the Distributed Scaled Inference Subnet (DSIS) framework to optimize the throughput of the Bittensor network, allowing for flexibility in selecting preferred technology stacks for processing requests and generating responses. The subnet offers various tools for image manipulation, including an engineering game and a prompt where users try to match AI-generated images. Nineteen's initial focus was on image-related models, such as segmentation and CLIP-embedding models, to enhance image search and manipulation capabilities on Corcel. The subnet later expanded its offerings to include image generation, resulting in hundreds of thousands of images being created weekly and the development of various applications like Pixit.
+
+Miners in Subnet 19 are responsible for performing tasks validated by the validators, ensuring correct execution and task completion criteria. They can choose which tasks to run and the volume they wish to handle, with rewards based on the volume and speed of their responses. The integration of text models within Subnet 19 aims to provide additional value beyond leaderboard metrics. By updating the subnet's code weekly, validators can access and run the latest text models, allowing users to generate images from various sources and models for diverse applications. This approach enables seamless utilization of both image and text models by miners, enhancing the capabilities and utility of Nineteen within the Bittensor ecosystem.
+
+Validators in Subnet 19 act as gateways to the network by providing API keys and managing access for miners using HTTP requests. They check and score the miners through 'checking servers' that they run themselves on their own hardware, ensuring decentralization. Organic scoring is a primary focus, with validators evaluating miners based on real user queries. Validators are prioritized based on the percentage of delegation they hold, optimizing the miners' solution to give query priorities based on validators' delegation percentages. This mechanism incentivizes miners to prioritize validators who delegate more, creating a balanced system where validators can sell their bandwidth effectively. The aim is to enable users to extract value from the subnet, not just in cryptocurrency but also in real money.
+
+The mechanism of Subnet 19 operates on a decentralized, incentive-based model. Miners and validators are rewarded based on their contributions to the network, with emissions distributed according to their performance. The subnet employs a competitive yet collaborative environment, where miners strive to produce high-quality image content, and validators ensure that the generated assets meet the necessary standards. This system fosters innovation and excellence within the subnet, driving the development of advanced image generation capabilities.
+
+In summary, Bittensor Subnet 19 addresses the challenge of decentralized image generation and reasoning by providing a platform that enables users to generate complex images through simple textual descriptions. By leveraging advanced generative models and a decentralized network of miners and validators, Nineteen aims to revolutionize the development of virtual worlds and immersive experiences, making image generation accessible to a broader audience.
+
+
+Sources

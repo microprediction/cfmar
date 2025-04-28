@@ -18,3 +18,26 @@ Additional Info:
 - Enables ecological monitoring
 - Supports resource tracking
 - Provides environmental modeling tools 
+
+
+Subnet 57, known as Gaia, is a decentralized platform within the Bittensor network focused on geospatial artificial intelligence (AI). It aims to bridge the gap between small expert models and a comprehensive foundational geospatial model by leveraging open-source collaboration and distributed computing.​
+
+Purpose
+Gaia's primary goal is to enable the creation of specialized geospatial models that can be combined to perform complex tasks. By decentralizing the development and execution of these models, Gaia promotes innovation and efficiency in geospatial AI applications.​
+
+Mechanics
+Modular Architecture: Gaia allows for the chaining of small, specialized models to perform larger, more complex tasks.​
+
+Task Aggregation: The platform aggregates the outputs of individual models to produce comprehensive results.​
+
+Decentralized Development: Developers can create and deploy their own geospatial models within the Gaia subnet, contributing to a diverse ecosystem of AI solutions.​
+
+Emissions and Participation
+Emission Rate: 0.24% of the total TAO emissions are allocated to Subnet 57.​
+
+Registration Cost: The cost to register a node on this subnet is 0.09 TAO.​
+
+Validators: 8 active validators out of a possible 256.​
+
+Miners: 239 active miners out of a possible 256.​
+

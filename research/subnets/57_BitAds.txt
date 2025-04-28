@@ -18,3 +18,16 @@ Additional Info:
 - Enables cost-effective advertising
 - Supports performance tracking
 - Provides ad verification tools 
+
+
+Subnet 57, known as BitAds, is a decentralized advertising platform within the Bittensor network. It leverages the collective computational power of the network to offer cost-effective and high-quality advertising solutions.​
+GitHub
+
+BitAds aims to revolutionize online advertising by decentralizing the process, allowing advertisers to reach their target audience more efficiently and at a lower cost. By utilizing the Bittensor network, BitAds ensures that advertising metrics are transparent and verifiable, promoting trust and accountability in the advertising ecosystem.​
+
+Mining: Miners in the BitAds subnet contribute by processing and validating advertising data. They perform tasks such as analyzing ad performance, verifying impressions, and ensuring that ads meet the specified criteria.​
+
+Validation: Validators assess the quality and accuracy of the data provided by miners. They ensure that the advertising metrics are reliable and that the ads comply with the platform's standards.​
+
+Incentive Structure: Miners and validators are rewarded based on their contributions to the network. The rewards are distributed in the form of TAO tokens, incentivizing participants to maintain high standards and contribute effectively to the platform.​
+

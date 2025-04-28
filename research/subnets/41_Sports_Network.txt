@@ -70,3 +70,29 @@ Current Status
 - Expanding miner base
 - Continuous model improvement
 - Regular network updates 
+
+
+​Sportstensor is a decentralized sports prediction platform built on the Bittensor network. It leverages collective intelligence from miners who deploy machine learning models to forecast sports outcomes, aiming to identify profitable betting opportunities.​
+
+Mechanics
+Miners in the Sportstensor subnet receive prediction requests from validators, which include details about upcoming sports events. They analyze relevant data, such as team statistics and historical performance, and use their trained machine learning models to predict the outcomes of these events. Miners then submit their predictions, including the predicted outcome and the associated probability, back to the validators.​
+GitHub
+
+Validators are responsible for collecting predictions from miners and comparing them with actual match results. They evaluate the accuracy of each miner's predictions and assign scores accordingly. These scores are used to determine the miners' rankings and influence the distribution of rewards.​
+
+
+The platform operates on a performance-based incentive model, where miners are rewarded based on the accuracy and value of their predictions. This encourages continuous improvement and fosters a competitive environment that drives innovation in sports prediction algorithms.​
+
+Participation
+To participate as a miner, individuals need to set up a Bittensor wallet, fund it with TAO tokens, and register as a miner on Subnet 41. They can then deploy their machine learning models to make predictions on sports events. Validators assess the quality of these predictions and assign rewards based on performance.​
+
+
+
+portstensor’s NBA trading initiative demonstrated exceptional performance during the three-month period from December 29, 2024 to April 6, 2025. Our subnet intelligence:
+
+Generated 427.98% profit on starting capital
+Achieved 13.8% ROI on funds wagered
+Outperformed market by 16.2% (compared to -2.4% market ROI)
+Maintained 61.29% win rate with disciplined risk management
+Limited volatility to 3.1% standard deviation of daily returns
+This trading program validated, in a live betting environment, our incentive mechanism and miner outputs — which systematically identifies mispriced odds in NBA markets, particularly among undervalued underdogs. While this trading program’s success underscores the validity of our miner outputs, we note that robust risk management is essential given the inherent unpredictability of sports events.

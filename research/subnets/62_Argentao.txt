@@ -18,3 +18,29 @@ Additional Info:
 - Enables investment insights
 - Supports risk assessment
 - Provides data analytics tools 
+
+ubnet 64, known as Chutes.ai, addresses several challenges in the decentralized AI ecosystem by providing a serverless infrastructure that simplifies the deployment, scaling, and monetization of AI models.​
+Subnet Alpha
+
+Key Features and Mechanisms
+Serverless AI Deployment: Chutes.ai enables users to deploy, run, and scale AI models without managing underlying infrastructure. This approach abstracts away the complexities of server management, allowing developers to focus on model development and application logic.​
+
+Micropayments in TAO: The platform incorporates a monetization model through micropayments in TAO, facilitating seamless transactions between users and service providers. This token-based system ensures that computational resources are compensated efficiently, promoting a sustainable ecosystem.​
+
+Enhanced Security Features: Chutes.ai integrates advanced security measures to protect both miners and users. These features safeguard against potential threats, ensuring the integrity and confidentiality of data and computations within the network.​
+
+Optimized Validation Methodology: The platform has restructured its validation methodology to lower expenses, making it more cost-effective for participants. This optimization encourages broader participation and contributes to the overall efficiency of the network.​
+
+Integration with Hugging Face: Chutes.ai provides seamless integration with Hugging Face, allowing users to access a wide range of pre-trained models and resources. This integration accelerates the development process and broadens the scope of applications.​
+
+Real-World Applications
+Text-to-Voice Conversion: Chutes.ai supports applications that convert text into natural-sounding speech, useful for accessibility tools, virtual assistants, and content creation.​
+
+Easy Agent Deployment: The platform enables the deployment of AI agents without the need for coding, making it accessible to a broader audience and facilitating rapid prototyping.​
+
+Custom Code Deployment: Developers can deploy their custom AI models or applications on Chutes.ai, benefiting from its serverless infrastructure and performance monitoring tools.​
+
+Performance and Adoption
+Chutes.ai has achieved significant milestones, including processing billions of tokens daily through its OpenRouter. The platform has integrated various models for text, image, and audio processing, demonstrating its versatility and scalability. Its user-friendly interface and robust infrastructure have contributed to its rapid adoption and growth within the decentralized AI community.​
+
+In summary, Subnet 64 (Chutes.ai) serves as a decentralized platform within the Bittensor network that simplifies AI deployment through serverless compute capabilities, integrated monetization, enhanced security, and optimized validation processes. By lowering entry barriers, Chutes.ai aims to democratize access to AI technology, fostering innovation and collaboration within the Bittensor ecosystem

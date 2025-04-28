@@ -18,3 +18,25 @@ Additional Info:
 - Enables multilingual processing
 - Supports cultural adaptation
 - Provides translation management tools 
+
+
+Subnet 7, now known as Subvortex, is a decentralized network within the Bittensor ecosystem focused on enhancing the decentralization and efficiency of the network by incentivizing a global network of Subtensor nodes. The primary objective of Subvortex is to eliminate the need for individual operators to run their own Subtensor nodes by encouraging miners to operate optimal nodes distributed worldwide.​
+Docs Home | Bittensor
++4
+X (formerly Twitter)
++4
+Apple Podcasts
++4
+Apple Podcasts
+
+Miners in Subvortex are responsible for operating Subtensor nodes across various geographic locations. By running these nodes, miners contribute to the network's decentralization, ensuring low latency and high redundancy. The distribution of nodes worldwide enhances the network's resilience and performance, providing a more robust infrastructure for the Bittensor ecosystem.​
+
+Validators in Subvortex assess the performance of the Subtensor nodes operated by miners. They evaluate factors such as node uptime, response times, and overall reliability to ensure that the network maintains high standards of performance. Validators' assessments influence the rewards distributed to miners, incentivizing the maintenance of optimal node operations.​
+Apple Podcasts
++1
+X (formerly Twitter)
++1
+
+The incentive mechanism within Subvortex is designed to reward miners for their contributions to the network's infrastructure. Miners receive rewards based on the performance and reliability of the nodes they operate, as determined by validators' evaluations. This system encourages miners to maintain high-quality node operations, fostering a decentralized and efficient network.​
+
+In summary, Subvortex addresses the challenge of maintaining a decentralized and efficient network infrastructure by incentivizing miners to operate Subtensor nodes globally

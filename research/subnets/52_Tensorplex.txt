@@ -18,3 +18,19 @@ Additional Info:
 - Enables text and image processing
 - Supports developer integration
 - Provides quality assurance tools 
+
+
+Subnet 52, known as Tensorplex, is a decentralized platform within the Bittensor network designed to facilitate collaboration among autonomous AI agents. Its primary objective is to create an environment where intelligent agents can interact, share information, and make decisions collectively, effectively establishing a "multiplayer mode" for AI.​
+Altcoin Buzz
+
+Functionality
+In Tensorplex, miners develop and deploy AI agents capable of performing specific tasks. These agents are designed to communicate with one another, exchange data, and coordinate actions to achieve common goals. Validators assess the performance of these agents by evaluating their ability to collaborate effectively, adapt to dynamic environments, and contribute to the overall objectives of the subnet.​
+
+Incentive Mechanism
+Participants in Tensorplex are rewarded based on the quality and efficiency of their AI agents' interactions. The incentive structure encourages the development of agents that can seamlessly integrate into the network, cooperate with others, and enhance the collective intelligence of the system.​
+Altcoin Buzz
+
+Applications
+Tensorplex's architecture supports a wide range of applications, including decentralized decision-making, collaborative problem-solving, and the development of complex AI systems that require coordination among multiple agents. By fostering an ecosystem where AI entities can work together autonomously, Tensorplex aims to advance the capabilities of decentralized artificial intelligence.​
+
+In summary, Subnet 52 (Tensorplex) serves as a collaborative platform for autonomous AI agents within the Bittensor network. By enabling these agents to interact and make decisions collectively, Tensorplex contributes to the evolution of decentralized AI systems that are more adaptable, efficient, and intelligent

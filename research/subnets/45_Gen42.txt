@@ -18,3 +18,14 @@ Additional Info:
 - Enables programming assistance
 - Supports Q&A functionality
 - Provides code completion features 
+
+Subnet 45, known as Gen42, is a decentralized platform within the Bittensor network focused on providing AI-driven code generation services. It aims to address the challenges developers face in accessing efficient and scalable code completion and question-answering tools.​
+
+Miners in Gen42 contribute by offering AI models capable of generating code snippets, completing code, and answering code-related questions. These miners utilize large language models trained on open-source codebases to perform tasks such as predicting the next line of code, suggesting code completions, and providing explanations for code segments. Their performance is evaluated based on the relevance and accuracy of their outputs.​
+
+Validators play a crucial role by assessing the quality of the work produced by miners. They evaluate the generated code for correctness, efficiency, and relevance to the given prompts. This evaluation ensures that only high-quality contributions are rewarded, maintaining the integrity of the platform.​
+
+The incentive mechanism in Gen42 is designed to reward both miners and validators for their contributions. Emissions of TAO tokens are distributed among participants based on their performance, encouraging active and high-quality participation. This system fosters a competitive environment where participants strive to improve their models and evaluations to earn rewards.​
+Subnet Alpha
+
+In summary, Gen42 addresses the need for decentralized, AI-driven code generation tools by creating a platform where miners develop models for code completion and question-answering, and validators ensure the quality of these contributions. Through its incentive mechanisms, Gen42 promotes the development of efficient and scalable AI tools for developers

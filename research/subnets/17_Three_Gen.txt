@@ -1,20 +1,14 @@
-Subnet 17: Code Embedding
-Description: Focuses on code representation and embedding techniques, enabling better code analysis and understanding
-Primary Function: Code representation and analysis
-Key Features:
-- Code embedding
-- Representation learning
-- Code analysis
-- Semantic understanding
-- Pattern recognition
-Built By: Code Embedding Team
-Team:
-- Code analysis specialists
-- Representation learning experts
-- Pattern recognition engineers
-Additional Info:
-- Focuses on code embedding
-- Implements representation learning
-- Enables code analysis
-- Supports semantic understanding
-- Provides pattern recognition tools 
+Subnet 17: Three Gen
+
+
+
+
+Bittensor Subnet 17, known as ThreeGen, is a specialized subnet dedicated to the decentralized generation of 3D content, aiming to democratize the creation of virtual worlds, games, and immersive experiences across AR, VR, and XR platforms. It leverages a variety of open-source 3D generative models, including Gaussian Splatting, Neural Radiance Fields, 3D Diffusion Models, and Point-Cloud approaches, to enable users to generate 3D assets through simple textual descriptions. This approach allows individuals without coding or game development experience to create complex 3D environments and assets in real-time, facilitating the development of AI-native games and immersive experiences.
+
+Miners within Subnet 17 are responsible for generating 3D content based on prompts provided by validators. They utilize the Generation Module, which is central to 3D content creation and is compatible with miner neurons. Miners can operate this module independently for development and testing purposes or in conjunction with validator neurons to produce 3D assets upon request. These assets can include models, textures, and other 3D elements that are essential for building virtual environments. The performance of miners is evaluated based on the quality and relevance of the generated content, with rewards distributed accordingly.
+
+Validators in Subnet 17 play a crucial role in ensuring the quality and integrity of the generated 3D content. They are responsible for issuing prompts to miners, retrieving the generated assets, and validating their accuracy and quality. Validators utilize the Validation Module, which operates alongside validator neurons or independently for comprehensive testing and quality assurance. This module ensures that the generated content meets the required standards and aligns with the intended prompts. Validators are incentivized to maintain high standards of quality, as their performance directly impacts their rewards within the subnet.
+
+The mechanism of Subnet 17 operates on a decentralized, incentive-based model. Miners and validators are rewarded based on their contributions to the network, with emissions distributed among participants according to their performance. The subnet employs a competitive yet collaborative environment, where miners strive to produce high-quality 3D content, and validators ensure that the generated assets meet the necessary standards. This system fosters innovation and excellence within the subnet, driving the development of advanced 3D generation capabilities.
+
+In summary, Bittensor Subnet 17, ThreeGen, addresses the challenge of 3D content creation by providing a decentralized platform that enables users to generate complex 3D assets through simple textual descriptions. By leveraging advanced generative models and a decentralized network of miners and validators, ThreeGen aims to revolutionize the development of virtual worlds and immersive experiences, making 3D content creation accessible to a broader audience.

@@ -18,3 +18,10 @@ Additional Info:
 - Enables application integration
 - Supports industry-specific solutions
 - Provides deployment tools 
+
+
+Subnet 33, known as the Conversation Genome Project, is a decentralized initiative within the Bittensor network, developed by Afterparty AI. Its primary focus is on processing and indexing large volumes of conversation data to facilitate personalized AI access services.
+
+The subnet operates by allowing miners to contribute computing resources to process and index conversation data. Validators assess the quality of these contributions, and miners are rewarded based on their performance. This decentralized approach ensures that the system remains open and accessible, promoting innovation and diversity in AI development.
+
+By leveraging the collective computational power of the network, the Conversation Genome Project aims to enhance the capabilities of conversational AI, enabling more personalized and context-aware interactions. This initiative aligns with the broader goals of the Bittensor network to create a decentralized and open-source AI ecosystem.

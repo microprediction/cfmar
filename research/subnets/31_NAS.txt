@@ -18,3 +18,39 @@ Additional Info:
 - Enables automated architecture discovery
 - Supports performance optimization
 - Enhances AI model efficiency 
+
+
+Overview
+Subnet 31, known as NAS Chain, is a decentralized network within the Bittensor ecosystem focused on Neural Architecture Search (NAS). It aims to automate the design of neural network architectures, optimizing for both accuracy and computational efficiency.
+
+Mechanics
+Genetic Algorithm-Based NAS: NAS Chain employs a genetic algorithm inspired by NSGA-Net to explore and optimize neural network architectures. This process involves initializing a population of candidate solutions, evaluating their performance, and iteratively evolving them over multiple generations.
+
+Distributed Training: Miners in the network are assigned tasks to train and evaluate different neural architectures. This decentralized approach leverages the collective computational power of the Bittensor network to perform resource-intensive NAS tasks more efficiently.
+
+Dual-Level Validation and Incentive System: The network incorporates a two-level validation mechanism:
+
+Level 1 (Agreement-Based Scoring): Each training task is assigned to three different miners. Their results are compared, and if they agree within a specified tolerance, they are considered valid. Miners receive rewards based on the consensus of their evaluations.
+
+Level 2 (Job Completion Metrics): Miners are also evaluated based on the number of tasks they complete and the time taken to finish them. This incentivizes both accuracy and efficiency in task execution.
+
+Outcomes
+The NAS Chain aims to produce optimized neural network architectures that balance high accuracy with low computational demands. These architectures can be applied to various machine learning tasks, offering efficient solutions that are more accessible due to the decentralized nature of the network.
+
+Future Directions
+Ongoing developments include:
+
+Enhanced Visualization Tools: Implementing dashboards to monitor the progress of NAS tasks and visualize the evolution of neural architectures.
+
+Broader Application Scope: Expanding the applicability of the subnet to various domains beyond image classification, such as time series analysis and regression tasks.
+
+Community Engagement: Encouraging contributions from the broader AI research community to improve and diversify the NAS process.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+See also https://bittensor.ru/
+
+UID	Name	Description	Built By
+1	Apex	Conversational AI	Macrocosmos
+3	Templar	Incentivized Wide-Internet Training	Rao Foundation
+4	Targon	LLM Verification	Manifold Inc.
+6	Infinite Games	Future Prediction	Amadeo Gigaver / Yuma Group
+8	Proprietary Trading Network	Price Prediction	Taoshi
+11	Dippy Roleplay	Character Roleplay	Impel Intelligence
+12	ComputeHorde	Compute for Bittensor validation	Backend Developers
+13	Dataverse	Data scraping and storage	Macrocosmos
+14	Paladin	Decentralized solution to combat crypto fraud	Nickel5
+15	de_val	Advanced evaluation tools for LLMs	De-val Technologies LLC
+20	BitAgent	AI Agent Framework	Team Rizzo
+23	Social Tensor	Social Media Analysis	SocialTensor
+24	Omega	Multimodal Dataset for AGI Research	Omega Labs Inc.
+27	Compute	GPU Rental	Neural Internet
+28	S&P 500 Oracle	Time series price prediction of the S&P 500	Yuma Group
+29	Coldint	Collaborative model training and research	Coldint
+31	NAS Chain	Neural Architecture Search inspired by NSGA-Net	NASChain
+33	Ready AI	AI Model Deployment Platform	Afterparty AI
+34	BitMind	Deep Fake Detection Subnet	BitMind
+37	Fine-tuning	Fine-tuning AI Models	Macrocosmos
+38	Distributed Training Subnet	Distributed training using a subnet	KMFODA
+39	EdgeMaxxing	Optimizing AI models for consumer devices	Wombo AI
+40	Chunking	Enhancing Retrieval-Augmented Generation	VectorChat
+42	Masa	Structured real-time data	Yuma Group
+43	Graphite	Graph optimization problems	GraphiteAI
+44	Score Vision	AI-powered Computer Vision	Yuma Group
+45	Gen42	Decentralized code generation services	Team Rizzo
+46	NeuralAI	Generate 3D models with AI	NeuralAI
+47	Condense AI	Compress natural language tokens	Condenses
+48	Nextplace AI	Real Estate Price Prediction	Nickel5
+49	Hivetrain AutoML Subnet	Automated Machine Learning	Hivetrain
+51	Celium	GPU Rental	Datura-ai
+52	Dojo	Crowdsourcing datasets	Tensorplex Labs
+56	Gradients	Gradients on Demand for on-demand training	Rayonlabs
+57	Gaia	The Hub for Geospatial AI	Nickel5
+58	Dippy Speech	Empathetic speech for character roleplay	Yuma Group
+59	Agent Arena	Multi-Agent Simulation Environment	Agent Arena Team
+61	Red Team	Solving real-world cybersecurity challenges	Yuma Group
+62	Argentao	Financial Data Analysis	Argentao Team
+64	Chutes	AI Model Deployment Pipeline	Chutes Team
