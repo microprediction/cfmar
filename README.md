@@ -1,6 +1,13 @@
 # Microprediction: An Update
 
-This repository contains materials related to the microprediction thesis and serves as a companion to the public lecture at https://cfmar.pstat.ucsb.edu/.
+This repository contains scrappy notes related to the microprediction thesis to help prepare for a public lecture at https://cfmar.pstat.ucsb.edu/. If you are doing
+interesting things in Collective AI then by all means make a pull request. 
+
+
+
+![](https://github.com/microprediction/cfmar/blob/main/slides/assets/cfmar_announce.png)
+
+
 
 ## Contents
 
