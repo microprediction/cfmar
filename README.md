@@ -13,8 +13,7 @@ interesting things in Collective AI then by all means make a pull request.
 
 - `/slides`: Presentation materials and lecture slides
 - `/book`: The microprediction book and related materials
-- `/research`: Additional research materials and references
-- `/examples`: Code examples and demonstrations
+- `/research`: Additional research materials and 
 - `/resources`: Additional resources and links
 
 ## About Microprediction
