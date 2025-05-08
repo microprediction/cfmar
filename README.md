@@ -23,11 +23,11 @@ Microprediction refers to the concept of making predictions at a very fine-grain
 
 ## Getting Started
 
-1. Make a PR replaceing the auto-gen bull. 
+1. Make a PR replaceing the auto-gen bull.
+2. Brag about your project
+3. Dump assets and pretty pictures. 
  
-## Contributing
 
-This repository is primarily for educational and research purposes. If you have suggestions or would like to contribute, please feel free to open an issue or submit a pull request.
 
 ## License
 
