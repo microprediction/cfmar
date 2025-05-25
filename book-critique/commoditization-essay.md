@@ -39,6 +39,9 @@ The game uses density-based scoring to evaluate predictions, requiring trackers 
 
 This format allows for both simple Gaussian distributions and more complex mixture models, enabling trackers to express uncertainty in their predictions.
 
+![Probabilistic Forecast Example](https://raw.githubusercontent.com/microprediction/birdgame/main/birdgame/examples/quickstarters/ewma_var.png)
+*Example of probabilistic forecasting showing the dove's location (blue), falcon's location (red), and predicted distribution (green)*
+
 ### Example Implementation
 
 A basic tracker using Exponentially Weighted Moving Average (EWMA) with variance tracking demonstrates the system's flexibility:
@@ -72,6 +75,9 @@ class EWMATracker(TrackerBase):
 ### Evaluation and Competition
 
 The system uses a density-based scoring mechanism that rewards accurate probabilistic predictions. This creates a marketplace where different approaches compete based on their predictive performance. The scoring system considers both the accuracy of the mean prediction and the appropriateness of the uncertainty estimates.
+
+![Scoring Visualization](https://raw.githubusercontent.com/microprediction/birdgame/main/birdgame/examples/quickstarters/score_visualization.png)
+*Visualization of how predictions are scored based on their probabilistic accuracy*
 
 ## Current Developments and Evidence
 
