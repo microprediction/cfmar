@@ -12,7 +12,7 @@ The book's logic centers on the idea that commoditization drives innovation by:
 
 ## The Bird Game: A Case Study in Commoditization
 
-The Bird Game at CrunchDAO provides a concrete example of how prediction components can be commoditized. The game challenges participants to track the location of a dove while a falcon hunts it, using probabilistic forecasting to predict the dove's future position.
+The Bird Game at CrunchDAO provides a concrete example of how prediction components can be commoditized. The game challenges participants to track the location of a dove while a falcon hunts it, using probabilistic forecasting to predict the dove's future position. While presented as a game, the "dove" typically represents a financial time series of material significance, making this a practical test bed for financial prediction systems.
 
 ### System Architecture
 
@@ -20,8 +20,7 @@ The Bird Game implements a standardized interface for probabilistic forecasting 
 1. `tick(self, payload)`: Processes new observations and updates internal state
 2. `predict(self)`: Returns a probabilistic forecast of the dove's location
 
-![Bird Game Architecture](https://raw.githubusercontent.com/microprediction/birdgame/main/docs/assets/birdgame_arch.png)
-*Architecture showing how different trackers can be plugged into the Bird Game system*
+The system architecture allows for different tracking algorithms to be plugged in and evaluated against a common benchmark, creating a marketplace of competing approaches.
 
 ### Probabilistic Forecasting
 
@@ -81,7 +80,35 @@ The system uses a density-based scoring mechanism that rewards accurate probabil
 
 ## Current Developments and Evidence
 
-Beyond the Bird Game, other examples of commoditization include:
+The book's vision of commoditization is being realized across multiple layers of the AI supply chain:
+
+### Compute Resources
+- RunPod and Lambda Labs provide serverless GPU access with pay-per-second pricing
+- Vast.ai operates a GPU marketplace with auction-based pricing
+- Together AI enables distributed training through shared infrastructure
+
+### Data Processing
+- Scale AI and Snorkel AI offer on-demand data annotation and programmatic labeling
+- Label Studio provides open-source labeling tools
+- Weights & Biases manages the ML lifecycle with experiment tracking
+
+### Model Development
+- Hugging Face's model hub enables open model sharing with standardized interfaces
+- Replicate offers one-click model deployment
+- Modal provides serverless ML infrastructure
+- Determined AI facilitates distributed training
+
+### Model Deployment
+- Baseten and Banana.dev simplify model serving with API-first deployment
+- Beam automates ML pipelines end-to-end
+- Cerebrium offers serverless ML cloud functions
+
+### Quality Assurance
+- Evals provides standardized metrics for LLM evaluation
+- DeepChecks and Arize AI offer production monitoring and observability
+- Fiddler AI focuses on model explainability and transparency
+
+Beyond these examples, other projects demonstrate the trend toward commoditization:
 - Hugging Face's model hub, which standardizes model interfaces and evaluation
 - LangChain's composable components for building LLM applications
 - CrunchDAO's midone setup, which provides standardized interfaces for financial predictions
@@ -120,6 +147,36 @@ The economic relationships between components show interesting patterns. The boo
 The development of commoditized AI systems continues to evolve. The book describes this as "ambitious in some ways, but rather mundane in others. It almost feels like busywork." As more projects adopt this approach, new forms of composition and collaboration are emerging. The application of these systems across domains from financial analysis to code generation suggests potential for broader use.
 
 The balance between standardization and innovation appears important. The book notes that "All models are wrong, but some are somewhere useful." As components become more sophisticated, they may make more complex decisions while maintaining the economic relationships that drive the system forward.
+
+## Monteprediction: A Case Study in Distributed Prediction
+
+Monteprediction.com represents another example of how prediction components can be commoditized in practice. The platform implements a distributed prediction system where multiple agents compete to provide accurate forecasts of various time series.
+
+### System Architecture
+
+The Monteprediction system consists of several key components:
+1. A standardized interface for submitting probabilistic forecasts
+2. A scoring mechanism based on proper scoring rules
+3. A marketplace where agents can compete and be rewarded for accurate predictions
+
+### Implementation Details
+
+The system uses a Python-based implementation that allows agents to:
+- Submit distributional forecasts in a standardized format
+- Receive real-time feedback on prediction accuracy
+- Compete for rewards based on their performance
+
+The platform emphasizes proper scoring rules to ensure honest, uncertainty-aware forecasting. Agents that misrepresent their confidence or overfit to short-term patterns face economic penalties, creating a meritocratic marketplace of ideas.
+
+### Economic Incentives
+
+Monteprediction demonstrates how economic incentives can drive the commoditization of prediction components:
+- Agents stake value on their forecasts
+- Performance is continuously evaluated
+- Rewards are distributed based on prediction accuracy
+- Poor performers are naturally pruned from the system
+
+This creates a self-sustaining ecosystem where the best prediction methods rise to the top through competition rather than central planning.
 
 ## Conclusion
 
