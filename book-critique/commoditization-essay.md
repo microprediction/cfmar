@@ -39,7 +39,7 @@ The game uses density-based scoring to evaluate predictions, requiring trackers 
 
 This format allows for both simple Gaussian distributions and more complex mixture models, enabling trackers to express uncertainty in their predictions.
 
-![Probabilistic Forecast Example](https://raw.githubusercontent.com/microprediction/birdgame/main/birdgame/examples/quickstarters/ewma_var.png)
+![Probabilistic Forecast Example](forecast.png)
 *Example of probabilistic forecasting showing the dove's location (blue), falcon's location (red), and predicted distribution (green)*
 
 ### Example Implementation
