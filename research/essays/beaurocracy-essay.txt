@@ -1,0 +1,108 @@
+# Ancient Omens and Imperial Red Tape
+
+Long before spreadsheets and algorithms, predicting the future was the job of court astrologers, oracle priests, and star-gazing sages – people who often found themselves at odds with the earliest bureaucrats. In ancient China, for example, two court astronomers learned the hard way what happens when forecasts displease a bureaucracy with an axe. In 2137 BCE, Astronomers Hsi and Ho failed to predict a solar eclipse (one job!) and were promptly executed for their lapse [1]. 
+
+This might be history's first recorded case of a performance review gone very wrong. Needless to say, such deadly oversight did not encourage open innovation in astronomy; more likely it encouraged astrologers to fudge their figures to keep their necks intact, the classic "lie to survive" strategy that would make even modern data fudgers proud. 
+
+Meanwhile, across the world in the Roman Empire, officials were inventing new forms of red tape around prophecies. The Romans loved omens and auguries – but only the right omens interpreted by approved augurs. At various times, the Roman Senate and emperors banned unlicensed soothsayers and astrologers (often referred to derisively as "mathematici"). 
+
+Emperor Vitellius provides a comedic case: in October of 69 CE, he banished all astrologers from Rome and Italy. The offended astrologers fought back in the most prophetic way possible – they plastered Rome with an anonymous "astrologers' decree" predicting the emperor's imminent downfall. "Decreed by all astrologers... Vitellius will be no more by the appointed date," they proclaimed [2]. Indeed, Vitellius was dead by December, proving that even when bureaucratic edicts silence the forecasters, the forecast may still come true (and that revenge is a dish best served in writing).
+
+The emperor's reaction was classic bureaucracy: he ordered any astrologer he could catch to be executed – presumably for the dual crimes of insubordination and being correct. Thus, early predictive science in Rome became a cat-and-mouse game: astrologers couching their publications in riddles and emperors attempting to outlaw inconvenient prophecies. 
+
+Even in ancient Greece – often seen as a cradle of free inquiry – predictive arts had to tiptoe around authority. The Oracle of Delphi might issue cryptic forecasts to kings (famously telling Croesus that attacking Persia would "destroy a great empire," without saying whose). But woe unto the independent soothsayer without a bureaucratic sanction! The Pythia at Delphi effectively held a state-sanctioned monopoly on high-stakes prophecy. Any rival visionary in the crowd risked being dismissed or worse unless they had a patron with clout. In other words, antiquity's motto was: prediction is fine, as long as it's on papyrus stamped by the powers that be. Kings and emperors wanted predictions, but only the right predictions – preferably flattering, always controlled. 
+
+We've been living with this contradiction ever since. Let me interrupt out historical survey and tell you about a contest I ran at J.P. Morgan once.
+
+()
+
+
+
+Fast-forward to the Middle Ages and Renaissance, where the bureaucracy takes ecclesiastical and royal forms. In medieval Europe, the Church bureaucracy maintained a tight leash on knowledge – and that included who got to predict what. Astrology walked a fine line: on one hand, many learned monks and even popes dabbled in star charts; on the other, making unsanctioned predictions could smell of heresy or witchcraft. Pope Sixtus V himself tried to issue a papal bull in 1586 outlawing all forms of astrological prediction [3]. (Perhaps he was sick of hearing from court astrologers that his stars were in an awkward alignment.) The ban, however, was largely ignored by the papal bureaucracy and European nobility – astrology was simply too popular to quash, and even the Pope's own advisors shrugged it off. 
+
+The episode underscores a key feature of prediction bureaucracy: issuing an edict is one thing; enforcing it is quite another, especially when everyone, from farmers to kings, enjoys a good horoscope. As one commentator wryly noted, "A committee is a cul-de-sac down which ideas are lured and then quietly strangled." [4] – and indeed the grand anti-astrology committee quietly strangled Sixtus V's idea in its cradle.
+
+ Scientists of the Renaissance often faced a tangle of religious and royal regulations. The most famous case, of course, is Galileo Galilei – not a predictor of human events, but a predictor of planetary motion. Galileo's evidence for Copernican heliocentrism was, in essence, a prediction that Jupiter's moons would keep orbiting Jupiter (rather than everything orbiting Earth). The Church's response in 1633 was pure bureaucracy: they hauled Galileo before an Inquisition panel (a "special committee" if ever there was one), found him "vehemently suspect of heresy," forced him to recant, and sentenced him to indefinite house arrest [5]. To add bureaucratic flourish, publication of his works was banned. 
+ 
+ It's as if the cosmos itself needed a permit from Rome to rotate in a new way. One can imagine Galileo muttering, "And yet it moves," under his breath, a cheeky rebuttal filed in the invisible suggestion box of history. Galileo's saga shows how institutional inertia and dogma (the bureaucratic kind) can hold back scientific truth for decades – the moons kept on predictably orbiting despite the paperwork saying they shouldn't. 
+ 
+ Across the world, other cultures' data science efforts faced their own bureaucratic hurdles. In imperial China, the calendar was a state monopoly – literally, only the Emperor's astronomers could officially "predict" eclipses or auspicious dates. Unauthorized prophecy was seen as a challenge to imperial authority. In fact, throughout Chinese history the throne zealously guarded the calendar; producing your own unauthorized almanac was potentially a capital offense [6]. The reasoning was simple: if you control the calendar and the astrology, you control the Mandate of Heaven. Thus, even brilliant astronomers had to operate within the strict confines of the Imperial Astronomical Bureau, where innovation took a back seat to making sure nothing unexpected (heaven forbid!) appeared in the sky without official approval. Call it the ultimate sky-high red tape – the stars could move, but only in accordance with Beijing's Bureau of Celestial Affairs.
+
+
+As we entered the Enlightenment and early modern era, you'd think the rise of reason and the birth of statistics would have slain the bureaucracy. Not so! It merely put on a new uniform (perhaps a powdered wig and later a top hat). The 17th to 19th centuries saw the first formal developments of probability, statistics, and data collection – and with them, new kinds of bureaucratic resistance to change. Consider the humble Arabic numeral: a simple innovation (including that troublemaker, zero) that Fibonacci introduced to Europe around 1200 CE. 
+
+You might assume any bureaucracy, with its bean counters, would love a more efficient accounting tool. Yet, in 1299 the city of Florence banned Arabic numerals in official documents, claiming they were too easy to falsify [7]. Officials literally outlawed zero – an overzealous regulation that mathematically inclined satirists have dubbed "the null and void edict." Merchants, being practical, got around this by keeping two sets of books: one with the banned modern numbers (for calculation), and a "clean" copy converted to clunky Roman numerals for the auditors. 
+
+
+This medieval overregulation of arithmetic delayed the adoption of better mathematics, all because the bureaucrats feared a little fraud. (Ironically, banning efficient notation probably encouraged creative bookkeeping – proving that red tape often ties itself in knots.) 
+
+Ah you laugh, but there is a modern day equivalent. Some but not all banks chose to interpret directives from the SEC, or more specifially the OCC, as a reason to divide the world in to models and non-models. While the former were not outlawed, they were make horrendously inconvenient requiring documentation. 
+
+(Talk about the silly divide and relationship to Stone-Weierstrauss theorem) 
+
+
+Moving to the 19th century, as nation-states began gathering statistics (censuses, economic data, etc.), there were numerous instances of bureaucracy dragging its feet or outright meddling. One darkly comic example comes from Tsarist Russia and later the Soviet Union: official statisticians faced dire consequences for inconvenient numbers. The most infamous case was the Soviet 1937 census, which revealed a much smaller population than expected (due in part to famine and purges). Stalin's response? He declared the data invalid, had the census officials arrested, and conveniently arranged for a "better" census later. 
+
+In Stalin's USSR, facts that didn't fit the five-year plan simply couldn't be allowed – a bureaucracy so extreme it literally shot the messenger. Soviet scientists in the predictive fields learned to be very, very careful. As a grim joke from that era put it: "The future is certain; it's the past that is unpredictable." [8] History kept being rewritten to suit the plan, so even predicting yesterday became a risky venture! 
+
+And speaking of Soviet science, we must mention Trofim Lysenko – the agronomist whose pseudo-theories about heredity won Stalin's favor and thereby became state dogma. In the late 1940s, Lysenko's bureaucratic clout led to the outright banning of Mendelian genetics and statistical biology in the USSR [9]. Under Lysenko's reign, over 3,000 biologists were fired or imprisoned, and using concepts like genes or proper experimental statistics could get you denounced as a "bourgeois" saboteur [10]. 
+
+Lysenko himself believed that complex math and probabilistic genetics were suspicious (perhaps because they proved him wrong), so he ensured the Central Committee backed his anti-science decree. This was bureaucracy in its most lethal form: ideological regulation snuffing out an entire field of science for decades. The only "prediction" allowed in Soviet agriculture was Lysenko's promise of bigger harvests – a promise that failed disastrously, though bureaucrats were not keen to note the failed prediction afterward. 
+
+It took until the 1960s for Soviet authorities to quietly remove this particular roadblock and rehabilitate real genetic science. By then, the damage was immense – a poignant reminder that whenever overregulation and dogma choke off open inquiry, nature itself will get the last laugh (or the last failed crop). 
+
+Western Europe and America had their own brand of bureaucratic inertia. In the realm of public health and social science, innovators often faced administrative stonewalling. Pioneering epidemiologist John Snow demonstrated in 1854 that cholera spread through contaminated water and famously removed the Broad Street pump handle to stop an outbreak. What did the London Board of Health (the local bureaucracy) do? They scoffed and re-attached the pump handle as soon as the immediate crisis passed, dismissing Snow's data-driven conclusion in favor of entrenched miasma theory. 
+
+Similarly, nurse Florence Nightingale in the 1860s wielded statistics (inventing novel polar area charts) to prove that sanitary reforms would save lives in hospitals. She succeeded, but only after years of battling a War Office content with the status quo. Nightingale quipped that the bureaucrats treated statistics "as a drunken man uses lamp-posts – for support rather than illumination" [11]. (Actually, that witty phrase was coined earlier by satirist Andrew Lang, referring to politicians' misuse of stats, but Nightingale's tireless crusade certainly made it apropos [12]). In short, even as the scientific method bloomed, the guardians of tradition and procedure often stood by with folded arms, insisting that new insights clear a thicket of skepticism, politics, and paperwork before any action could be taken.
+
+
+You might think that by the 20th and 21st centuries – ages of computers, big data, and rational administration – we would have learned to let prediction and innovation flourish. Alas, the bureaucracy merely updated its wardrobe and found new tactics to hinder the prophets and statisticians among us. If anything, the rise of formal forecasting (from economic prediction to weather modeling) provided fresh opportunities for red-tape absurdity. 
+
+Start with a gem from World War II. The U.S. Army Air Forces tasked a young Kenneth Arrow (later a Nobel-winning economist) and his team with making long-range weather forecasts for military planning. After rigorous analysis, Arrow's statisticians concluded their forecasts were no better than random guesses and politely suggested this might be a pointless exercise. The military brass's reply was the epitome of bureaucratic logic: "The Commanding General is well aware that the forecasts are no good. However, he needs them for planning purposes." [13] 
+
+In other words: We know the data is junk, but we'll file it anyway. Arrow's anecdote (which he loved to retell) perfectly captures modern bureaucracy's mindset – form triumphs over substance. The appearance of a plan (complete with forecasts on paper) was valued more than actual predictive accuracy. It's planning theater: the show must go on, even if the script is nonsense. One imagines a staff officer dutifully stamping "Approved: Inaccurate Forecast #27" on a report, filing it away, and everyone feeling quite satisfied that procedure was followed. 
+
+Governing bodies also developed a habit of overregulating who is allowed to predict events, especially when money is on the line. Case in point: the strange fate of prediction markets. These are essentially stock markets for forecasts – platforms where people bet on outcomes (elections, economic indicators, even pandemics), which often produce remarkably accurate crowd-based predictions. Sounds useful, right? Not to the bureaucrats. In the United States, any whiff of unapproved "gambling" on future events has drawn swift regulatory wrath. In 2003, the Pentagon's research arm DARPA funded a novel "Policy Analysis Market" to forecast geopolitical events (like coups or conflicts) by having experts trade virtual futures.
+
+ The moment a few U.S. Senators discovered this, they exploded in outrage about a "terrorism betting parlor", and the project was shut down almost overnight [14]. The market hadn't even launched before red tape strangled it – a committee decided that any betting on world events was beyond the pale, and that was that. Bureaucracy 1, predictive science 0. Economist Robin Hanson, who helped design the market, dryly noted that the politicians completely misunderstood the goal, but nuance had no place in the media firestorm. The incident became a textbook example of knee-jerk overregulation: a potentially insightful forecasting tool snuffed out by the ick factor and a fear of bad PR.
+ 
+  Private prediction markets have fared little better. The famed Intrade platform (based in Ireland) allowed people worldwide to bet on everything from elections to Oscar winners – essentially harnessing the wisdom of crowds. It gained popularity in the 2000s as its election forecasts often beat the pollsters. But in 2012, the U.S. Commodity Futures Trading Commission (CFTC) decided Intrade was offside. Citing a ban on off-exchange options trading, the CFTC sued, and Intrade was forced to shut out all U.S. customers due to "legal and regulatory pressures" [15]. The company's hand was forced: Americans woke up to find they could no longer partake in this e-Oracle of Delphi. Regulators patted themselves on the back for upholding the law, even though no one had been harmed – except perhaps the idea that ordinary people might collectively foresee events.
+  
+   As an Intrade user wryly commented, "Well, I guess it was a nice ride while it lasted." [16] The story didn't end there. An academic offshoot called PredictIt got a no-action letter to run a small-scale election market for research, but in 2022 even that was suddenly revoked by the CFTC, effectively ordering the market to close [17]. One is reminded of John Kenneth Galbraith's famous quip: "The only function of economic forecasting is to make astrology look respectable." [18] 
+   
+   If you ask proponents of prediction markets, they might say: "We tried to make forecasting more respectable, but the bureaucrats would rather we all stick to astrology." Lest you think it's only the U.S. – many countries equate prediction markets with gambling, wrapping them in so much regulation that they never get off the ground. In some places, even weather predictions face bureaucratic limits. Astonishingly, from 1887 until 1950, the U.S. Weather Bureau banned the word "tornado" from forecasts for fear of inciting panic [19]. You read that right: rather than develop better tornado warnings, officials chose to outlaw uttering the T-word. Citizens would get vague "severe storm" notices at best, because acknowledging a tornado risk in plain language was against policy.
+   
+   This decades-long ban was effectively overregulation of vocabulary – as if not naming the problem would make it go away. One meteorologist of the era, frustrated, said it was like fighting a war with the Office of Euphemisms instead of actual sirens. The ban only lifted once public pressure and new forecasting techniques left the Weather Bureau no choice (and presumably after they filled enough forms to change the rule). It's a classic illustration that bureaucracy can be life-threatening: by prioritizing avoidance of public upset (and liability) over giving people actionable predictions, the bureaucrats likely cost lives that timely tornado alerts might have saved. 
+   
+   Even today, data scientists and statisticians often find their clever insights tangled in a web of compliance and institutional inertia. A modern data analyst might joke that before they can predict anything, they must predict how long the compliance review will take. Privacy regulations like GDPR, while well-intentioned, sometimes slow research to a crawl as teams navigate consent forms and data permission filings in triplicate. Government agencies, for their part, sometimes bury forecasts that conflict with "official" projections. (For example, if a government statistician's model predicts a budget deficit larger than the finance ministry's number, one suspects that model might be quietly revised or filed under N for Not to be Released.) 
+   
+   Committees proliferate to vet algorithms for bias, which is good – except when those committees never actually greenlight anything. Many a machine-learning innovation has died in committee, not because it didn't work, but because no one could agree on who might be liable if it did work too well. In the end, some frustrated innovators feel like Arthur Dent from The Hitchhiker's Guide to the Galaxy, who discovered the plans to demolish Earth were on display in a bureaucratic office light-years away – technically "public," but effectively impossible to find in time. Likewise, crucial forecasts and scientific warnings are sometimes published in obscure reports or dense appendices, thereby fulfilling bureaucratic duty while ensuring minimal impact.
+
+The statistician George Box famously said, "All models are wrong, but some are useful." One could add: all bureaucracies are bothersome, but some are ... yeah that doesn't really work does it? Can anyone name a useful statistical bureaucracy? As we venture forward into eras of AI and ever bigger data, let's hope we've learned from this history. 
+
+
+
+
+
+## Footnotes & Citations
+
+[1] Chinese astronomers Hsi and Ho executed for failing to predict an eclipse
+[2] Roman Emperor Vitellius bans astrologers; astrologers retaliate with a prophecy of his demise
+[3] Pope Sixtus V's attempted ban on astrology (1586)
+[4] Barnett Cocks on ideas and committees
+[5] Galileo found "suspect of heresy" in 1633 and put under house arrest
+[6] Imperial Chinese monopoly on calendar-making and prediction
+[7] Florence bans Arabic numerals (1299) due to fraud concerns
+[8] Old Soviet joke about the future vs. the past
+[9] Soviet regime bans genetics; Lysenko's war on statistical biology
+[10] Andrew Lang's quote on statistics and drunken men with lamp-posts
+[11] Kenneth Arrow's WWII forecast anecdote (useless forecasts "needed" for planning)
+[12] DARPA's "terrorism futures" market (Policy Analysis Market) shut down in 2003
+[13] Intrade forced to bar U.S. users due to CFTC regulation (2012)
+[14] CFTC withdrawing PredictIt's no-action letter (2022)
+[15] John K. Galbraith (attrib./Ezra Solomon) on economic forecasting vs. astrology
+[16] U.S. Weather Bureau's ban on the word "tornado" (1887–1950)
+[17] Another nod to Barnett Cocks on committee-induced strangulation of ideas
+[18] John K. Galbraith (attrib./Ezra Solomon) on economic forecasting vs. astrology
+[19] U.S. Weather Bureau's ban on the word "tornado" (1887–1950)
+[20] Another nod to Barnett Cocks on committee-induced strangulation of ideas

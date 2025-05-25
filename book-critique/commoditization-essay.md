@@ -12,7 +12,13 @@ The book's logic centers on the idea that commoditization drives innovation by:
 
 ## The Bird Game: A Case Study in Commoditization
 
-The Bird Game at CrunchDAO provides a concrete example of how prediction components can be commoditized. The game challenges participants to track the location of a dove while a falcon hunts it, using probabilistic forecasting to predict the dove's future position. While presented as a game, the "dove" typically represents a financial time series of material significance, making this a practical test bed for financial prediction systems.
+The Bird Game at CrunchDAO provides a concrete example of how prediction components can be commoditized. The game challenges participants to track the location of a dove while a falcon hunts it, using probabilistic forecasting to predict the dove's future position. While presented as a game, the "dove" typically represents a financial time series of material significance, making this a practical test bed for financial prediction systems. The dove might represent:
+- Stock price movements of major indices or individual securities
+- Cryptocurrency exchange rates
+- Foreign currency pairs
+- Commodity prices
+- Interest rate changes
+- Market volatility measures
 
 ### System Architecture
 
