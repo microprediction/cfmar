@@ -1,0 +1,39 @@
+\begin{tikzpicture}[
+plain/.style={
+  draw=none,
+  fill=none,
+  },
+net/.style={
+  matrix of nodes,
+  nodes={
+    draw,
+    circle,
+    inner sep=8.5pt
+    },
+  nodes in empty cells,
+  column sep=0.6cm,
+  row sep=-11pt
+  },
+>=latex
+]
+\matrix[net] (mat)
+{
+|[plain]| \parbox{1cm}{\centering Data \& \\ models} & |[plain]| \parbox{1cm}{\centering Compensated\\ ensembling} & |[plain]| \parbox{1cm}{\centering Oracle\\ contest} \\
+& |[plain]| \\
+|[plain]| & \\
+& |[plain]| \\
+|[plain]| & |[plain]| \\
+& & \\
+|[plain]| & |[plain]| \\
+& |[plain]| \\
+|[plain]| & \\
+& |[plain]| \\
+};
+\foreach \ai in {2,4,...,10}
+{\foreach \aii in {3,6,9}
+  \draw[->] (mat-\ai-1) -- (mat-\aii-2);
+}
+\foreach \ai in {3,6,9}
+  \draw[->] (mat-\ai-2) -- (mat-6-3);
+\draw[->] (mat-6-3) -- node[above] {3:37:26} +(2cm,0);
+\end{tikzpicture}

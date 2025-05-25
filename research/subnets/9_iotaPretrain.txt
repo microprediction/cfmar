@@ -1,0 +1,74 @@
+# iotaPretrain (Subnet 9)
+Description: Trains and evaluates language models on the Falcon Refined Web dataset. Miners train models and publish to Hugging Face. Validators test models against random Falcon samples.
+
+Primary Function: Foundation model pretraining and evaluation
+
+Key Features:
+- Model training on Falcon Refined Web dataset
+- Continuous benchmark evaluation
+- Hugging Face model publishing
+- Weights & Biases logging
+- Yuma Consensus reward mechanism
+
+Built By: Macrocosmos
+GitHub: https://github.com/macrocosm-os/pretraining
+
+Team:
+- Model training specialists
+- Evaluation experts
+- Infrastructure engineers
+
+Additional Info:
+- Miners train models and publish to Hugging Face
+- Validators download and evaluate models against Falcon dataset
+- Results logged to Weights & Biases
+- Rewards based on model performance
+- Uses Yuma Consensus for weight aggregation
+
+Subnet 9, known as Macrocosmos, is a decentralized network within the Bittensor ecosystem dedicated to the pretraining of large language models (LLMs). Its primary objective is to provide high-quality, foundational models that serve as the basis for specialized applications in other subnets.​
+macrocosmos.ai
++2
+GitHub
++2
+guide.macrocosmos.ai
++2
+
+Miners in Subnet 9 are responsible for training and publishing pretrained models. They utilize the Falcon Refined Web dataset to train models under a specified parameter limit, aiming to achieve the lowest loss on randomly sampled pages from the dataset. Once trained, miners publish their models to platforms like Hugging Face and commit the metadata to the Bittensor blockchain, making them accessible for evaluation and use within the ecosystem.​
+Binance
++3
+GitHub
++3
+Hugging Face
++3
+
+Validators play a crucial role in assessing the quality of the pretrained models provided by miners. They download the models from platforms like Hugging Face and evaluate them against the Falcon dataset, setting weights based on the performance of each model. These evaluations are logged to platforms like Weights & Biases and contribute to the consensus mechanism that determines the distribution of rewards within the subnet.​
+GitHub
+
+The incentive mechanism within Subnet 9 is designed to reward miners for producing high-quality pretrained models. Miners receive rewards based on the performance of their models as evaluated by validators, with the most effective models receiving the highest rewards. This competitive environment encourages continuous improvement and innovation in model training, contributing to the advancement of foundational AI capabilities within the Bittensor ecosystem
+
+
+
+
+In Subnet 9, known as Macrocosmos, the validation process is designed to ensure that miners' pretrained models meet high standards of quality and performance. Validators assess the models based on specific criteria and assign scores that influence the distribution of rewards.​
+
+Validators in Macrocosmos evaluate miners' models by downloading them from platforms like Hugging Face and testing them against the Falcon dataset. They assess factors such as the model's ability to generate accurate embeddings and its efficiency in processing data. The evaluation process involves comparing the model's outputs to a set of ground truth data to determine its performance.​
+
+An example of this evaluation process can be seen in the Optical Character Recognition (OCR) subnet tutorial. In this example, a subnet validator generates a synthetic invoice document and sends it to multiple subnet miners. The miners extract information from the document, and the validator compares their responses to the original content. The validator then scores each miner based on the accuracy and completeness of their responses, using the original document as the ground truth. This process ensures that only high-quality models are rewarded.​
+blocmates. | Crypto News & Information
++4
+Docs Home | Bittensor
++4
+Subnet Alpha
++4
+
+The scores assigned by validators are aggregated using the Yuma Consensus algorithm, which considers the evaluations of multiple validators to determine the final reward distribution. This system encourages validators to provide accurate assessments and discourages collusion or manipulation. Validators with consistent and reliable evaluations build trust within the network, leading to higher rewards and greater influence in the validation process.​
+macrocosmos.ai
++7
+Mirror
++7
+Docs Home | Bittensor
++7
+
+In summary, the validation process in Macrocosmos involves a rigorous assessment of miners' pretrained models against established benchmarks. Validators play a crucial role in ensuring the quality of the models and maintaining the integrity of the network. Their evaluations directly impact the rewards distributed to miners, incentivizing the development of high-quality models within the Bittensor ecosystem
+
+

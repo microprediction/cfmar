@@ -1,0 +1,23 @@
+# zayinTao (Subnet 7)
+Description: Processes natural language data. Miners analyze text and generate embeddings. Validators verify embeddings and measure quality.
+
+![zayinTao Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/zayintao_arch.png)
+*Architecture diagram showing text processing and embedding generation flow*
+
+Built By: zayinTao Labs
+GitHub: https://github.com/opentensor/zayintao-subnet
+
+Team:
+- NLP specialists
+- Embedding experts
+- Text engineers
+
+Additional Info:
+- Processes text data
+- Generates text embeddings
+- Evaluates embedding quality
+- Tracks semantic metrics
+- Rewards based on embedding quality
+
+![zayinTao Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/zayintao_perf.png)
+*Performance metrics showing embedding quality across different tasks* 

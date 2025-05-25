@@ -1,0 +1,23 @@
+# shiinChutes (Subnet 64)
+Description: Processes hardware acceleration tasks. Miners provide specialized hardware. Validators distribute tasks and verify results.
+
+![shiinChutes Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/shiinchutes_arch.png)
+*Architecture diagram showing hardware acceleration and task verification flow*
+
+Built By: Rayon Labs
+GitHub: https://github.com/rayonlabs/chutes
+
+Team:
+- Hardware acceleration specialists
+- Task optimization experts
+- Compute engineers
+
+Additional Info:
+- Manages hardware resources
+- Distributes acceleration tasks
+- Verifies task completion
+- Tracks hardware utilization
+- Rewards based on acceleration quality
+
+![shiinChutes Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/shiinchutes_perf.png)
+*Performance metrics showing hardware utilization and task completion rates* 

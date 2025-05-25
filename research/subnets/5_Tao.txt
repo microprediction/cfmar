@@ -1,0 +1,23 @@
+# Tao (Subnet 5)
+Description: Processes financial market data. Miners analyze market data and make predictions. Validators verify predictions and track accuracy.
+
+![Tao Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/tao_arch.png)
+*Architecture diagram showing market data processing and prediction flow*
+
+Built By: Tao Labs
+GitHub: https://github.com/opentensor/tao-subnet
+
+Team:
+- Financial data specialists
+- Market analysis experts
+- Prediction engineers
+
+Additional Info:
+- Processes market data feeds
+- Generates market predictions
+- Evaluates prediction accuracy
+- Tracks performance metrics
+- Rewards based on prediction quality
+
+![Tao Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/tao_perf.png)
+*Performance metrics showing prediction accuracy over time* 

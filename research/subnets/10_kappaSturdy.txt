@@ -1,0 +1,47 @@
+# kappaSturdy (Subnet 10)
+Description: Processes distributed computing tasks. Miners provide GPU resources. Validators distribute tasks and verify results.
+
+![kappaSturdy Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/kappasturdy_arch.png)
+*Architecture diagram showing distributed computing task flow*
+
+Built By: kappaSturdy Labs
+GitHub: https://github.com/kappasturdy-labs/kappasturdy
+
+Team:
+- Distributed computing specialists
+- GPU optimization experts
+- Task scheduling engineers
+
+Additional Info:
+- Manages GPU resources
+- Distributes compute tasks
+- Verifies task completion
+- Tracks resource utilization
+- Rewards based on performance
+
+![kappaSturdy Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/kappasturdy_perf.png)
+*Performance metrics showing GPU utilization and task completion rates*
+
+Subnet 10, known as MapReduce, is a decentralized network within the Bittensor ecosystem focused on optimizing the distribution and aggregation of large datasets across a network of peers. Its primary objective is to enhance the efficiency of data processing tasks by leveraging the collective bandwidth and memory resources of participating nodes.​
+Binance
++2
+AI-Managed Crypto Portfolios
++2
+GitHub
++2
+GitHub
+
+Miners in Subnet 10 are responsible for participating in the map-reduce operations by distributing and aggregating data. In the map phase, miners receive chunks of large datasets, process them, and forward the results to other miners. In the reduce phase, miners aggregate the processed data from multiple sources to produce a final output. This collaborative approach reduces the bandwidth and memory requirements for individual nodes, enabling the processing of large-scale data tasks in a decentralized manner.​
+AI-Managed Crypto Portfolios
+
+Validators play a crucial role in ensuring the integrity and efficiency of the map-reduce operations. They monitor the performance of miners, verifying that data is correctly distributed and aggregated. Validators assess factors such as the speed and accuracy of data processing, ensuring that the network operates optimally. Their evaluations influence the rewards distributed to miners, incentivizing high-quality contributions to the network.​
+GitHub
++1
+X (formerly Twitter)
++1
+
+The incentive mechanism within Subnet 10 is designed to encourage efficient and reliable participation in the map-reduce operations. Miners receive rewards based on their performance, as determined by validators' assessments. This system promotes the development of a robust and scalable network capable of handling large-scale data processing tasks efficiently.​
+X (formerly Twitter)
+AI-Managed Crypto Portfolios
+
+In summary, Subnet 10 addresses the challenge of processing large datasets by creating a decentralized platform where miners collaborate to distribute and aggregate data, and validators ensure the quality and efficiency of these operations. Through its structured approach and incentive mechanisms, Subnet 10 contributes to the advancement of decentralized data processing capabilities within the Bittensor ecosystem

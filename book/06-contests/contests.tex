@@ -1,0 +1,251 @@
+\chapter{Contests}
+\label{chapter:crowd}
+
+The ability to automatically assess statistical algorithms (given enough data) is central to the prediction web thesis. This chapter considers the empirical evidence provided by data science contests - and some theory it appears to violate. 
+
+
+\section{A gap to fill?}
+
+The rise of automated model assessment is due largely to the expanding domain of problems. However, it is also possible that a related shortage of talent plays a role. Back in 2011, McKinsey estimated a shortfall of skilled talent between $140,000$ and $190,000$ in the U.S. market alone.\endnote{\cite{mckinsey11}} 
+
+In 2020 the same organization featured a very different analysis (by different authors, I add) questioning whether companies still needed to hire a large contingent of data scientists to build machine learning models. The reason? Automated machine learning was coming to the fore.\endnote{\cite{mckinsey20}}
+
+Both perspectives may lean too heavily on the centrality of employer employee relationships in the orchestration of labor (something that might radically change in a world flooded with hungry micro-managers). Other styles of clearing demand and supply for data and analytics might play a part too. Data science bazaars and boutique platforms are hoping to address this need, for example.\endnote{\cite{forrester16}}
+
+Application programming interface (API) marketplaces provide examples of a storefront model, insofar as they represent attempts to help suppliers of analytics push models out to those who want them. Data scientists can easily create microservices and charge customers for usage, analogous to an app store. The end-consumers are programmers. 
+
+\section{Data science contests}
+
+Closer to our topic is the idea of removing the burden of search, and sometimes even choice, from the person who needs the analytics. After all, the oracle hopes to serve bespoke data science needs from the perspective of an end user, one not necessarily possessing the time or ability to search the enormous space of models, data and services.
+
+In domains where automatic assessment of modeling quality is possible (for example where there is enough data to run a contest) there is no theoretical reason why algorithms cannot draw solutions to problems. (Whether you consider data science contests in their current manifestations to be automated is beside the point). In this regard, contest sites listed in Table \ref{tab:contests} should be relevant to us. And there are many more competitive communities.\endnote{Other competitive sites more focused on evaluation of participants, (rather than solving industry problems) include Hackerearth, Interviewbit, Hackerrank, CodeGround, Codeforces, Sphere Online Judge, UVA online judge and Code Chef. These collectively add another million or so users. Numbers have increased substantially since compilation or the date of sources used. I was not able to find estimates for some notables such as WorldQuant, Numerai or Quantiacs, and apologize for any omissions.} 
+
+Contest sites offer money for the best submissions as judged by predetermined quantitative accuracy criteria. Thereby they initiate a search in the space of possible models for a particular classification, identification or regression problem. The search might be too human oriented for our liking, thus too cumbersome and shallow (no sub-contests or recursion), but they have been successful. 
+
+\begin{table}[h!]
+\begin{tabular}{ |l|l|l| }
+\hline 
+  Platform & Registered Users & Focus \\
+  \hline
+  Kaggle & $5,000,000$\endnote{Source: https://www.kaggle.com/general/164795}  & Data science \\
+  TopCoder & $1,200,000$\endnote{Source: https://en.wikipedia.org/wiki/Topcoder} & Programming \\
+  Quantopian & $210,000$\endnote{Source: https://en.wikipedia.org/wiki/Quantopian Quantopian has ceased to operate.} & Quant trading \\
+  QuantConnect & $75,000$\endnote{Source: https://www.quantconnect.com/forum/discussions/1/interesting} & Quant trading \\
+  CrowdAnalytix & $25,000$\endnote{https://www.crowdanalytix.com/community} & Data science \\
+  \hline
+\end{tabular}
+\caption{Quantitative contest communities, past and present, and very approximate sizes.}
+\label{tab:contests}
+\end{table}
+
+Let's be somewhat broad in our conception of a data science contest. It is not absolutely necessary that contestants' work be contemporaneous, or that they meet a deadline, or be directly rewarded with prizes. There is a phrase for a slight generalization of the contest: the Common Task Framework (CTF), courtesy of Marc Liberman. The essential elements would appear to be:
+
+\begin{enumerate}
+\item A publicly available training dataset involving, for each observation, a list of (possibly many)
+feature measurements, and a class label for that observation.
+\item A set of enrolled competitors whose common task is to infer a class prediction rule from the
+training data.
+\item A scoring referee, to which competitors can submit their prediction rule. The referee runs the
+prediction rule against a testing dataset which is sequestered behind a Chinese wall. The
+referee objectively and automatically reports the score (prediction accuracy) achieved by the
+submitted rule.\endnote{The description of the Common Task Framework echos Donoho \cite{Donoho201550Science}. }
+\end{enumerate}
+
+The CTF has spurred advances in machine learning by intensifying academic competition on standardized datasets - such as the MINST handwritten digit database. But yes, cash seems to help. The KDD Cup and the million dollar Netflix Prize posed genuinely difficult research problems. Money augmented the scientific incentives rather well.\endnote{ \cite{Stolfo1999KDDDataset}  \cite{Bennett2007ThePrize}}  
+
+Then along came Kaggle and industrialized the data science contest. Kaggle touts AllState's use of crowd-sourcing to improve their actuarial models as a notable success story. Their competition attracted six hundred data scientists and three hundred teams fighting over \$10,000 in prizemoney. The contestants easily out-predicted Allstate's internal experts drawn from their actuarial department - which has a strong reputation.\endnote{Kaggle reported a 340 percent accuracy improvement, which sounds good, even if I can't help you parse that number.}
+
+General Electric reported similar gains when, in 2012, they offered a \$500,000 prize for prediction of airline flight arrival times. Close to 4,000 separate algorithms were entered and the crowd obliterated the industry benchmarks - reducing average error from $4.2$ to $3.2$ minutes.\endnote{\cite{geflight}}   
+
+These contests have also brought out the importance of cognitive diversity, and the difficulty in predicting ahead of time who is likely to win. In the flight arrival time contest, the winning team comprised a French actuary and several data scientists in Singapore, with second place falling to an epidemiologist working with a banking analyst (not unlike the results of a J.P. Morgan contest mentioned in Chapter \ref{chapter:mental}, won by a junior operations employee in Mumbai.\endnote{\cite{Cotton2019SelfProtocol}})
+
+Empirically, it isn't always necessary to offer a lot of money to benefit from remarkable insights. TopCoder reports a contest to devise a fast algorithm for DNA sequence alignment. It only took \$6,000 in prizemoney and two weeks to drive the best performance from $400$ seconds down to $16$ seconds. 
+
+What's more remarkable about that achievement is that Harvard University had previously invested a man year to get to the $400$ second result, as compared with the previous open-source benchmark of $2000$ seconds.\endnote{
+The TopCoder case study seems no longer to be available. Here is an extract originally taken from the TopCoder web site.
+\begin{quotation}
+Harvard Medical School enlisted TopCoder to help find a faster, more accurate solution for a tool that calculates the edit distance between a query DNA string and the original DNA string. This is critical for making high-precision, high-throughput readouts of the immune system. Prior to the TopCoder contest, the best known solution, MegaBLAST, processed 100,000 sequences to a high degree of accuracy, yet required $2,000$ seconds to execute. A full-time, Harvard resource that spent a year on this unique problem was able to produce an improved outcome, reducing the computational time to $400$ seconds.
+
+With \$6,000 in total prize money, $733$ registrants and $122$ members submitting working algorithms, TopCoder provided HMS with a winning solution that performed hundreds of times faster and at a higher degree of accuracy, reducing the time to execution to just over 16 seconds.  
+\end{quotation}}
+
+Now ``kaggler'' is a lowercase word, and it is clear that the coalescing of millions of data scientists around problems of economic, civic and scientific importance is an important achievement. There are evidently tantalizing possibilities rooted in something as simple as a contest, never mind other kinds of automated means of eliciting and rewarding contributions that the reader might devise. 
+
+\section{Forecasting contests}
+
+
+Some of the contests therein could be called forecasting or prediction contests. This may seem like a fine line to draw because when a sequence of past values is used to predict a future one, it is easily viewed as a general regression problem. 
+
+
+However due to data leakage challenges, the automated assessment of algorithms that forecast time-series comes with its own special wrinkles (as I discovered when arranging one of the earlier time-series contests to run on Kaggle). 
+
+
+Time-series competitions have a very long history. The most successful series is known as the M-Competitions. The M is shorthand for Spyros Makridakis, who has organized the contests over a forty year period. A report of that first competition, in which only seven forecasting experts participated, was already informative. 
+\begin{quote}{\cite{Makridakis1979AccuracyInvestigation}}
+   Finally, it seems that seasonal patterns can be predicted equally well by both
+simple and statistically sophisticated methods. This is so it is believed, because of the instability of
+seasonal variations that dominate the remaining of the patterns and which can be forecast.
+\end{quote}
+Thus we see the automated assessment of algorithms serving as a possible antidote to fashion (those who worry about trend-chasing in analytics today should be aware it is not a new issue). At the time it was an important step to have multiple researchers perform independent work, rather than have one researcher compare different methods themselves. 
+
+Building on that long history of competitions, Makridakis, Fry, Petropoulos and Spiliotis have recently laid out some design principles for future forecasting contests, drawing also on the opinions of other forecasting experts such as Rob J Hydnman.\endnote{\cite{futureofforecasting}} 
+
+
+The authors suggest that contests should solicit both predictions and measures of uncertainty (with an example being a full distributional estimate). And for forecasting contests to serve the maximal learning purpose, they should include a wide diversity of data sources. 
+
+To combat data leakage, the authors suggest the possibility of rolling contests, where more data is revealed in stages, or live contests. They also point to the emerging importance of short-term and higher frequency prediction to industry. Even more pertinently, the authors note that: 
+\begin{quote}{\cite{Makridakis1979AccuracyInvestigation}}
+   ... in the era of big data and instant access to many publicly available sources of information, participants are usually in a position to gather the required data by themselves, but also to complement their forecasts by using any other publicly available information.
+\end{quote}
+These considerations strongly suggest eliciting {\em diverse, frequently updated, live, distributional} forecasts - as with the collider discussed in Chapter \ref{chapter:mental}.\endnote{A longer response to the future of forecasting paper can be found 
+in \cite{futureofforecastingaccording}.}   
+
+
+\section{The secret sauce ...}
+
+Automatic assessment of quantitative work has its limitations, and may even seem distasteful in some respects, given the seeming inversion of control between the human and machine. To automatically assess work is to subvert the generalized intelligence of the modeler, it might be argued, or restrict their ability to contribute. 
+
+It isn't a new topic, and it is certainly the case that some modeling insight cannot be appreciated without generalized intelligence.  
+
+Nonetheless, discerning longitudinal observers of data science, such as Stanford statistician David Donoho, have noted the critical role played by data science contests and the CTF as catalysts for the machine learning revolution. In his essay entitled {\em Fifty Years of Data Science} Donoho goes so far as to refer to contests as the secret sauce of prediction culture.\endnote{\cite{Donoho201550Science}} 
+
+By ``prediction culture'' the author refers to the second of two cultures in the field of statistics identified by Berkeley statistician Leo Brieman back in 2001. According to Brieman, objective measurement of performance was not a burden on the modeler. On the contrary, it was a liberating influence for engineers and computer scientists (and of course some statisticians) who created a ``second culture of statistics''. 
+
+Though the engineering approach was not new in principle (it was emphasized by John Tukey in the mid Twentieth Century, for example), it was timely and prediction culture fostered a pragmatic emphasis. It freed the modeler from the requirement of an explicit understanding of the properties of a predictive model - such as whether it would perform well on data with known statistical distribution.\endnote{See  \cite{Breiman2001StatisticalCultures} for extended discussion. I have used Donoho's ``prediction culture'' terminology as I find it more suggestive of the connection to microprediction. Brieman referred to this side of statistics as ``algorithmic modeling culture'' and to inferential statistics as ``data modeling culture''. }
+
+Brieman noted that it was generally impossible for statisticians to model the probabilistic nature of the data they were looking at. Therefore, they should be free to experiment whether or not the reasons for the good performance can be well understood.
+
+\section{... of ``data science''}
+
+The relative popularity of nomenclature (artificial intelligence, machine learning, data science) used to describe applied statistical work today testifies to the fact that Brieman's mildly heretical viewpoint was prescient. Black and grey box approaches have proven unreasonably effective. Brieman, informed by the efficacy of techniques such as random forests, saw it coming.
+    \begin{quote}{\cite{Breiman2001StatisticalCultures}}
+  The statistical community has been committed to the almost exclusive use of generative
+models. This commitment has led to irrelevant theory, questionable conclusions,
+and has kept statisticians from working on a large range of interesting current problems.
+\end{quote}
+
+Breiman was referring to the dual objectives of statistics. On the one hand, we seek to predict the future response to input in a given system no matter how we can accomplish this. On the other, we wish to infer the underlying mechanics - how nature is doing it - by building generative models which present a probabilistic definition of input and output relationships.  
+
+The author suggested that if his colleagues in statistics departments did not take up the running then others surely would.  
+\begin{quotation}
+Predictive modeling, both in theory and practice, has developed rapidly in fields outside
+statistics. 
+\end{quotation}
+Brieman, who died from cancer in 2005, unfortunately did not get to see the accuracy of his prophesy. Perhaps things have even swung too far, and certainly not all statisticians have appreciated the rebranding of their field. To compensate, at least the invasion from Computer Science, Engineering and Management departments has been accompanied with some quality snark.      
+\begin{quote}{\cite{kbroman13}}
+When physicists do mathematics, they don't say they're doing “number science”. They're doing math. 
+\end{quote}
+Setting aside the silliness of renaming things for the sake of it, it is undoubtedly true that applied predictive modeling (by whatever name) has been enriched by prediction culture, and its tinkering engineering spirit. The population of productive applied statisticians is now quite vast and few would identify as traditional inferential statisticians. 
+
+This population includes millions of students, academics, hobbyists, freelancers, and relative newcomers to applied statistics looking to upskill and be more effective in their daily jobs. 
+
+Brieman emphasized a dichtomy of statistical approach to problems - algorithmic methods versus inferential statistical tools. Donoho emphasized the importance of contests to one tribe in particular, machine learning researchers. Both authors delineate a cultural line. On one half of the line lies black box and grey box statistical techniques. On the other more ``conventional'' tools for statistical inference.
+
+In contrast, I have emphasized a different but obviously related line - one drawn between problem domains, not methods of attacking the same problem. That divide is prediction versus microprediction, in my terminology. 
+
+On one side of our line we have problems such as predicting climate change. (The use of crowd-sourcing is already successful there too, but requires human-centric infrastructure.\endnote{\cite{Introne2011ThePlanning}}) 
+
+On the other side lies microprediction: how many kit-kats will be sold in the next hour in one of a thousand vending machines scattered across a state. There, the discussion in Chapter \ref{chapter:oracles} suggests a bare-bones contest attack can not only serve research purposes, but also production.     
+
+We need not debate whether a division of statistical technique versus a division of statistical problems is more profound or of superior explanatory power when it comes to understanding the changing demographics (and terminology) of the field. It should suffice to observe that the rise of ``data science'' is {\em correlated} with a deluge of data and applications where a contest, or the CTF, or more general mechanical ways of eliciting models (or data) can catalyze progress. 
+
+Indeed, the mundane observation of most relevance to us is that modeling tasks permitting automated assessment are simply much more prevalent than they used to be. We'd expect this to be correlated with a proliferation of open-source automated model search packages. As noted in Chapter \ref{chapter:mental} we're certainly seeing that.
+
+
+\section{Moving to real-time}
+
+By the time you read this, it is possible that the M-Competitions will be entirely real-time. Not only are veteran forecasting contest organizers suggesting this emphasis for the benefit of research, but there are even more pressing practical motivations to perform automated assessment, scoring and selection based on live data. 
+
+For although offline automated model search (as with AutoML packages) makes it easier for micro-managers to drive down the cost of discovery, marshalling and exploitation of external intelligence, this does not fully tap the ``second culture of statistics'' in a way that instantly delivers value in the present moment.
+
+In contrast, the micro-managers generalizing the pattern in Chapter \ref{chapter:oracles} can move contests from a research to a production paradigm - with major motivations:
+\begin{enumerate}
+    \item It is what business needs. Tautologically, decisions and operations occur in real-time. 
+    \item Data search is possible (as distinct from model search alone) and not regarded as cheating.
+    \item Economics drives sharing and reuse of data, models and features.
+\end{enumerate}   
+
+It almost seems odd that the use of crowd-sourced statistics has mostly been relegated to the research cycle, where it stands little chance of providing cheap ubiquitous prediction.  
+Part of the issue is that contests lure us into thinking we need an Olympics of data science with a scarcity of challenges - something obviously at odds with the ambition of solving lots of prediction problems for lots of people.   
+
+In addition we can establish frameworks where one person can eventually attack one hundred thousand different problems by unleashing a single algorithm.
+
+\section{Theoretical efficiency}
+
+That remark brings me to the issue of contest efficiency. I will close this chapter on statistical contests with a brief excursion into contest theory. My only intent is to disabuse the reader of the notion that inviting a large number of algorithms to do the same thing is wasteful. 
+
+Of course at venues like Kaggle that characterization refers only to marginal output, and not to the participant themselves. One shouldn't ignore the educational benefits of participation.
+
+Nonetheless we note that on that site the ratio of registered users to contests hovers near $10^6$. The ratio of active participants to contests is also quite large, perhaps $10^3$. The theoretical value, as we will see, is close to $10^0$, so that is quite a discrepancy! 
+
+However, algorithms that are self-guided are not subject to the seeming irrationality of humans. The theory of contests is therefore a much better guide, or at least an counterpoint, if we are looking to speculate on a future equilibrium in a prediction web occupied by hyper-rational algorithms. 
+
+A precise analysis of any given contest, or micro-manager game, is not possible without knowing exactly what the rules are. As noted in Chapter \ref{chapter:mental} there are many possibilities, and as noted in Chapter \ref{chapter:scoring}, many nuances within. 
+
+So here I will move one level of abstraction above this, and without knowing the details of what work algorithms and their authors must do, we can view contests as a special type of auction - one where everyone pays whether or not they receive the item being sold. They are paying with their time and effort.  
+
+So called all-pay auctions have attracted considerable study. As far as the likelihood of a prediction network taking off is concerned, the news is good. The main message from theory is that contests are surprisingly efficient because rational agents adjust their effort to avoid undue replication. 
+
+
+\subsubsection{Winner takes all}
+
+A standard way to model all-pay auctions is to assume that participants place a subjective value on winning, then decide how much to bid. We label the players in decreasing order of the values they place on the item, namely $v_1,v_2,\dots,v_n$. 
+
+Translating an auction into a contest, we'd say that the participant that puts in the most effort is declared the winner. Participants incur a cost per unit effort which is common to all players. They seek to maximize 
+$$
+           utility  =   expected\ \overbrace{subjective\ reward}^{v_i} - effort  
+$$
+It may seem more natural to assume that each player values winning the same (say $1$) but has a different linear relationship between effort and output. 
+$$
+           utility = expected\ \overbrace{reward}^{v=1} - effort \times \overbrace{production\ cost}^{inverse\ skill}
+$$
+Quiet reflection may convince the reader that these two games are equivalent, and thus insights from one game translate into insights to the other. 
+
+The critical assumption behind the mathematics of auction theory is that Player $1$ knows the stochastic strategy of Player $2$ and vice versa. This may be borderline plausible if the game is played many times. The behaviour of both players is devised in such a way that the other, even with this knowledge, cannot take advantage. This is the celebrated Nash Equilibrium.\endnote{\cite{vonNeumann2007TheoryBehavior}}
+
+Behaviour of participants is stochastic, for logic decrees that a deterministic strategy cannot be best. To follow such a strategy would allow another player to easily improve by investing just a little more effort. Therefore all players choose their efforts randomly.\endnote{The theoretical contest results in this chapter are from Milan Vojnovic book, where the reader can find generalizations with arguably more realistic Nash equilibria.\cite{Vojnovic2016ContestTI}} 
+
+
+\subsubsection{Two participants}
+
+Next, suppose there are only two participants. It can be shown that the player who values the prize the most will choose effort randomly and uniformly between zero and the value $v_2$ that the second player ascribes to the prize. This is somewhat intuitive. The first player knows that the second player will never invest more effort than the value $v_2$ they place on the prize, but both players need to keep the other honest. (If the second player never invested more than $\frac{1}{2}v_2$ the first player could take advantage by investing just a little more.) 
+
+Conversely, the second player needs to keep the first player as honest as possible and so will choose a random effort between zero and $v_2$ (again, to invest more would incur an obvious winner's curse). It is less obvious how that random effort should be chosen. 
+
+Give up? It can be shown that the second player will make no effort at all with probability $1-\frac{v_2}{v_1}$, where $v_1$ denotes the value the first player assigns to winning. Otherwise, the second player will also choose random effort between zero and $v_2$. 
+
+Now that we know how both players will behave, everything about the contest of interest can be calculated by integration. This includes the winning probabilities of each player, average total effort and average maximum individual effort. 
+
+
+\subsubsection{Many participants}
+
+To understand why contests are so efficient, we lean just a little further on the theory - this time imagining that there are not two players but many. 
+
+It turns out that if there are more than two participants it is likely that the two players most desirous of winning will crowd out everyone else. They will deploy the same strategy as if they only faced each other, and all the other players will give up and not invest any effort. 
+
+This finding - which may seem shocking at first - is only as accurate as the assumptions. We have assumed a high level of transparency, in particular that contestants know the value that every other contestant places on the prize (or in the equivalent game, the other participants linear relationship between effort and output). It is this knowledge which drives them to give up.\endnote{As a technicality, and very much beside the point, this reduction to two players assumes that when we rank players by their desire (i.e. subjective prize value $v_1\ge v_2\ge \dots$) there is no tie for second place. For example if all players value the prize the same (or in the equivalence game have equal ability to translate work into output) then everybody plays.} 
+
+As noted this theoretical result is very much at odds with empirical observation! Not only do more people enter contests than the Nash equilibrium result would suggest, but those that do seem to work harder. 
+
+When ruthlessly rational algorithms compete in a prediction network they {\em should} bring us {\em much} closer to the Nash equilibrium - though due to developer laziness, algorithms themselves might tend to over-participate too.
+
+But setting that aside, the welfare results for contests bode well, and suggest that the task of constructing good micro-managers might be easier than it first appears. For instance, there is seemingly no need to defend against over-participation. 
+
+\section{Summary}
+
+
+In viewing the rise of machine learning, I choose to follow the emphasis of Brieman, and also Donoho (who puts contests and the CTF in a very special place). 
+
+For different reasons, both the empirical success of data science contests and the theoretical efficiency of the same suggest that a web of micro-managers, which effects a kind of ``deep contest'' as noted in Chapter \ref{chapter:oracles}, is eventually an efficient way to source insight and data. The wisdom of the statistical crowd is well supported by the historical record. 
+
+Empirically, there is a seeming waste of human talent arising from irrational over-participation in contests. The prediction web turns that ratio on its head. One person can contribute to thousands or millions of problems, by writing a traveling micro-manager.
+
+Most contests depart from our vision of a micro-manager in that they tend to be offline, asymmetric and otherwise outside the definition of an oracle given in Chapter \ref{chapter:oracles} - though they may be converging. 
+
+Forecasting experts who have run contests for many decades suggest that achieving a diversity of live, streaming, distributional prediction contests should be an important ambition (even though this brings new challenges for participants).  
+
+
+
+
+
+

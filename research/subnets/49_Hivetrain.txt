@@ -1,33 +1,13 @@
-Subnet 49: Hivetrain
-Description: Implements distributed training systems for machine learning models, focusing on efficient resource utilization and parallel processing
-Primary Function: Distributed model training
+# Hivetrain (Subnet 49)
+Description: Automated Machine Learning (AutoML) subnet, incentivizing the development and optimization of neural network components and algorithms.
+
+Primary Function: Automated Machine Learning (AutoML)
+
 Key Features:
-- Distributed training
-- Resource optimization
-- Parallel processing
-- Model synchronization
-- Training coordination
-Built By: Hivetrain Team
-Team:
-- Distributed systems engineers
-- ML researchers
-- Resource optimization specialists
-Additional Info:
-- Focuses on distributed training
-- Implements parallel processing
-- Enables resource optimization
-- Supports model synchronization
-- Provides training coordination tools 
+- AutoML
+- Neural network optimization
+- Model evolution
+- Incentivized development
+- Collaborative AI
 
-Subnet 49, known as Hivetrain, is a decentralized AutoML (Automated Machine Learning) platform within the Bittensor network. It aims to address the challenge of creating increasingly intelligent AI models by incentivizing the development of neural network components and algorithms that surpass current state-of-the-art capabilities.​
-delegate.tensorplex.ai
-
-Miners in Hivetrain contribute by developing and providing innovative neural network components and algorithms. They engage in the process of evolving and optimizing machine learning models, utilizing a genetic language that is both evolvable and searchable with gradient methods. This approach allows for the generation of increasingly complex mathematical functions, pushing the boundaries of AI capabilities.​
-delegate.tensorplex.ai
-
-Validators play a crucial role in Hivetrain by evaluating the quality and performance of the models developed by miners. They assess the outputs based on predefined criteria, ensuring that only high-quality contributions are rewarded. This evaluation process maintains the integrity of the subnet and ensures that the models developed lead to meaningful advancements in AI.​
-delegate.tensorplex.ai
-
-The incentive mechanism in Hivetrain is designed to reward miners for their contributions to the network. Emissions of TAO tokens are distributed among miners and validators based on their performance. This distribution encourages active participation and ensures that those who contribute effectively to the network are compensated accordingly.​
-
-In summary, Hivetrain addresses the need for continuous advancement in AI by creating a decentralized platform where miners can develop innovative models and algorithms, and validators ensure the quality of these contributions. Through its incentive mechanisms and structured roles for miners and validators, Hivetrain fosters a collaborative environment that supports the growth and scalability of AI applications within the Bittensor network
+Built By: Hivetrain 

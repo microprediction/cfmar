@@ -1,4 +1,4 @@
-Subnet 4: Targon
+# deltaTargon (Subnet 4)
 Description: A specialized subnet within the Bittensor network focusing on deterministic verification and multi-modal AI processing, ensuring accuracy and reliability of AI outputs through redundant verification mechanisms and support for various data modalities.
 
 Primary Function: Deterministic verification and multi-modal AI processing with secure execution environment

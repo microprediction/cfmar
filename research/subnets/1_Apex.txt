@@ -1,26 +1,35 @@
-Subnet 1: Text Prompting
-Description: The inaugural Bittensor subnet dedicated to text generation, termed the Finney Prompt Subnetwork. It supports prompt-based neural networks like GPT-3, GPT-4, and ChatGPT in a decentralized fashion.
+# alphaApex (Subnet 1)
+Description: Runs language models for text generation. Miners host models and generate text. Validators send prompts and rate responses.
+
+![Apex Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/apex_arch.png)
+*Architecture diagram showing miners and validators in the Apex subnet*
+
+Built By: Apex Labs
+GitHub: https://github.com/opentensor/apex-subnet
+
+Team:
+- Language model specialists
+- Text generation experts
+- Infrastructure engineers
+
+Additional Info:
+- Hosts language models for text generation
+- Processes text prompts and generates responses
+- Evaluates response quality and relevance
+- Optimizes model performance
+- Rewards based on generation quality
+
+![Apex Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/apex_perf.png)
+*Performance metrics showing response quality and latency*
+
 Primary Function: Advanced language model capabilities and conversation through a decentralized network of validators and miners
+
 Key Features: 
 - Human-like conversation through roleplay and persona simulation
 - Support for multiple task types (Q&A, text summarization, code debugging, translation, math)
 - Mixture of Experts (MoE) system for specialized task routing
 - Advanced challenge generation with corrupted prompts to prevent simple internet lookups
 - String literal and semantic similarity scoring
-Built By: Macrocosmos
-Team: 
-- Will Squires (CEO) - Infrastructure and AI expert
-- Steffen Cruz (CTO) - PhD in subatomic physics, core developer
-- Pedro Ferreira - Machine Learning Engineer
-- Kalei Brady - Data Scientist
-- Sergio Champoux - Data Scientist
-- Brian McCrindle - Machine Learning Researcher
-Additional Info: 
-- Operates through a validator-miner system where validators generate challenges and miners respond
-- Uses Large Language Models (LLMs) for both challenge generation and response
-- Implements innovative techniques for human-like conversation
-- Generates synthetic datasets for fine-tuning other LLMs
-- Developing API layer for inter-subnet communication 
 
 Subnet 1, known as Apex, is a specialized decentralized network within the Bittensor ecosystem, dedicated to advancing natural language processing and inference tasks. As the inaugural subnet, Apex serves as a testing ground for innovative AI models and incentive mechanisms, aiming to push the boundaries of decentralized AI capabilities.​
 

@@ -1,20 +1,13 @@
-Subnet 48: Nextplace AI
-Description: Specializes in location-based AI services, focusing on spatial analysis and predictive location modeling
-Primary Function: Location intelligence and spatial analysis
+# Nextplace AI (Subnet 48)
+Description: Specializes in real estate price prediction and location-based AI services, focusing on spatial analysis and predictive modeling.
+
+Primary Function: Real estate price prediction and spatial analysis
+
 Key Features:
 - Location analysis
 - Spatial modeling
 - Predictive analytics
 - Geospatial data processing
-- Location-based services
-Built By: Nextplace AI Team
-Team:
-- Geospatial analysts
-- Location intelligence experts
-- Spatial data scientists
-Additional Info:
-- Focuses on location analysis
-- Implements spatial modeling
-- Enables predictive analytics
-- Supports geospatial processing
-- Provides location-based services 
+- Real estate services
+
+Built By: Nickel5 

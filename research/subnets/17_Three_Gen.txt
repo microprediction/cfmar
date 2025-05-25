@@ -1,7 +1,26 @@
-Subnet 17: Three Gen
+# ThreeGen (Subnet 17)
+Description: Generates 3D content. Miners create 3D models. Validators verify quality and track performance.
 
+![ThreeGen Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/threegen_arch.png)
+*Architecture diagram showing 3D content generation flow*
 
+Built By: ThreeGen Labs
+GitHub: https://github.com/threegen-labs/threegen
 
+Team:
+- 3D generation specialists
+- Model optimization experts
+- Quality control engineers
+
+Additional Info:
+- Processes generation requests
+- Creates 3D models
+- Verifies model quality
+- Optimizes generation speed
+- Rewards based on quality
+
+![ThreeGen Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/threegen_perf.png)
+*Performance metrics showing generation speed and quality scores*
 
 Bittensor Subnet 17, known as ThreeGen, is a specialized subnet dedicated to the decentralized generation of 3D content, aiming to democratize the creation of virtual worlds, games, and immersive experiences across AR, VR, and XR platforms. It leverages a variety of open-source 3D generative models, including Gaussian Splatting, Neural Radiance Fields, 3D Diffusion Models, and Point-Cloud approaches, to enable users to generate 3D assets through simple textual descriptions. This approach allows individuals without coding or game development experience to create complex 3D environments and assets in real-time, facilitating the development of AI-native games and immersive experiences.
 

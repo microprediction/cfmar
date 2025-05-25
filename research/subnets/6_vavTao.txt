@@ -1,0 +1,23 @@
+# vavTao (Subnet 6)
+Description: Processes time series data. Miners analyze sequences and make forecasts. Validators verify forecasts and measure accuracy.
+
+![vavTao Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/vavtao_arch.png)
+*Architecture diagram showing time series processing and forecasting flow*
+
+Built By: vavTao Labs
+GitHub: https://github.com/opentensor/vavtao-subnet
+
+Team:
+- Time series specialists
+- Forecasting experts
+- Data engineers
+
+Additional Info:
+- Processes time series data
+- Generates sequence forecasts
+- Evaluates forecast accuracy
+- Tracks prediction metrics
+- Rewards based on forecast quality
+
+![vavTao Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/vavtao_perf.png)
+*Performance metrics showing forecast accuracy across different horizons* 

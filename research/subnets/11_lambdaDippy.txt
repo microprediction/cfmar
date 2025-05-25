@@ -1,0 +1,50 @@
+# lambdaDippy (Subnet 11)
+Description: Generates character responses. Miners run character models. Validators send prompts and rate outputs.
+
+![lambdaDippy Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/lambdadippy_arch.png)
+*Architecture diagram showing character response generation flow*
+
+Built By: lambdaDippy Labs
+GitHub: https://github.com/lambdadippy-labs/lambdadippy
+
+Team:
+- Character modeling specialists
+- Response optimization experts
+- Quality control engineers
+
+Additional Info:
+- Processes character prompts
+- Generates responses
+- Rates output quality
+- Optimizes response speed
+- Rewards based on quality
+
+![lambdaDippy Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/lambdadippy_perf.png)
+*Performance metrics showing response speed and quality scores*
+
+Subnet 11, known as Dippy Roleplay, is a decentralized network within the Bittensor ecosystem focused on creating and optimizing role-playing large language models (LLMs). Its primary objective is to develop an open-source, state-of-the-art roleplay LLM by leveraging the collective efforts of the community.​
+X (formerly Twitter)
++2
+Binance
++2
+GitHub
++2
+GitHub
++1
+X (formerly Twitter)
++1
+
+Miners in Dippy Roleplay are responsible for training and fine-tuning LLMs tailored for role-playing scenarios. They utilize existing frameworks, fine-tuning techniques, or tools like MergeKit to create unique models. These models are then submitted to a shared Hugging Face pool, making them accessible for evaluation and use within the ecosystem. Miners are incentivized to continually improve their models to enhance the quality of role-playing interactions.​
+GitHub
+
+Validators play a crucial role in assessing the quality of the models provided by miners. They evaluate the models based on predefined criteria, such as coherence, creativity, and responsiveness in role-playing scenarios. Validators assign scores to the miners' models, which influence the distribution of rewards within the network. This evaluation process ensures that only high-quality models are rewarded, maintaining the integrity and usefulness of the subnet's outputs.​
+
+The incentive mechanism within Dippy Roleplay is designed to promote the continuous improvement of role-playing models. Miners receive rewards based on the quality of their models as determined by validators' assessments. This system encourages miners to refine their models and methodologies, leading to more engaging and effective role-playing experiences.​
+X (formerly Twitter)
++4
+Binance
++4
+GitHub
++4
+
+In summary, Dippy Roleplay addresses the challenge of creating high-quality role-playing LLMs by creating a decentralized platform where miners can develop models, validators assess their quality, and miners are rewarded based on performance. Through its structured approach and incentive mechanisms, Dippy Roleplay contributes to the development of advanced role-playing models within the Bittensor ecosystem

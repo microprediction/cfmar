@@ -136,3 +136,51 @@ Medium
 The mechanism of Subnet 27 operates on a decentralized and incentive-based model. Miners and validators are rewarded with TAO tokens based on their contributions and performance. The subnet employs a competitive environment where miners strive to produce high-quality simulations, and validators ensure that the generated data meets the necessary standards. This system fosters innovation and excellence within the subnet, driving the development of advanced computing capabilities.​
 
 In summary, Ni Compute addresses the challenge of providing scalable and efficient computational resources for AI tasks by creating a decentralized platform that enables resource sharing across various cloud platforms. By leveraging distributed computing resources and a decentralized network of miners and validators, Subnet 27 aims to advance the development of AI technologies, making high-performance computing accessible to a broader audience
+
+# S&P 500 Oracle (Subnet 27)
+Description: Predicts market movements. Miners analyze market data. Validators verify predictions and track accuracy.
+
+![S&P 500 Oracle Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/sp500oracle_arch.png)
+*Architecture diagram showing market prediction flow*
+
+Built By: S&P 500 Oracle Labs
+GitHub: https://github.com/sp500oracle-labs/sp500oracle
+
+Team:
+- Market analysis specialists
+- Prediction optimization experts
+- Data processing engineers
+
+Additional Info:
+- Processes market data
+- Generates predictions
+- Tracks prediction accuracy
+- Optimizes analysis speed
+- Rewards based on accuracy
+
+![S&P 500 Oracle Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/sp500oracle_perf.png)
+*Performance metrics showing prediction accuracy and analysis speed*
+
+# Neural Internet (Subnet 27)
+Description: Provides distributed computing resources. Miners offer GPU/CPU power. Validators verify resources and track performance.
+
+![Neural Internet Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/neuralinternet_arch.png)
+*Architecture diagram showing distributed computing resource flow*
+
+Built By: Neural Internet Labs
+GitHub: https://github.com/neuralinternet-labs/neuralinternet
+
+Team:
+- Distributed computing specialists
+- Resource optimization experts
+- Infrastructure engineers
+
+Additional Info:
+- Manages compute resources
+- Verifies hardware capabilities
+- Tracks resource utilization
+- Optimizes allocation
+- Rewards based on performance
+
+![Neural Internet Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/neuralinternet_perf.png)
+*Performance metrics showing resource utilization and task completion rates*

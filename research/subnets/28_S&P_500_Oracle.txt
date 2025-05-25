@@ -1,24 +1,26 @@
-Subnet 28: S&P 500 Oracle
-Description: Specializes in S&P 500 market analysis and prediction, providing insights into market trends and investment opportunities
-Primary Function: Market analysis and prediction
-Key Features:
-- Market analysis
-- Trend prediction
-- Investment insights
-- Risk assessment
-- Performance tracking
-Built By: S&P 500 Oracle Team
-Team:
-- Market analysts
-- Financial experts
-- Risk assessment specialists
-Additional Info:
-- Focuses on market analysis
-- Implements trend prediction
-- Enables investment insights
-- Supports risk assessment
-- Provides performance tracking tools 
+# S&P 500 Oracle (Subnet 28)
+Description: Predicts market movements. Miners analyze market data. Validators verify predictions and track accuracy.
 
+![S&P 500 Oracle Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/sp500oracle_arch.png)
+*Architecture diagram showing market prediction flow*
+
+Built By: S&P 500 Oracle Labs
+GitHub: https://github.com/sp500oracle-labs/sp500oracle
+
+Team:
+- Market analysis specialists
+- Prediction optimization experts
+- Data processing engineers
+
+Additional Info:
+- Processes market data
+- Generates predictions
+- Tracks prediction accuracy
+- Optimizes analysis speed
+- Rewards based on accuracy
+
+![S&P 500 Oracle Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/sp500oracle_perf.png)
+*Performance metrics showing prediction accuracy and analysis speed*
 
 Subnet 28, known as the Foundry S&P 500 Oracle, is a decentralized financial prediction platform within the Bittensor network. Its primary focus is to incentivize miners to forecast the S&P 500 index's price at specific future timestamps during U.S. market trading hours.
 

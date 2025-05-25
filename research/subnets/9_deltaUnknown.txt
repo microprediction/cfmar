@@ -1,0 +1,23 @@
+# deltaUnknown (Subnet 9)
+Description: Processes unknown tasks. Miners handle experimental workloads. Validators verify results and track metrics.
+
+![deltaUnknown Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/delta_arch.png)
+*Architecture diagram showing experimental task processing flow*
+
+Built By: delta Labs
+GitHub: https://github.com/delta-labs/unknown
+
+Team:
+- Experimental task specialists
+- Workload optimization experts
+- System engineers
+
+Additional Info:
+- Processes experimental tasks
+- Verifies task results
+- Tracks performance metrics
+- Optimizes workload handling
+- Rewards based on success
+
+![deltaUnknown Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/delta_perf.png)
+*Performance metrics showing task completion and success rates* 

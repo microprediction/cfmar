@@ -1,0 +1,562 @@
+\chapter{Decisions}
+\label{chapter:decisions}
+
+Is operational AI really synonymous with microprediction? 
+
+Having presented a vision for how microprediction might be collectively commoditized, I return to this assertion. My goal is to introduce the reader to {\em value functions} and {\em advantage functions} (the difference between two value functions) if you are not already familiar. I discuss how oracles change the decision game, by providing both.    
+
+Value functions are often the missing link between frequently repeated prediction and business applications. It's strange but true, however, that the PGA Tour, a golfing organization, has provided a more pedagogically useful incarnation of a value function than any of the world's well funded AI companies.   
+
+So it is without apology that I provide a non-standard introduction to oracle-based decision making that is built in large part around that old game. I won't presume the reader is versed in optimal control or reinforcement learning because you can pick up the central ideas as we go. 
+
+If you follow my mildly contrarian emphasis you might come away with a better decision engine - one that is eventually hard to beat. 
+
+\section{Conditional prices}
+
+I being with a trick every golf professional can try, the next time they are in contention but faced with a 213 yard carry to an island green from a bunker. Pull a three-wood from your bag and make a practice swing. Have your caddy check your probability of winning according to Betfair, then put the club back, pull a wedge, and see how the market reacts.
+
+(Betfair is a U.K. based betting exchange that operates a central limit order book. Market implied probabilities of a player winning a tournament can readily be inferred in real-time.)
+
+In our examples we'll be swapping out the betting market for a microprediction oracle, but that's a detail. What's more important is that Betfair pundits are being tricked into answering a {\em conditional} question - though this particular stunt might not work repeatedly. We'll come to view the probability of winning the tournament as an example of a {\em value function}, and the change as indicative of an {\em advantage function}.  
+
+Perhaps you think I'm being cute but actually, the only thing special about this club selection example is that a live market exists for golf outcomes, whereas competitive prediction does not exist for the vast majority of quantities of importance to industry (despite the fact that in many cases the monetary significance of decisions is as high, if not much higher).
+
+What a shame. I hope I've started to convince you that competitive live microprediction has the {\em potential} to drive diverse commercial activities - including many things not ordinarily associated with the term ``prediction'', as we saw in Chapter \ref{chapter:uses}. 
+
+That's true, to briefly revisit the thesis, if competition can be achieved in a more streamlined fashion, as discussed in Chapter \ref{chapter:mental}, and if reuse of algorithms, automated navigation of algorithms to problems, and fragmentation of tasks into smaller ones can drive down the marginal cost of repeated predictions. Then, an equilibrium can arise where accurate prediction doesn't require the kind of money we see in financial exchanges, or golf ones for that matter.   
+
+When it comes to repeated decisions, we need competitive {\em conditional} prediction because optimal decision making is a hard task. Certainly it is as open ended as any other prediction task, and also requires a search in a near-infinite space of exogenous data. 
+
+This is illustrated by the fact that the humans who might influence prices on Betfair, in this example, assimilate information of various types, such as wind, previous shots by other players, history of responding to pressure and so on. The micro-managers must do the same, on analogous problems in industry, but with the key advantage that in a near-frictionless supply chain any given micro-manager only needs to contribute part of the solution, as we discussed in Chapter \ref{chapter:mental}.     
+
+There are a few very special cases like chess where the system appears to be closed. Even there, exogenous data might matter, as I will suggest, in high stakes situations. 
+
+\section{Immediate feedback}
+
+Let's try to hold ourselves to a new, high standard in the engineering of decision systems. Let's make it a constraint that whatever we build must constantly benchmark itself against the world, eventually drawing in all relevant data and models. 
+
+We could even label it ``intelligence-free'' application development. That isn't to suggest it won't be intelligent, merely that all intelligence will be sourced externally, from the prediction network. In building it, we don't have to be clever, merely modest enough to seek help from an oracle. 
+
+Decision making is not only feasible in the presence of a microprediction web, but in some cases, very straightforward. For one can request conditional predictions such as ``What will $X$ be if I make choice $C_1$?'' where $X$ is some measure of our well being. One is free to ask the oracle many such questions, within reason, for different choices $C_1,\dots,C_n$ and choose the action resulting in the highest forecast of $X$. 
+
+
+As an example, this pattern is good enough to help you find a desirable seat on the train - even if this isn't directly instrumented. I'll suppose that in the morning you stand on the platform wondering whether you are really in the best spot. Which car will be the most sparsely populated, you wonder, with both comfort and fear of COVID-19 in your thoughts? 
+
+
+As the application author, I can't ask a vague question to an oracle on your behalf. But I can send it a question like ``what is the probability that this phone will be horizontal when it next starts moving in excess of twenty miles per hour?'' That's probably a good proxy for whether you have found a seat - unless you are given to sitting on the floor in the vestible, or your legs are very long. 
+
+
+Perhaps we further assume that over many months, your phone betrays the geometry of the train platform (or other passengers' phones do, for they might be using the application too). One question could split into ten. One of those ten questions might be: ``what is the probability that your phone will be horizontal when it next starts moving in excess of twenty miles per hour {\em assuming} you walk fifty feet down the platform right now?''. 
+
+
+The action-conditional probabilities that are returned by the oracle can then influence your decision making. The accuracy of these predictions will depend on how routinely you use this application, and how often other people do. Most of the conditional outcomes cannot be assessed - only the one you choose. But over time, it is still conceivable that your chance of getting a seat will improve. 
+
+
+The use of conditional prediction can be a powerful tool if, as in this example, the result of our actions will quickly become apparent. For then the result, conveyed to the oracle, provides feedback for the algorithms and people behind it. 
+
+
+Suppose you commute by car instead, and need to choose whether to take the upper or lower level of a congested bridge. To a first approximation this is one decision only. You and your quantum twin will split apart and take different paths, only to recombine quite quickly right after the bridge exit. The loop is closed. 
+
+
+Similarly, if you have the discipline to enter a rating after the fact, an oracle could choose a wine for you, or steer your Netflix binge watching. One can predict whether one style of interface will engage a potential customer more successfully than an alternative. 
+
+
+Perhaps an oracle can assign a probability of a bad reaction to a message sent via text to someone you wish to flirt with. And there are plenty of manufacturing or digital applications where an intervention is expected to have immediate effect. 
+
+
+Pandora runs a recommendation engine but it is far from perfect. You could send your personal stream of thumbs up and thumbs down to an oracle to see if it can determine if there is room for improvement. 
+
+In that example and many like it, we are predisposed to assume large companies are the best placed to perform the microprediction tasks (labeled as recommendation, quite often). However the time might come when the tables are turned and consumers keep their data locally. 
+
+{\em Eventually}, consumers might be {\em better} placed than companies because they can join their own personal information that those companies don't have (heart rates, time since use of the home coffee maker, ambient noise created by kids and so forth). They won't miss out on the predictive power of collaborative filtering or other ways to benefit from others' preferences, because they will be able to participate in collective recommendation using techniques discussed in Chapter \ref{chapter:privacy}.   
+
+\section{Delayed feedback}
+
+I won't comment further on the case where the result of an action brings immediate feedback. However, this chapter considers the difficulty that arises when the outcome is not obviously measurable, at least immediately, and when the result of that action is obscured by {\em many other subsequent actions} occurring prior to some final, unequivocal quantification of the outcome. 
+
+
+Consider the taxi driver who asks an oracle whether to turn left, continue straight, or turn right at an intersection while cruising for passengers. A conditional prediction question sent to an oracle might take the form ``How much money will I make today if I turn left''. {\em In theory} the oracle can provide slightly different responses to each question. 
+
+In practice, we can expect this to be very flawed. By placing the quantified result far in the future we have introduced so much noise into the outcome that the oracle may struggle to provide useful information. Algorithms may fail to differentiate themselves from lessor algorithms, and clearly the judging will depend on thousands of other driving decisions, not to mention exogenous factors such as the afternoon's weather, which lie in the medium term future. 
+
+This conflation of short and medium term effects might very well prevent an incremental, specialized contribution. For example, an algorithm that can process images of traffic and pedestrians, or is aware of some ``fleeting knowledge'' by other means, might helpfully steer a taxi driver towards a throng of exiting concert goers. 
+
+But, if this same algorithm doesn't possess an excellent longitudinal model for the driver's typical day, or if it isn't hooked into special event broadcasts and doesn't know about a United Nations conference on the other side of town, it's predictions might be well off. In the absence of a very clever micro-manager, its contribution may never be recognized, rewarded or encouraged. 
+
+With this in mind, an ad-hoc shorter term metric could be constructed instead. For example, we might judge the decision to turn left, right or continue straight based on fares collected in the next two minutes. Unfortunately, this introduces censoring. The driver might pick up a passenger to take them to the airport, a ride taking more than twenty minutes to complete - and that won't register a reward tied to the action. 
+
+A larger problem is that even if obvious corrections are made - such as accounting for the fact that a passenger just opened the door - other subtler biases may persist. An oracle might instruct a driver to cruise in such a way as to pick up passengers going uptown rather than downtown because the probability of pickup is higher. 
+
+
+This strategy may prove myopic, however, if there are fewer return trips likely from uptown than from downtown. A more careful evaluation would consider the value of the car's position, and how this influences the likelihood of future revenue.   
+
+\section{Value functions}
+\label{sec:value}
+
+Enter the concept of a value function. What we shall do is ask the oracle a question of the form ``What will $V$ be if I make choice $C_1$,'' where $V$ represents a miraculous measure that transforms seemingly myopic optimization into percipient forward-looking strategy. 
+
+Fortunately, the $V$ we want is entirely standard - at least in the abstract. It is the core concept underpinning techniques from dynamic programming, optimal control and (sometimes) reinforcement learning. The phrase ``value function'' has been used since at least the time of Richard Bellman. 
+
+Bellman's principle of optimality explains the role of the value function, and defines it. His principle expresses the notion that sometimes it is possible to put one foot after the other even when navigating mazes, playing poker or optimizing a micro-manager's behaviour.
+\begin{quote}{Bellman optimality principle}
+    An optimal policy has the property that whatever the initial state and initial decision are, the remaining decisions must constitute an optimal policy with regard to the state resulting from the first decision.
+\end{quote}
+The key word is state. If we are able to express mathematically the relevant features of the world that impact our decision making, and call that state, then we can talk about a value function $V$ defined on that state that is specific to our strategy and, conversely, must satisfy certain properties given that the strategy is best.  
+
+For example, the taxi driver might define state to be multi-dimensional, and include numbers such as accumulated earnings minus fuel and running costs, location, time and current passenger trip if any. The driver's value function can be defined as total cost-adjusted earnings for the day.  
+
+
+Given an accurate way to compute the expected value of this value function at any moment in time, optimizing a driver's behaviour over the course of the day could be equivalent to optimizing a single decision: whether to turn left, continue straight, turn right at the next intersection.
+
+The value function isn't given to us - it is more an aspiration towards internal consistency. It isn't always easy to formulate and refine the problem faced. The state and set of decisions will always be open to critique. 
+
+
+Perhaps the driver's set of actions might be broadened to include stopping for breaks or to conserve fuel, and where to stop. Perhaps the driver's state might include many more items such as hunger, fatigue, bladder pressure and, heaven forbid, injury.
+  
+Let's not make the perfect the enemy of the good. Sometimes ad-hoc intermediate reward functions can get the job done. And the truth is that we spend all our days, and all our careers, solving optimal control problems without knowing it. So how hard can it be?
+
+
+That's true of taxi drivers but also hospital administrators, teachers, bakers and candle-stick makers. It's definitely true of racing car drivers and athletes of all varieties, professional or amateur. Yet humans are pretty good at solving reasonably tough problems quite accurately. 
+
+
+You solve an optimal control problem when you ride a bike in a time trial. Does it make sense to up the wattage on the hills? Yes of course. You intuit one characteristic of the solution of Bellman's equation. You know to spend more energy where it hurts, pedal over the crest, and then take a breather on the way down. Humans intuit how to harvest non-linearities. 
+
+Let's say that in this cycling example the Bellman state contains four components. It is the distance travelled, lactic acid build up, your glycogen reserves, and your velocity. The value function can take these four variables and report the expected finishing time. 
+
+In this cycling example we try to get by with one space dimension and one velocity dimension but, if you are focused on a different aspect of the task - such as cycling down Alpe d'Huez without losing your life, then the state must be expanded (another spatial dimension at least - probably two). You might want to include tire wear and pressure as well.
+
+Sir Lewis Hamilton, seven time winner of the F1 World Driver's Championship, might be considered a value function genius - that is if we continue to pursue an approach to repeated decisions slanted slightly more towards control theory than reinforcement learning. 
+
+Let's consider for a split second, literally, Hamilton's decisions and their impact on the state of the car from one spot in position-velocity space to another. Bellman suggests that we don't need to wait for the end of the race to appreciate his talent. 
+
+Imagine that you are thrown into his hurtling car and allowed to drive it for one twentieth of a second. Hopefully, that is a short enough time to avoid disaster, and we'll assume that at the end of that short period, Hamilton will be reinstated as controller of the car. 
+
+What will be the impact of your temporary usurpation on Hamilton's lap time? Suppose that at the moment when he relinquishes control, his expected time to complete the lap was $13$ seconds. If you are as good as he is, that time will drop by one twentieth of a second during your stint - the same as the wall clock time elapsed. But in all likelihood it will reduce by {\em less} than one twentieth of a second.  
+
+Perhaps you failed to break quite as aggressively as he would have. Hamilton's virtual car, superimposed over ours, might appear to trail behind during that brief moment. However position on the track isn't the only determinant of expected time to lap completion. That may be an increasing function of speed - and your distance gain will be more than lost when Hamilton is forced to break harder half a second later.     
+
+Racing cars suggest quite complex value functions but in other contexts, the value function can be quite simple - at least to a first approximation. Most businesses wrestle with inventory management. The state might simply be the inventory held, to first approximation. 
+
+
+The levers they use to control inventory include purchasing decisions and pricing of their finished goods. There is a cost to holding inventory - it might be a physical storage cost or a funding cost per unit time. There is also a risk that the price of the good you store will change value. 
+
+(Adding to the nuance of inventory value functions, there is a more subtle benefit of holding inventory that works the other way. The more inventory you hold, the greater the value of the next trading opportunity. We shan't go into the weeds, but one can arrive at a ``true'' inventory cost that takes all of this into account in a sneaky, self-referential manner using Bellman's equation). 
+
+Perhaps the simplest value functions to talk about don't depend on inventory, however, but space. The NFL field of play comes close to providing a clean, single variable state (how far down the field the team has progressed) - though down counts and yards-to-go enlarge the state. 
+
+I went looking for a more ``pure'' value function on the reader's account, and you may be surprised at what I've found. 
+
+\section{The PGA Tour value function}
+\label{section:golf}
+
+The PGA Tour provides a value function for every golf course where professionals play. The construction of this wonderful collection of decision-guiding numbers begins when hardworking volunteers use position finders to record the final resting position of every golf ball hit by every player in every hole of every tournament. 
+
+Smoothing that data, the Shotlink folks estimate the average number of shots it takes a professional golfer to complete a hole from any position.\endnote{The recommended technique starts by creating an estimate on grid points using exponentially smoothed averages. Next, splines are fit to isobars to eliminate rough edges \cite{Stockl2011ModelingMethod}.} This procedure creates a function $S(\dot)$ defined everywhere on the golf course. 
+
+
+A couple of quick examples. It takes roughly $1.5$ shots to finish the hole when a professional putts from eight feet away, so the $1.5$ isobar might look very roughly like a circle with that radius around the hole. (Though as we know, greens are not flat, breaking putts are harder than straight ones, and uphill is preferred to downhill. You can imagine how the value function isobars might stretch and distort.\endnote{For a longer discussion of putting value functions see \cite{Yousefi2013AdvancedGolf}.}) 
+
+
+Now let's walk back down the fairway. On average, it might take $3.2$ shots to finish the hole when a professional plays from the left side of the $14$'th fairway, some $230$ yards from the green - we shall imagine. Similarly, we might assign a value of $2.4$ to the middle of a greenside bunker. 
+
+It is the Markovian nature of golf that allows us to use the golf course as the state. That's to say that the position of the ball captures {\em everything we need to know about what has occurred before}. That last errant shot is forgotten as the professional makes his recovery shot.\endnote{The Markov assumption for golf doesn't hold perfectly if the course is the state. For example professionals are more likely to sink a ten foot putt for par than a ten foot putt for birdie.\cite{ope2011IsStakes}}  
+
+The PGA needs an estimate of shots to finish the hole so that the granular performance assessment of every shot can be computed. This is merely a difference of those estimates, adjusted for the shot taken.
+$$
+      shot\ quality =  S(before)-S(after)-1
+$$
+This measures the number of ``shots gained'', as the Tour refers to it, relative to the average player. For example a player sinking an eight foot put gains half a shot on the field as follows:
+$$
+      shot\ quality =  \overbrace{1.5}^{S(before)}-\overbrace{0}^{S(after)}-1 = 0.5
+$$
+Conversely, missing an eight foot putt will typically constitute a shot quality of $-0.5$, unless we miss so badly as to have another eight foot putt coming back, in which case the shot quality is $-1$. 
+
+It's my understanding that at the prompting of Mark Broadie, Professor at Columbia Business School, the PGA Tour introduced this approach in order to provide fans with meaningful statistics about player performance. This was much needed. Hitting bad approach shots that narrowly miss the green had been the best way to top the putting statistics. 
+
+I'd invite you to view the shot quality metric as an intermediate reward. A distinction can be made between the number of shots to finish the hole, which I've called $S$, and the accumulated shot quality. 
+
+
+Since the difference is deterministic for a fixed number of shots (the difference is the shot count) it doesn't matter which you optimize. So I'll be loose with that distinction and feel justified in labeling the PGA Tour's approach a ``value function'', or certainly an ``intermediate reward'' technique. 
+
+I note also the tiny departure from Bellman's definition because the PGA Tour's estimated number of shots to finish the hole applies to the mythical average player - or a team formed by all tour players, under a format where a player is selected randomly to take the next shot. But we'll return to that momentarily. 
+
+\section{Three wood or driver?}
+
+Setting player statistics aside, the real reason we need value functions is not to passively measure performance but to change the actions we take. I'd suggest that even the wisest of golfers might benefit. 
+ 
+Phil Mickelson became the oldest winner of the PGA Championship in 2021. In theory, he should by now be the wisest golfer in the PGA - capable of nearly-optimal course management. (Okay, not exactly his reputation). 
+
+When Mickelson teed off on the final hole of the 2006 U.S. Open Championship needing only a par to win, things didn't go so well. Mickelson's errant drive set up a tragic chain of events ending in a double bogey that allowed Geoff Ogilvy to win. Mickelson's club selection on the tee would draw criticism subsequently - mostly from Mickelson himself. 
+\begin{quotation}
+  I just can't believe that I did that. I am such an idiot. I can't believe I couldn't par the last hole. It really stings.
+\end{quotation}
+Sports Illustrated covered the tragedy under the headline ``The Crack-up''.\footnote{\cite{sports06}}
+
+Poor Phil! But he makes for a good value function illustration. And we ask, in generality, do golfers choose their clubs correctly? (This decidedly first world problem might not be worth the reader's time, I reiterate, had the PGA Tour not invested more heavily in control theory pedagogical devices than all the world's machine learning research groups.)
+
+So Phil can turn to the value function - the one defined for every spot in the rough or the fairway, every grain of bunker sand and every playable or unplayable position a ball may come to rest - be it behind a tree or in the ball-washer. Phil could have used the hidden accounting measure for golf that provides the immediacy required to make decisions. 
+
+Every club and shot choice can be evaluated by imagining thousands of swings with that club, and then averaging the value function at the final resting place of the ball. A few of those imagined shots are in the lake, but most are not. Nobody's suggesting that this mental integration is trivial.\endnote{A Monte Carlo model for golf shots is considered in \cite{Broadie2009AScores}.} But at least we only have to simulate one shot. That key simplification is provided by the value function.
+
+Indeed if you want to understand the link between microprediction and business optimization, you need only imagine Phil looking through a range finder and seeing a course lit up with value function numbers - not yardages. It borders on a restatement of Bellman's optimality principle to say that the value function does the looking forward for Phil, so he doesn't have to. 
+
+It puts a new spin on the age old golf adage: ``one shot at a time.'' 
+
+
+\section{A bespoke value function}
+\label{sec:caddy}
+
+As far as convincing you power of oracles goes, we could potentially stop here. After all you can ask the oracle to predict the Tour's value function after your shot, if you are the average Tour player. 
+
+But that would be only half the story, as we'll see. And it would considerably undersell the options at your disposal when the world fills with microprediction oracles. It would also leave you with the problem of constructing your own value functions. Unfortunately the PGA Tour data scientists - as good as they no doubt are - are rather too busy to create a special one for whatever small business you happen to run. 
+
+So let's dig a little deeper, starting with the observation that at the end of the tournament, Phil also needs a tailored value function - just like you.   
+
+Indeed I used a little sleight of hand in that last example because Phil Mickelson's end-game problem is not the mean shot quality maximization task for which the PGA's value function is designed. He needs to take into account his personal monetary and non-monetary payoff of winning, and the end is too close to get away with a linearity assumption.  
+
+Phil's value function will be driven by his utility function, to rephrase, which is rather complex I am sure. In 2006 it related in some small way to the prizemoney from finishing first outright (par or better), entering a two man playoff (bogey) or tie for second (double bogey) and so forth.
+
+In the interest of a more precisely calculated last hole strategy, what Phil needs to do is replace the PGA Tour's value function with a slightly different function $W$ defined on a slightly different state space - one that includes both the number of shots taken as well as the position of the ball. 
+
+We might visualize Phil's augmented state space as a multi-deck golf course - a little like a multi-storey parking garage. Each floor is labelled with a number indicating the shots taken thus far - from zero to four. You can visualize Phil hitting from one floor to the floor directly above each time, advancing the ball down the course but also up a level. 
+
+What values should he see through his range finder? Reading Phil's reaction, I will assign a value of $1.0$ to winning the tournament but negligible rewards for anything else. Then $W$ stands for ``win'' and if so, that eight foot putt on level three would be marked as $0.7$ because the odds of making the par putt are roughly fifty fifty (but he could also win in a play-off.)
+
+And so it goes. The same putt one floor up is marked $0.2$ because we assume a fifty percent chance of Phil winning a three-way playoff. And to round it out, the same putt on floor two would be marked $0.995$ because a professional needing a two putt to win a major will lag the putt, not try to make it. Even Phil. 
+
+Phil's work is cut out for him. He needs to work backwards from those easily computed values and determine his value function on approach shots, and all the way back down the fairway. Oh yes, he better compute the value behind a tree too. 
+
+Only then, standing on the floor zero tee box, Phil can look at the values taken by $W$ on the first floor of the golf course. He can consider the spray of his driver and three wood respectively. Or he can ask an oracle. 
+
+\begin{enumerate}
+    \item Dear oracle. What, on average, will my value function $W$ be {\em after my shot} if I choose three wood?
+    \item Dear oracle. What, on average, will my value function $W$ be after my shot if I choose driver?
+\end{enumerate}
+Phil has still done the work to estimate $W$, but at least he is spared the integration over all possible trajectories of driver and three wood. 
+ 
+\section{Oracle defined value}
+
+Next, we're going to make Phil's life even easier. 
+
+What if Phil let's the oracle {\em define} the value function? After all $W$ is a mean of a future quantity, so an oracle can tell Phil that. Let's denote by $\tilde{W}$ an oracle prediction of $W$ at the end of the tournament. 
+
+
+Notice here that the only data input is how much Phil hates to lose. All that value function work done by him (analogous to the PGA Tour's work computing $V$) is now unnecessary.  
+
+In this thought experiment we imagine algorithms behind the oracle using perturbations of the PGA's value function, ideally with access to the same data but taking the analysis further. They might also reach out to exogenous sources of data, meteorological or otherwise. 
+
+If we're fortunate, data going back fifteen years might still have relevance and tournament play could include $50,000$ data points or so, with plenty of room for imaginative feature engineering. Phil asks:
+
+\begin{enumerate}
+    \item What will $\tilde{W}$ be after my shot if I choose three wood?
+    \item What will $\tilde{W}$ be after my shot if I choose driver? 
+\end{enumerate}
+If this is a general purpose oracle, this takes on a semi-circular appearance, along the lines of ``what will you think you will think $W$ will be after my shot ...''. That isn't actually more circular than Bellman's Principle of Optimality, but there are some pitfalls we will come to. 
+
+For now let's appreciate the elegance. 
+
+
+
+\section{Advantage}
+\label{sec:advantage}
+
+That's a lot of golf talk but I hope it's clear how the same logic applies to a program that steers a ship across an ocean. It likely comprises two separate components: a value function analogous to Phil's, and some prediction machinery. 
+
+In this light it is clear that the ship {\em might} get to port faster, or use less fuel, if predictions of its internal value function are performed by an oracle - one providing a portal to more powerful prediction models and data than exist in the in-house program. 
+
+The shipping company could use oracles to wholly or partially construct a value function, instead, then again source predictions of the same. 
+
+Notice that the compound question {\em what will you think $\tilde{W}$ will be after my shot if I choose three wood?} implies two types of question: an action-conditional estimate of a value function $\tilde{W}$ and also an unconditional estimate of $W$ itself at a future time (which here will be used to judge the former).  
+
+These are tasks whose challenges are quite different. They ask for estimates placing emphasis at different points on the state space. Estimating the expected value of $W$ calls on knowledge of Phil's short game ability. Whereas when it comes to the conditional estimation of $\tilde{W}$, the difference between Phil's first and second question suggests we focus attention on what might happen three hundred yards off the tee.   
+
+Actually, conditional and unconditional estimates are inherently different even if they apply at the same spot on the golf course. We cannot deny that these are mathematically related. Dropping tildes to unclutter:
+$$
+           \overbrace{W(\cdot)}^{unconditional} = \sum_{club \in bag} \overbrace{P(club)}^{choosing\ a\ club } \overbrace{W(\cdot | club)}^{conditional}
+$$
+but the unconditional estimate $W(\cdot)$ of the value function when we stand on the tee requires us to estimate the probability $P(club)$ that Phil will choose driver or three wood. The conditional value function $W(\cdot|club)$ does not require this estimate. 
+
+It seems eminently plausible that some people and algorithms will be better at estimating $W(\cdot|club)$ and others will be better at estimating $W(\cdot)$ and thus specialization is achieved. Naturally there will also be  specialization on the other side of the oracle as already discussed in Chapter \ref{chapter:oracles}. Weather, wind and other factors can enter the supply chain. 
+
+To rephrase, all Phil really needs to know is the {\em advantage} of using the driver over three wood, which is to say 
+$$
+       \overbrace{A(driver)}^{advantage} = \tilde{W}(\cdot|driver) - \tilde{W}(\cdot|three\ wood)
+$$
+that we all suspect, with a little hindsight bias, might be a negative number for Phil's famous shot. 
+
+\section{Specialization}
+
+I suggest to you that the construction of advantage functions (versus value functions) is a specialized task. 
+
+This isn't a terribly outrageous claim to begin with and, turning to video games, I find researchers who agree with this position. Support for the idea that advantage function estimation is related but different to the value function estimation is found in a paper by Ziyu Wang and others working at Google DeepMind.\endnote{\cite{dueling}} 
+
+(The citation engine Mendeley assigns over a hundred authors to this particular paper, so perhaps there is widespread support).  
+
+Therein a reinforcement learning algorithm is trained to play the Atari racing car game Enduro. Two different but intertwined related neural networks are deployed. One network learns the value function for the game. Another set of calculations branches off from the first and separately estimates the advantage.  
+
+The authors of this paper then compute the value function and advantage function saliency for every pixel on the screen, which is a measure of how important each pixel is to the calculation and therefore indicative of where the computer is looking. 
+
+Rather strikingly, the Enduro value function looks far down the road (to see if the next bend is to the left or right, and so forth) whereas the advantage function takes a shorter view (avoiding hitting other cars). 
+
+ 
+The moral would seem to be: don't assume the value function and advantage function need to be sourced from the same calculation, the same algorithm author, or the same continent. They are different tasks so in the micro-economy for microprediction of value functions, they will likely have interrelated but distinct supply chains. 
+
+
+
+\section{... and more specialization}
+
+Now to baseball. 
+
+We have been leaving out an important question. Is what we have been doing the best way to ask an oracle for an advantage function? How is the oracle going to be able to discern good advantage function estimates from bad, given that only one outcome unfolds? 
+
+Consider the decision made by a baseball catcher when calling the next pitch. We let $W$ denote the probability of the team winning the game. The impact of any play can be measured as the change in winning probability - the post-play value of $W$ minus the pre-play value of $W$. 
+
+We will suppose the pitching team has a lead in the game but the opposing team has occupied bases. The count is two balls and two strikes. The catcher must call one of ten plays to the pitcher. He seeks to maximize the expected impact of the play. 
+
+To be more precise, the oracle-as-catcher will determine $W$ after the play by the usual means, and use this to judge pitch-conditional predictions of $W$ that are made before the play. So as with golf the predictions sourced break down into two kinds. 
+
+\begin{enumerate}
+    \item Unconditional estimates of $W$. 
+    \item Conditional $W$ estimates. 
+\end{enumerate}
+
+We'll suppose that one rather clever micro-manager has this all covered. It will receive both kinds of estimates from other algorithms. One approach it might try is adjusting supplier's estimates for the second question up or down so that their weighted mean across all possible pitches equals the answer to the first question. They can then be judged against the post-play value of $W$. 
+
+\begin{table}
+\begin{center}
+    
+\begin{tabular}{|l|l|l|l|}
+  \hline
+  Action & $W$ & $p$ & $A$ \\
+  \hline
+  Four-seam &  $0.91$ & 0.1 & 0.0525\\
+  Two-seam & $0.90$  & 0.05 & 0.425\\
+  Cutter & $0.90$  & 0.20 & 0.425\\
+  Forkball & $0.87$  & 0.05 & 0.0125\\
+  Curveball & $0.93$ & 0.05 & 0.0725 \\
+  Slider & $0.85$  & 0.1 & -0.0075 \\
+  Slurve & $0.86$  & 0.1 & 0.0025 \\
+  Screwball & $0.80$  & 0.05 & -0.0575\\
+  Changeup & $0.78$ & 0.15 &-0.0775\\
+  Palmball & $0.85$  & 0.05 &  -0.0075\\
+  Circle  & $0.81$  & 0.1 & -0.0475\\
+  \hline
+\end{tabular}
+\caption{Baseball pitches and conditional value functions $W$. Also shown are pitch selection probabilities $p$ and centered
+advantage functions $A$.}
+\label{tab:pitch}
+\end{center}
+\end{table}
+
+Here the respondent's answers are arbitrary up to a constant so they are really supplying advantage functions. We are throwing away information in their response - but it all depends on whether there's really information in the mean. 
+
+There is an analogy in the Election polling. Suppose a pollster has a lowly reputation due to large error and bias. Suppose, however, that it is somehow good at picking up on changes in polling patterns near the very end of the election. Those pollsters might clue you to a possible late Trump surge, whereas others that are typically more accurate might not.\endnote{\cite{liberals}}
+
+Now that isn't the only way the oracle can evaluate advantage functions or exploit the differential ability of algorithms and people. One reasonable supposition is that with a careful design we can hope to take advantage of different modeling strengths of different algorithms and different people, just as the AI Enduro driver benefits from a distinct value function and advantage function estimation. 
+
+Those choices may depend on the state. One observes that it is a different modeling activity to estimate game winning probability $W$ at the end of a play than at the end of an at bat. The same can be said of modeling winning probability at the end of an innings, versus the end of a play. 
+
+Some fans will prefer to focus their modeling effort on longitudinal performance, and will prefer to inject their intelligence at moments where there are no runners on base, or even no outs. There is some state carried from one inning to the next due to the rotation of batters, how long a pitcher has been in, and so forth.
+
+One could go on. Some state complexity also vanishes at the top of each innings versus the bottom, since the relative number of innings remaining for each team is the same. Further complexity arises if we change the horizon and look beyond the game - defining $W$ to be the probability of winning the World Series.
+
+The variation in modeling task suggests that oracles will have an advantage computing advantage functions, and therefore guiding decisions, as compared to approaches that don't tap the world's people, machines and data. 
+
+\section{Pitfalls}
+\label{sec:temporal}
+
+Is this too circular? 
+
+I remark on one potential flaw with the setups we have described thus far: instability arising from the subjective nature of the estimates of the value function. Our pattern has been to ask an oracle (and thereby many combinations of people and machines) for an action-conditional estimate of what will result from another call to the oracle to estimate the value function after the decision is made. 
+
+In doing so we are asking people and machines to predict what other people and machines will predict. This is a commonplace idea and directly analogous to buying a call option on a company's stock (a wager that the price of the underlying stock will rise above a pre-specified level). You could say the same thing about trading in and out of the market at high frequencies.
+
+\begin{wraptable}{l}{7cm}
+\begin{tabular}{|l|l|l|}
+\hline
+               & Oracles      &  Finance \\
+               \hline 
+    Underlying & Value    &  Stock  \\
+    Derivative & Advantage & Option  \\
+    \hline
+\end{tabular}
+\caption{Analogy to finance}
+\label{tab:option}
+\end{wraptable}
+
+Adopting the financial terminology shown in Table \ref{tab:option} suggests some relevant work. We might refer to the unconditional value function $W(\cdot)$ as the ``underlying'', and to the action-conditional prediction of the same as ``derivative'' microprediction. Thus, for example, we refer to the paired micropredictions suggested in Section \ref{sec:advantage} as follows: 
+\begin{enumerate}
+    \item {\em Underlying :} Unconditional estimates of $W(\cdot)$. 
+    \item {\em Derivative :} Conditional $W(\cdot|a)$ estimates. 
+\end{enumerate}
+
+The notation $W(\cdot|a)$ denotes the conditional value function estimate for an action $a$. It might, in the case of a discrete number of actions, be visualized as a vector of value functions.
+
+The estimates of conditional value functions $W(\cdot|a)$ will still be only be as good as the yardstick against which they are judged, namely the next occurrence of an estimate of the unconditional value function $W(\cdot)$. At the risk of drowning out the immediate decision against future decisions, it sometimes makes sense to judge $W(\cdot|a)$ against a longer horizon that allows the game to play out.  
+
+\section{Chess}
+
+For the remainder of this chapter I consider this issue of circularity, switching games to keep it fresh. Chess is often cited as the quintessential example of complex decision making requiring a mixture of tactical and strategic foresight, so it is perhaps a good test for whether layering oracle predictions is likely to succeed. 
+
+Due to the amazing energy put into chess playing programs, the game is probably a good indicator of how much decision making in other fields could be improved (assuming similar effort was put in, or oracles arrive). 
+
+The chess progress comes with a ready made yardstick: the Elo rating system. These ratings document an almost perfectly symmetrical reversal in fortunes between man and machine. Grandmasters had a one percent chance of losing to computers, thirty years ago. Now, they have a one percent chance of winning.
+
+Chess computers are now racing through the Elo 3000s, but one would be tempted to assign an Elo rating to business decision making near the 1400 mark today - since that is the level of an average registered chess player. At least chess players know what game they are playing. Many traders, in comparison, haven't realized they are solving a value function problem. 
+
+
+The recent success of chess playing program AlphaZero follows other high profile success stories involving self-play value function estimation. Rightfully making its way onto the covers of popular magazines, an algorithm that learns the intricacies of chess in less than twenty lines of (core) code represents a new benchmark for elegance.
+
+
+Indeed we might measure the advances in chess playing decision making by the number of ad-hoc topics in chess position evaluation, prior to their obsolescence at the hands of DeepMind creations - there are at least sixteen subjects wiped from that curriculum.\endnote{Traditional chess programs included custom logic such as negamax search, analysis functions, iterative deepening, alpha-beta pruning, principal variation search, aspiration windows, transposition tables, killer moves, history heuristic, quiescence search, quiescence width extension, internal iterative deepening, null move heuristics, futility pruning, razoring and search extensions.\endnote{\cite{chessbrain}}} 
+
+
+So let's use chess to critique our pattern of oracle usage involving conditional estimates of value functions $V(|a)$ judged against the next unconditional oracle prediction $V()$, as we have laid out in Section \ref{sec:advantage}. At the same time we might hope to discern some advantages of opening up the problem to the world, and unleashing the oracle's data finding capability, even though this seems like the one example where that would be least likely to help. 
+
+
+\section{Which value function can you trust?}
+
+
+\begin{figure}
+\begin{center}
+\newgame
+\fenboard{r1bqr1k1/pp1n1pbp/3p2p1/2pP3n/4P3/2N5/PPQNBPPP/R1B2RK1 w - - 0 20}
+%\fenboard{r5k1/1b1p1ppp/p7/1p1Q4/2p1r3/PP4Pq/BBP2b1P/R4R1K w - - 0 20}
+\showboard
+\caption{Spassky-Fischer World Championship Game 3 1972. Position after Fisher's anti-positional move 11..Nh5!?}
+
+\label{fig:chess}
+\end{center}
+\end{figure}
+
+The diagram is taken from the ``Match of the Century'' played between the brilliant but unpredictable American Bobby Fisher and reigning World Chess Champion, Russian Boris Spassky in Reykjavik in 1972. Because this battle was an allegory for the cold war itself, and formed the premise for the musical {\em Chess}, you may be at least vaguely aware of it. 
+
+To evaluate the match's most famous move, you need to know that the story did not begin well for the American facing down the Russian World Champion. Fischer all but gave away the first two games to go down $0-2$, a margin that today would leave any challenger with few hopes of fighting back. Needing to mix things up Fisher played the Benoni defense in Game 3 and sought an unbalanced position with the Black pieces.
+
+Commentators have pinpointed Fischer's eleventh move as the turning point of the match. But as you can see from Figure \ref{fig:chess} the position itself appears relatively quiescent. There are no obvious tactical complications, and no undefended pieces are attacked. Only three possible captures are available to White and three to Black. In chess middlegame terms, the sea could not be much calmer. 
+
+
+\begin{table}
+\centering
+    \label{tab:stockfish}
+    \begin{tabular}{|l|l|l|l|}
+    \hline 
+        Move & Value & Move & Value \\
+    \hline 
+        12 & $+0.39$ & 19 & $-0.24$ \\
+        13 & $+0.25$ & 20 & $-0.16$ \\
+        14 & $+0.40$ &  21 & $-0.39$ \\
+        15 & $-0.18$ &     22 & $-0.41$ \\
+        16 & $-0.04$ &   23 & $-0.33$ \\
+        17 & $-0.00$ &  24 & $-0.61$ \\
+        18 & $-0.35$ &   25 & $-0.66$ \\
+        \hline 
+    \end{tabular}
+    \caption{Evaluation of the position after Black's moves (positive scores suggest White is winning) in the infamous Fischer-Spassky Game 3. Fischer's 11..Nh5!? might well have been the turning point of the match, but not according to a minimax evaluation.}
+    \label{tab:eval}
+\end{table}
+
+Why the fuss then? Fischer had moved his black Knight to square $h5$ on the edge of the board. This was a surprise to onlookers and his opponent in equal measure. It violated a maxim about knights on the edge of the board and more importantly, invited Spassky to take the Knight with his bishop ($e2$) and destroy Black's pawn formation around his king.\endnote{Knights on the edge of the board have few options to move compared to those in the center, thus giving rise to the saying {\em a knight on the rim is dim}. The German version is no kinder. {\em Ein Springer am Rand bringt Kummer und Schand} (sorrow and shame).} 
+
+Would a computer, even a very good one, have advised Fischer to play Nh5!? The answer would seem to be ``probably not'' and the reason illustrates nuance in the use of oracles for decision making. 
+
+Although few computers would have played Nh5!? I'll suggest that some oracles would have done so (though not all). I submit evidence in the form of position evaluations in Table \ref{tab:eval}, as the subsequent moves were played.\endnote{The position evaluations in this example use a twenty ply search - ten moves taken by both players - using the Stockfish chess engine.} 
+
+If we are sticking with our scheme from the previous section, only the first entry in this table is relevant. That shows a positional evaluation of $+0.39$. This means White is winning by almost half a pawn, Fischer's alleged brilliancy notwithstanding. The historical narrative is a fraud. Send back your Nh5!? swag.  
+
+However, an oracle {\em could} have been asked to predict the computer evaluation {\em five moves ahead}. Or, it could have been asked to predict what an oracle would predict five move ahead, five move ahead. 
+
+Either way, an oracle, or rather the algorithms, people and data feeds behind it, could take into account the number of beads of sweat on Spassky's brow, or the intensity of the television camera lights. Perhaps they might have arrived at what most chess historians regard as a situational brilliancy. 
+
+No doubt Fischer himself would have ascribed a lower value to Spassky's position. Not only could Fischer have taken into account deep positional insight, and a complex assessment of the likelihood of Spassky finding the precise sequence of moves to counteract Fischer's piece activity, but also some psychological impact of novelty that, as it turns out, probably did pack some punch in this high pressure setting. 
+
+
+I suggest that an oracle using the simplest derivative pattern might not always be best, and that, therefore, moving beyond chess, we should judge conditional estimates $V(state|action)$ against {\em future oracle answers}, not only the next value estimate $V(state)$, unless there is some strong reason to have great faith in $V(state)$.
+
+That's not controversial and in fact I'm taking a leaf out of the temporal difference learning literature. Here is an example of a truth that might be generated ex-post. We ask algorithms to aim at a target that is a weighted combination of future position evaluations:
+\begin{equation}
+\label{eqn:target}
+      target = (1-\lambda) \sum_{k=1}^{\infty} \lambda^{k-1} V(k\ moves\ ahead)
+\end{equation}
+for some choice of $\lambda$ between zero and one. For example with $\lambda=\frac{1}{2}$ the forward target would read 
+\begin{eqnarray*}
+      target & = & \frac{1}{2} V(1\ move\ ahead) + \\
+             & &  + \frac{1}{4} V(2\ moves\ ahead)+ \\ 
+                & &  + \frac{1}{8} V(3\ moves\ ahead)+ \\  
+            & &  + \frac{1}{16} V(4\ moves\ ahead)+ \\  
+            & &  + \dots 
+\end{eqnarray*}
+whereas with $\lambda=0.95$ we weight future move evaluations more heavily:
+\begin{eqnarray*}
+      target & \approx & \frac{95}{2000} V(1\ move\ ahead) + \\
+             & &  + \frac{90}{2000} V(2\ moves\ ahead) \\ 
+            & &  + \dots \\
+            & & + \frac{60}{2000} V(10 \ moves\ ahead)
+\end{eqnarray*}
+A micro-manager might choose $\lambda=0.25$ and another manager might choose $\lambda=0.95$ say, with only the latter rewarding those who judged the game to be going in Fischer's favour immediately after $11..Nh5!?$. 
+
+
+I will not go deeper into the possible interplay between oracles and reinforcement learning - for I feel this is a greenfield and we will learn as we go. Nor does space permit a dive into the mathematics of real-time decision making and techniques for looking further ahead, including Monte Carlo methods. Suffice to say that tricks from this literature could inform micro-manager design. 
+
+
+For example, rewarding can demand some careful accounting. In Equation \ref{eqn:target}, as written, the feedback to the oracle will be delayed ... in principle until the end of the game. Again the literature helps. This is not a new kind of problem and the issue of delayed gratification is tackled in reinforcement learning in various ways, such as the use of eligibility traces. We're also helped by the statistical literature relating to recursive (online) calculations, and the financial literature that treats running expectations of future rewards, and margins as discussed in Chapter \ref{chapter:mental}.  
+
+
+\section{Summary}
+
+In this chapter I've tried to describe in lay terms the key connection between repeated decisions and repeated prediction, moving beyond the obvious situations where the impact of a decision is quickly revealed. 
+
+When the value of position is computed for every blade of grass on a golf course (and it is) we convert a problem where the impact of an action is not obvious to one where it receives some intermediate assessment. 
+
+When oracles are abundant and powerful, they can also create the positional values. This leads to potentially labor-saving self-referential oracle patterns for decision making that I feel are deserving of future study. 
+
+I have drawn analogy to derivative markets in finance, to help identify strengths and weaknesses of layered use of oracles. Patterns we find in reinforcement learning can also inspire the design of real-time decision making applications, potentially addressing some drawbacks. 
+
+
+Repeated decisions are crucial to many operations and directly impact bottom lines. And as noted earlier, the provision of sufficiently cheap but effective decision making can also create a virtuous cycle in a prediction web, since micro-managers themselves need to make all sorts of decisions for themselves.  
+
+
+If oracles become ubiquitous, control and reinforcement learning might be enhanced considerably. Current approaches are rarely engineered in such a way that they can be improved by anyone, anywhere, without their asking permission. 
+
+Current approaches can't expect to take advantage of all outside expertise and data, and they don't always allow the possibility of advantage function and value function estimation being performed by entirely different people or algorithms with different approaches and ideas. 
+
+Only a microprediction micro-economy can foster that level of specialization. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

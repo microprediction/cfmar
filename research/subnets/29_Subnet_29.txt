@@ -1,0 +1,23 @@
+# Subnet 29
+Description: Processes unknown tasks. Miners handle experimental workloads. Validators verify results and track metrics.
+
+![Subnet 29 Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/subnet29_arch.png)
+*Architecture diagram showing experimental task processing flow*
+
+Built By: Unknown
+GitHub: https://github.com/opentensor/subnet29
+
+Team:
+- Experimental task specialists
+- System optimization experts
+- Infrastructure engineers
+
+Additional Info:
+- Processes experimental tasks
+- Verifies task results
+- Tracks performance metrics
+- Optimizes processing speed
+- Rewards based on quality
+
+![Subnet 29 Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/subnet29_perf.png)
+*Performance metrics showing task completion rates and quality scores* 

@@ -1,24 +1,26 @@
-Subnet 20: BitAgent
-Description: Focuses on autonomous agent development and deployment, providing tools for creating and managing AI agents
-Primary Function: Autonomous agent development and management
-Key Features:
-- Agent development
-- Autonomous systems
-- Behavior modeling
-- Task automation
-- System integration
-Built By: BitAgent Team
-Team:
-- AI researchers
-- System developers
-- Automation specialists
-Additional Info:
-- Focuses on agent development
-- Implements autonomous systems
-- Enables behavior modeling
-- Supports task automation
-- Provides integration tools 
+# BitAgent (Subnet 20)
+Description: Runs autonomous agents. Miners execute agent tasks. Validators verify actions and track performance.
 
+![BitAgent Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/bitagent_arch.png)
+*Architecture diagram showing autonomous agent execution flow*
+
+Built By: BitAgent Labs
+GitHub: https://github.com/bitagent-labs/bitagent
+
+Team:
+- Agent development specialists
+- Task optimization experts
+- System integration engineers
+
+Additional Info:
+- Executes agent tasks
+- Verifies agent actions
+- Tracks task completion
+- Optimizes agent performance
+- Rewards based on success
+
+![BitAgent Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/bitagent_perf.png)
+*Performance metrics showing task completion and success rates*
 
 Bittensor Subnet 20, known as BitAgent, is a decentralized subnet focused on task and workflow management by integrating large language models (LLMs) with commonly used applications such as web browsers, Discord, and custom integrations. The primary goal of BitAgent is to simplify and automate daily tasks through intelligent agency, offering personalized assistance and integrated task automation across platforms.​
 findatebtc.com

@@ -1,0 +1,23 @@
+# xiTAOHash (Subnet 14)
+Description: Processes proof-of-work tasks. Miners solve computational puzzles. Validators verify solutions and track hash rates.
+
+![xiTAOHash Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/xitaohash_arch.png)
+*Architecture diagram showing proof-of-work and hash rate verification flow*
+
+Built By: Latent Holdings
+GitHub: https://github.com/latent-holdings/taohash
+
+Team:
+- Proof-of-work specialists
+- Hash rate optimization experts
+- Mining engineers
+
+Additional Info:
+- Processes computational puzzles
+- Verifies hash solutions
+- Tracks mining performance
+- Optimizes hash rates
+- Rewards based on mining quality
+
+![xiTAOHash Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/xitaohash_perf.png)
+*Performance metrics showing hash rates and solution verification rates*

@@ -1,1 +1,23 @@
-Unassgined
+# Neural Internet (Subnet 26)
+Description: Processes neural network tasks. Miners run network models. Validators verify outputs and track performance.
+
+![Neural Internet Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/neuralinternet_arch.png)
+*Architecture diagram showing neural network processing flow*
+
+Built By: Neural Internet Labs
+GitHub: https://github.com/neuralinternet-labs/neuralinternet
+
+Team:
+- Neural network specialists
+- Model optimization experts
+- System engineers
+
+Additional Info:
+- Processes network tasks
+- Verifies model outputs
+- Tracks performance metrics
+- Optimizes network speed
+- Rewards based on accuracy
+
+![Neural Internet Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/neuralinternet_perf.png)
+*Performance metrics showing processing speed and accuracy scores*

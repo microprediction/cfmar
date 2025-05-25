@@ -1,0 +1,401 @@
+
+\chapter*{The pitch}
+
+Quants are meek. This is good because we will inherit the Earth. It's not so good when it comes to influencing the perception of quantitative work, or its future - the topic of this book.  
+
+These days everybody wants to be a data scientist. I get it, but I'm not heavily vested in vague terminology like data science or artificial intelligence. In these pages I set out to effect a qualitative change in your perception of whatever-you-want-to-call-it, and where it is going. I'm feel no obligation to defend any of the edifice that has arisen in recent years.  
+
+Ironically, I am asymptotically the world's most productive data scientist - as you will eventually discover - and unlike most, I'm prepared to tell you that most ``new'' activity can be broken down into standard, commodity, repeated quantitative tasks and delivered at much, much lower cost. 
+
+(If I may be colloquial, data science is a rip-off). 
+
+These repeated tasks I speak of go by many names in industry, which is part of the problem. In this book I mostly use only one word: microprediction. That is the act of making thousands or millions of predictions of the same type over and over again. 
+
+
+This book explores the nature of microprediction from the perspective of economics, statistics, decision making under uncertainty, and privacy preserving computation. 
+
+Informed by progress in those fields, I ask basic questions. What is the best way to produce and distribute high quality microprediction at arbitrarily low cost, and thus help businesses of all sizes? Is microprediction an individual or a collective activity?  What things, currently described as AI, can't be decomposed into microprediction?
+
+It is very hard to reconcile the answers with artisan data science. Instead, the conclusion reached is that the world is missing a public utility, and companies are missing an important abstraction in their strategies which might enable them to use it.  
+
+That utility is a vast collection of live streams of data, inhabited by autonomous self-navigating models that crawl from one to the next and make predictions. I invite you to help me create it because the world is not short of algorithms. I conclude it is short of micro managers of algorithms, as I refer to them, who are autonomous algorithm chauffeurs.
+
+If an algorithm can drive a car from New York to San Francisco, it ought to be able to find its way from a code repository to a business problem without human intervention. The main difficulty is a the failure to reduce business problems to a combination of canonical microprediction tasks.  
+
+This book is aimed at {\em all} potential contributors to a prediction web, as it might be described. You can supply code, or launch algorithms, or create new feeds, or supply mathematical insight, or help in any number of technical ways. 
+
+You can also help by socializing the idea, or adding to the demand for {\em  explicit} versus implicit microprediction - by nudging your data scientists to send their model residuals to their nearest microprediction ``oracle''. Five lines of Python won't kill anyone.  
+
+However you choose to come at this topic, I hope that some of you will come to see the prediction network as a long felt unmet need. A microprediction micro-economy is not an easy thing to bring about. It might take time. It may never reach critical scale without happenstance. Perhaps your picking up this book, or searching ``microprediction'' to find working prototypes, is precisely what is required.   
+
+\iffalse
+To me the machine learning surge today is oddly reminiscent of the credit boom in the early 2000s. At that time a halfway respectable spreadsheet jockey not long out of an undergraduate degree could make half a million dollars a year as a human optimizer. 
+
+The reason? A dislocation of tectonic proportions between the price of correlation in one place versus the price in another. Naturally, economics dictated that ``data scientists'' of the early 2000s would be occupied choosing assets to include in a portfolio - one maximising divergence between rating agencys' assessments and the inter-dealer market. 
+
+(It didn't matter that they did it badly, or that they didn't even recognize the mathematical context within which their task fell.)  
+
+So too, data scientists today are consumed with the ultimate arbitrage opportunity: data-rich statistical problems. The ``easy'' problems abound and the world has been slow to delineate the problems that truly require human intervention from those that do not (show me an org chart, or model review policy, or corporate AI strategy, that makes the distinction). 
+
+I believe we will see this contradiction resolve somehow in the coming years, and that automated machine learning is only part of that resolution. I view this essay as an attempt to avoid contradiction when speculating on a future state, nothing more. I offer you a different mental picture, rather far from the status quo admittedly, and we shall see if we can reduce it to absurdity. 
+
+
+I describe a prediction web whose denizens are reward-seeking prediction algorithms, or half algorithms, with economic awareness. The passage to this tangled state will involve considerable breaking and reforming of bonds - to continue the chemistry metaphor - those that tie people, data, applications, companies and even algorithms together. It will dissolve membranes dividing individuals, groups and private firms. 
+
+\fi
+
+
+
+\chapter{Overview}
+\label{chapter:introduction}
+
+
+Imagine awaking one day to a world in which every aspect of every business, large or small, is quantitatively optimized to the n'th degree. Imagine that this this optimization derives its strength, ultimately, from advanced mathematical technique applied to decision-making under uncertainty, and that this is informed by trillions of data points drawing in every conceivable quantity that might reasonably be deemed relevant to the task at hand. 
+
+In this scenario every activity is optimized, not just the production line of companies that can afford to hire data scientists and lay down expensive analytics infrastructure. Every small business benefits, including the guy selling beer and peanuts at the baseball game. Every individual benefits and cost is negligible. A democratic AI miracle has occurred.   
+
+This book asks only one hypothetical question: how did this come about?  Among all possible explanations for this seemingly unlikely outcome, we set out to determine the one with the highest probability. 
+
+\section{Half of statistics}
+
+We will have some minor terminological challenges that are entirely other people's fault. So I must be crystal clear about one thing - only half an AI miracle is contemplated.
+
+I consider the use of applied statistics to the optimization of relatively fast-moving operational problems only. We shall assume the instrumentation of those processes throws off sufficient data for so-called data-hungry methods to work well, or at least enough data to mechanically assess competing approaches. We shall assume that quantitative challenges {\em of the same kind} are thrown up over and over again - thousands or millions of times. 
+
+Methods termed {\em machine learning} are therefore bound to play a key role. There isn't a mathematically useful delineation of that field from statistics, or parts of applied mathematics for that matter, but one finds oneself trading accuracy for brevity, and slipping into the use of {\em machine learning} to describe a collection of methods that work surprisingly well when data is plentiful. 
+
+That's not entirely fair to any tribe, and the related schism in the field of statistics is discussed with marginally more nuance in chapter \ref{chapter:crowd}. But my point is not to assert superiority of machine learning over inferential statistics, or anything else. Rather, in the fine mathematical tradition, I merely wish to simplify my task to one that can be solved. 
+
+Rather than tripping on terminological sensitivities, I prefer the vulgarity of referring to my domain of problems as ``half of statistics'', although I'll let the reader decide what fraction of ``applied something'' really constitutes my scope. You may decide it is very close to zero, or very close to one. 
+
+Arguing for the latter, so many things will be instrumented in the future that it's tempting to say that data-rich problems are the bigger half - though of course I mean that in a short-term, commercial sense (since human survival or extinction should probably appear on the scales as well).  
+
+Arguing for the former, the inherent statistical difficulty of a task approaches zero in the limit of infinite data, assuming that past is prologue. All you need is a nearest neighbour search. 
+
+In a somewhat related vein, press coverage of artificial intelligence breakthroughs has reinforced the idea, pun intended, that bespoke statistical modeling can be discarded since algorithms can learn in model-free ways. 
+
+In {\em Reward is Enough}, a recent essay by Silver, Singh, Precup and Sutton, pioneers of reinforcement learning,  it is suggested that the objective of maximising reward is ``enough to drive behaviour that exhibits most if not all attributes of intelligence that are studied in natural and artificial intelligence, including knowledge, learning, perception, social intelligence, language and generalisation.''\endnote{\cite{Silver2021RewardEnough}} 
+
+My goal is more modest. I use the term {\em microprediction} in an attempt to avoid any impression otherwise. I emphasize the problem domain (as distinct from which methods might work) and, it is hoped, the term microprediction can deanchor some readers from unhelpful connotations of one-off events. That said, we are most certainly talking about prediction.  
+
+Semantics aside, in chapter \ref{chapter:uses} we'll allow our mind's eye to pan across a world of business problems and how they can be transformed with a sprinkling of {\em frequently repeated} prediction pixie dust. Suffice to say that the larger that opportunity is, the more important our contemplations will be. And the domain is growing rapidly. 
+
+Carrying forward the ambiguity in the word ``half'', I'll boldly assert that 
+half of statistics - so defined - is half of AI. Part of the case rests on chapter \ref{chapter:decisions} where we consider frequently repeated conditional prediction of so-called value functions.
+
+
+What is important, I feel, is to focus solely on frequently repeated prediction and data-rich problems, and not covet the other half of statistics. 
+
+\begin{quote}{Ana Ng - They Might be Giants \cite{ana}}
+    I don't want the world  \\
+    I just want your half
+\end{quote}
+
+It is my assertion that companies have failed, in large part, to properly delineate the two, and reorganize accordingly. 
+
+
+
+\section{Cost}
+Now that we know we are concerned with only half an AI democratic miracle, I'll move from the delineation of the problem domain to the assessment of quality. 
+
+A simple way to set the standard is to propose that {\em almost everything} will be predicted almost as well as {\em anything} is today. If that is our ambition, then cost is the only reason the miracle I describe can seemingly be reduced to absurdity. Cost {\em is} the problem. 
+
+Let's examine a small part of today's analytic world where no expense is spared. We view a hugely profitable market making firm. It is well positioned to hire the best and brightest minds it can throw money at. It burns through a ten figure technology budget, year after year, and leans on a virtually unlimited ability to store and process data. 
+
+This trading firm possesses a high level of organizational mathematical maturity, almost certainly represented in the technical acumen of senior management and flowing all the way down. It trains formidable intellectual firepower at a very precise and narrow task: determining the probabilistic representation of the near future of a finite set of security prices. 
+
+The firm does this because accuracy means profit. In chapters \ref{chapter:uses} and \ref{chapter:scoring} I'll give formal examples of that direct connection but for now, I ask you not to fixate on the details of any given task where accuracy helps but rather, how implausible it is that most ordinary businesses, including small ones, could achieve as high a level of predictive proficiency as this well funded organization. 
+
+I ask you to consider the enormity of the expense, and the incredible undertakings of this trading company over many years. No doubt this has consumed the best intellectual years of a large interdisciplinary team. All this energy, ultimately, is dedicated to the creation and maintenance of a continuously changing probabilistic description of a set of live numbers. 
+
+Those numbers are of economic significance, it must be said - but nonetheless they are a tiny, mostly unrepresentative sample of the set of all quantities that instrument our personal and commercial lives. (It is possible, but unlikely, that a single number under study by this firm will materially help a surgeon, or a pilot, or an operator at a nuclear plant make a crucial, real-time decision.) 
+
+Every story needs an antagonist. Ours is the cost of bespoke analytics. This antagonist is abstract, admittedly, although it can be personified with relative ease. I will take aim at highly paid data scientists in their role as human managers of models, or other humans, and I'm poking fun at my own quixotic aspiration to learn a fraction of all applied mathematical technique. 
+
+My theme is that human managed production of intelligence - at least the portion directed at repeated tasks - cannot remain competitive. If we view all the undertakings by individuals and businesses on this planet as important and if, for the sake of this thought experiment, we place every instrumented quantity they might care about on a par with security market prices, then there is seemingly no way to fund similarly high quality prediction and business optimization across the board.
+
+
+But we can let our minds wonder, and consider how this seemingly insurmountable challenge might eventually be tackled. I think we can find a different economic equilibrium. Working in our favor are the properties of data and models - the infinitesimal lightness and ease of replication. Data is free, eventually, in a more surprising way as well. We can utilize the predictive power of data without it being revealed to us. 
+
+The future of AI is a first principles exercise, not an extrapolation of industry trends. 
+
+
+\section{The problem}
+
+Talent scarcity dictates that only a tiny fraction of humanity's activities will benefit from applied mathematics the same way our supposed trading firm does. What will firms much smaller than our fictional market maker use? What {\em do} they use? 
+
+Here's one mildly disturbing data point. Recently, I examined what is by far the most commonly downloaded open source forecasting package in the Python ecosystem. I found, as others before me had, that it was poorly conceived and frequently performed worse than a simple moving average.\endnote{\cite{cottonprophet}} 
+
+If this is in any way indicative of firms' ability to discerning the quality of analytic tools, then they really will be at the mercy of others. Bear in mind that at many companies things are worse, because you can't find someone proficient in Python to begin with. 
+
+It is true that we all will benefit from artificial intelligence, sooner or later. I happen to believe in a second coming of the Excel paperclip, and this time it will be hyper-intelligent. There will be other gifts bestowed upon us by large firms as intelligence creeps into every product, but this kind of artificial intelligence arrives on someone else's terms, not yours.   
+
+What we won't have is our own personal data science team, nor the ability to play the AI poker game with a strong hand. We'll end up folding and giving away most of our data for nothing. A high fixed cost of quantitative business optimization translates into a small number of occasions when a firm - never mind an individual - takes charge of its own quantitative destiny. Most of the time the marginal return on investment simply doesn't justify this. 
+
+At first glance, there is no way around this. The creation, deployment and maintenance of quantitative devices that improve business operations include endeavors with all the hallmarks of expense. It is risky and iterative, and involves highly skilled employees wrestling with data (rarely cheap) and rapidly changing technology. 
+
+Even larger firms, it must be said, struggle to organize data and models. We are all aware of the limitations of companies viewed as larger brains - even at rare institutions where efficient communication of mathematical ideas is part of the culture (mostly, it isn't). The sound of mathematics being organized by large corporations is hardly the purr of a well designed machine - more like the bleep, screech and ding of a dial-up model from the 1990s.   
+
+If large firms falter, it's hardly surprising if individuals, organizations and small to medium sized enterprises also fail, given more limited resources. They are excluded in important ways from data science for the foreseeable future. 
+
+
+\section{The solution}
+
+This dire situation is surely the moment to introduce our protagonist. The hero of our story must render, at negligible cost yet uncanny accuracy, repeated short term predictions of all quantities of interest to all companies and individuals.
+
+
+In this book, I ask you to contemplate a mesh of automated, economically aware, reward seeking prediction algorithms. They are not subject to the same limitations as people. But they substitute for people by arranging the capability for, and executing on, repeated prediction. Thereby, they stand a chance of collectively orchestrating model and data search - by weaving an increasingly rich and powerful microprediction web. 
+ 
+
+Separate business logic will leverage this web for all manner of tailored commercial or individual use. But that logic can usually be limited. On the other hand, the microprediction production encapsulates the truly hard part of the task, and the ongoing, painful, iterative work required for constantly improving performance. 
+
+
+In this manner, commodity repeated prediction capability will enhance company bottom lines {\em as if} the work was undertaken by a huge well-sponsored team of top flight applied mathematicians and developers. Our little algorithmic heroes must render this pragmatic even though, in the vast majority of instances, such an investment seems economically ridiculous today.  
+
+
+Some algorithms might be self-contained prediction algorithms. But most will be middle managers and middle-men, categories that bring out prejudices like no other. (How fortunate that mid-twentieth century economists can free us from our predispositions, as I discuss in chapter \ref{chapter:economics}).
+
+Our hero needs a name, and hereafter will be known as the ``micro-manager''. That's not the most heroic sounding role, I grant you. But the micro-manager competes as voraciously as a trader in the old Chicago pits - when it chooses to do the heavy lifting. The micro-manager can also be like a manager for a football team, with tasks that include recruiting, rewarding, punishing and sometimes giving up on algorithms or data. 
+
+A micro-manager sets out to solve on a microscopic scale and an ongoing basis an economic problem that is rather subtle - one certain to defy a singular solution. That problem is how to produce as much predictive power as possible at the lowest possible cost.
+
+My role is to provide more concrete mental models for that problem, and what a micro-manager might look like. I do so in chapter \ref{chapter:mental}, without wishing to limit anyone's imagination. It is the ultimate role of the micro-manager to unburden the consumer of repeated prediction of all the things we are accustomed to paying for - in effort, money and developer time. 
+
+
+However, in assessing the micro manager's utility, I'm afraid it is up to you to meditate on what millions of these miniature mechanical minstrels might materialize. And yes, this is the part where I play the dreamy visionary and you follow my extended arm towards the horizon. That prediction web hovering before you is a vast lattice of quantities, each one predicted as accurately, minutes hence, as it could reasonably be if the best minds turned their attention to it. 
+
+
+So forget all other connotations of ``micro-manager.'' No, the micro-manager is not the annoying non-technical boss whose bike-shedding churns the front-end developers. Not in this story. 
+
+
+
+\section{Bespoke AI on tap}
+
+What if, in the future, the mere specification of a repeated prediction task was synonymous with its solution? That is the case once the microprediction web, prediction web, or microprediction network (if you prefer) comes to be. 
+
+
+In a prediction web, every node is a competitively predicted stream of data. Every stream gets {\em better} treatment than that reserved for the APPL ticker. Depending on how the game is played, not only will the mean be predicted well (the only part markets get right, for the most part) but so too the volatility, higher moments, distributional properties and the fine structure of its co-dependence with other related quantities.
+
+
+The AI miracle requires that anyone is able to source their own repeated predictions - say by sending their own live data. Only then is microprediction, and what comes with it, fully democratized. So the prediction web will include a myriad of numbers whose computation would not, in any other paradigm, come close to being economically sustainable. 
+
+
+For this reason I urge the reader not to anchor to the well-established concept of a prediction market. Although prediction markets are lauded universally by economists and undoubtedly are under-utilized (due to regulation, mostly), they also lower the expectations of what a prediction web might achieve. 
+
+
+A prediction web need not be a limited catalog of things that interest many people at once - although there is little harm in including when the train will arrive, or which NFL players will gain yards in the next play. 
+
+
+(Nor is there any need to pander to humans, their lame insistence on user interfaces, and other evolutionary traits that probably doom us - at least as far as our ability to compete with machines on data hungry tasks is concerned.) 
+
+What is essential is that micro managers endowed with economic desire are sufficiently hungry for new food - something that reflects on their own running and navigation costs. In a sufficiently competitive prediction web, your data is attacked with the same ferocity as market prices are today even though the rewards are much smaller.  
+
+\section{Oracles}
+I shall work backwards from the aspiration of high-quality on-demand repeated prediction. 
+
+In chapter \ref{chapter:oracles} we begin with a gentle examination of what an interface to a prediction network might look like. I use the term pseudo-oracle to describe a micro-manager providing a gateway into the prediction web. It is a step-down transformer of sorts - thus providing a connection between a seething swarm of hungry algorithms and your business problem or application.
+
+These gateways aspire to be ``forever'' functions. In theory, you never need to change your code, but the results just get better over time and, to within a cost multiple, as good as they can be. We can try to reason as to what they must do, in order to meet this ``microprediction oracle'' requirement. Of course, they ultimately draw their power from the diversity of algorithms and data around us.  
+
+In drawing conclusions, I shall assume that finding the right data for a given prediction problem is an immensely difficult task. 
+
+I will assume the same of model search too, because it has been a century - probably many - since the time of the mathematical polymath. 
+
+I grant you that it would help, on the second front, if someone came up with model that did everything and that possibility, or at least a useful component of it, is put forward by Pedros Domingos, author of {\em The Master Algorithm}. 
+
+Domingos suggests the possibility of an algorithm that could elegantly capture the power of most of the existing ones.\endnote{\cite{domingomaster}} He invites contributions, but until a master algorithm is found, oracles might be the best bet. 
+
+A more modest version of Domingos' vision constitutes the field of automated model search, which has advanced quickly in recent years. However, the crucial question is whether pyramids of humans are the best organizers of the production of autonomous prediction. That isn't the only way. 
+
+
+\section{Orchestrating prediction}
+Thus begins the clash of civilizations. 
+
+To create the best repeated short term prediction at a low cost, should humans organize in a large, well funded automated machine learning company? Or can the production of automated model selection be drawn together by other mechanisms? Rather obviously, loose collections of volunteers working on open source software also advance the needle. 
+
+
+But in this work, I focus on the price mechanism as a much more fine-grained orchestration principle, and I draw attention to the severe limitations of central planning. My response to Domingo's invitation to create the master algorithm is to hope that we are already living in one - the economy. It's merely that this master algorithm is far too cumbersome to achieve our microprediction objective, unless we change it. 
+
+
+I'm very fond of the rich tapestry of algorithms that are available to us today, many of which can help with creating a microprediction web. However the economy itself coerces us not through Bayesian message passing, or iterative proportional sampling or anything from the statistical toolbox. It does not send us extra-sensory messages so we can implement federated gradient descent, or particle swarm optimization. 
+
+
+No, we are controlled by the price mechanism. That is, and likely always will be, how the macroscopic world organizes the production of prediction. Firms compete. They buy and sell data and analytics. This is the highest level at which analytics is organized. Other organizing principles, like gantt charts, come in below. 
+
+The question I pose is whether we need those secondary levels of orchestration if the price mechanism is let loose. The price mechanism is an old but miraculous device. But its relative efficacy is an economic question breathed entirely new life when we focus on repeated prediction specifically. That is the discussion in chapter \ref{chapter:economics}. 
+
+\section{Small rewards and friction}
+
+The reader may disagree, but I believe the veracity of otherwise of my thesis rests on whether extremely small rewards are enough. 
+
+(The relationship between repeated commoditized tasks and everything known as AI is something I owe the reader - but it is mathematical and engineering busywork, at some level. So too privacy preservation is a journey beginning in chapter \ref{chapter:privacy} whose eventual destination is, I hope, somewhat obvious).     
+
+Let's reflect momentarily on the success or otherwise of large rewards. In general, ``perfecting'' rapidly repeated prediction is a hopeless task. Most quantities can be causally linked to dozens of others, who in turn might be influenced by hundreds of others and so forth. 
+
+Certainly, when we look at existing asset markets, or betting exchanges, or prediction markets, we don't see what everyone would call complete success. 
+
+But you have to set the bar somewhere and not make the perfect the enemy of the good. I take the position that a stock price is a short term prediction (of itself) that is astoundingly good. If you are inclined to complain about the quality of that prediction, then you and I are not talking about the same kind of AI miracle - and I wish you well achieving your more ambitious variety.  
+
+
+There is an inefficient markets literature of sorts which accidentally bolsters my case, rather than weakening it, because it simply highlights that the main thing preventing graduate students from making markets more efficient isn't inherent statistical difficulty but other frictions (they can't bet from their jurisdiction, or obtain a broker-dealer license). 
+
+
+The question asked herein is: why should high quality prediction be reserved for asset prices? The question is not ``is reward enough?'' in our existing economy but rather, ``is engineering enough ...'' to unleash the price mechanism in a way we haven't seen before? 
+
+
+It surely depends on the ease with which algorithms can exploit multiple sources of food; and whether traveling from one opportunity to another involves guidance from a human (interpreting a new data model, for instance); and whether there exists a critical mass of such opportunities. 
+
+
+I would suggest that our intuition for this scenario is severely hampered by the current levels of friction in the macroscopic AI economy. Examples include the legal cost of executing a data feed contract, the lengths companies will go to poach an employee, the size of marketing budgets, the fees to attend conferences, and in many cases the very existence of products. 
+
+The vision in this book is also obscured by the six figure subscriptions charged by a vendor who wraps existing open source analytic libraries behind a nice user interface. This might not be classified as a economic friction by everyone, but certainly it is indicative of search cost. 
+
+Channeling Ronald Coase, it would be laughable to assert that all analytics firms are single-person affairs - the implication of zero trade friction. There are clearly significant reasons why trade alone doesn't orchestrate the production of analytics today.\endnote{ \cite{CoaseR1937NatureFirm}} 
+
+And more's the pity. When friction prevents trade, it also obscures the frugality of electronic data and models, and allows tragedies of the commons to persist because individuals and firms have a harder time hopping from one meta-stable state to another. The missing community garden is that common real-time, public feature space. 
+
+
+I argue that we should focus on removal of impediments to the smooth operation of ``reward.'' We might see the prediction web as a substrate on which algorithms travel, given their lack of general navigation ability. 
+
+
+Only then can micro managers, whose existence is not predicated on huge rewards, effect competitive prediction for any quantity (and only then on the microprediction domain, where non-technological frictions also dissipate).  Then, and only then, can we bottle what we already know works. Market forces can even work without staking, since data flows quickly. 
+
+
+That is why those accustomed to financial markets, betting exchanges, or even small political prediction markets should not recoil at the notion that a complex machine could be held together by extremely weak economic ties. Machines don't need to sleep. They can survive on plankton. 
+
+
+The invisible hand is still there, even if it might be scoffed at by enterprise data salespeople, with their large quotas and firm handshakes. Ours is an untried invisible hand, admittedly, with ``dainty pinkies that never weighed anchor in a storm''.\endnote{The insult is from Captain Redbeard, of {\em Blackadder}.}
+
+
+In chapters \ref{chapter:oracles} and \ref{chapter:mental} we explore the possibilities of an near frictionless world. This new version of the invisible hand is nimble enough to perform surgery on itself. No prediction is too trivial and no decision too small. 
+
+
+When decision making can be achieved through oracle use, as discussed in chapter \ref{chapter:decisions}, and when the upfront and running cost of using oracles heads to zero, it is apparent that micro managers can not only drive the prediction network, but can also use it for their own decision making. 
+
+
+
+
+
+\section{Artisan data science}
+ 
+What might be the implications of a prediction web? 
+
+The coming war in machine learning might be waged between giant teams in giant corporations, each hoping to out-hype the other. Nobody doubts the application of machine learning to bottom lines, or the economic sense it makes to shift more resources into mathematical modeling. A dollar goes further, now that a far greater fraction of industry is instrumented. 
+
+But listening to a small number of people boasting about how much applied mathematics they eschew could get rather dull. I have something far more entertaining in mind. 
+
+In the presence of ubiquitous repeated prediction at vanishing cost, these players might start to look like battling dinosaurs whose energy consumption can't be sustained indefinitely.  
+
+Inside those companies, many young data scientists, employed therein as machine learning bulldozer operators, might eventually find they can make more money driving actual bulldozers.   
+
+
+Are they being lured into an ambush where they will be massacred by an army of self-navigating, data-searching, model-spinning robots? If the eager minds of tomorrow don't react in time, they might fare no better than the master craftsmen of the 19th century. Their real edge applies in the other half of statistics - and that might be where they need to head. 
+
+
+I don't mean to suggest that data scientists will be irrelevant as soon as the algorithms sprout legs and begin to scurry. Even on the ``easy'' side of statistics, I mention in chapters \ref{chapter:uses} and \ref{chapter:oracles} that the machines will find better ways to use humans than the Wachowski brothers suggested in {\em The Matrix} - where humans were reduced to batteries. 
+
+
+But micro managers performing cold comparisons can certainly be an antidote to probabilistic pretension and puffery. They can be the ``grey goo'' of enterprise data science, but in a benevolent way  (the phrase is normally reserved for catastrophic nano-technology scenarios). They can seek out and destroy non-rigorous claims, sub-par applied statistics, and dubious AI propaganda
+
+
+micro managers will also erode, slowly but surely, a bedrock assumption in educational and practitioner circles: that the task of matching models (and data) to problems will always be something of an artisan activity - one that is highly compensated, and one that is associated with a very specific image of the data scientist: the jack-of-all-trades. 
+
+
+In that image, the data scientist takes special pride in mastering all aspects of the creation of a product, from data scraping to cleaning, loading, feature creation, modeling, estimation, hyperestimation, and application building. It is a good image, and yet dangerously similar to Luddite themes that did little to halt the advance of the industrial revolution. 
+
+
+Now let it be said there is no harm in increasing the supply of full stack developers with business acumen and broad knowledge of all areas of mathematics - if that is truly feasible. However, a radical change in cost requires an equally radical rethinking of the production of prediction, not just better master craftsmen and women.  
+
+
+The gold rush of the 1850s doesn't convince us that panning is still the most economically efficient way to extract valuable minerals from the Earth. Nor does the little known ``librarian boom'' that preceded the browser convince us that Google search is redundant, on account of the Dewey decimal system. (This surge in the number of employed librarians took a ninety degree turn right around 1991. A lesson for data scientists?) 
+
+
+
+By analogy, it comes down to the difference between the fee structure of AWS Lambda (where one pays only during invocation of a cloud function - chapter \ref{chapter:mental}) versus continuous compute. The joke in cloud computing is that you pay for the services you forget to turn off, but that's true of firms hiring dozens, hundreds or thousands of quantitative people to build models. Continuous use of generalized intelligence is pricy. 
+
+
+On the other hand, low cost automated micro managers have so many fine uses. Are you annoyed that Google maps doesn't know whether you can take the HOV lane?\endnote{HOV are high occupancy lanes, elsewhere called transit lanes and carpool lanes.} That problem won't exist in a world of personal prediction. 
+
+
+Have you had enough of data story-tellers, data life coaches, platitude peddlers, and those seeking to instill in us the ``five crucial data science habits'' filling your Linked-in poker reel? In the majestic thought experiment I ask you to embrace, even that problem is in part addressable (and not, as some suspect, as fundamentally difficult as achieving general intelligence). It is a repeated prediction problem, after all. 
+
+
+You may regard it as trivial, but there won't be such a thing. In a world where the cost of bespoke quantitative optimization of anything has fallen by a factor of {\em ten thousand} and then again by {\em another factor of ten thousand}, you can do as you please.  
+ 
+
+\section{Small beginnings}
+
+
+Let's not debate my finger in the air cost illustration when we have a real one to refer to. 
+
+
+A step in the right cost direction was made by a contributor to an open-source prototype quite recently. Rusty Conover deployed high quality models for electricity production with a running cost of less than {\em one cent per model per month}.\endnote{\cite{conoverelectricity}} They are better than the official forecasts, and we know this because they are assessed and combined with others in a ``collider'' - to use terminology from chapter \ref{chapter:mental}. 
+
+It should also be clear, from the construction of that particular algorithmic playground, that the {\em marginal} cost incurred when Rusty's models decide to start predicting {\em something else} is truly tiny.\endnote{\cite{cottonmicroprediction}} That might even be something you care about, because those models could be predicting your business' data as well.
+
+We are a very long way from being able to say anything ex post about the microprediction web thesis, unfortunately, and this book is couched as something of a prophesy. However it is becoming increasingly plausible that this unlikely scenario is just a matter of work. When a draft of this book was first sent to reviewers, what I speak of wasn't actually working. 
+
+Now, enterprising developers have realized that they can access hundreds of self-navigating algorithms using only a few lines of code. They are predicting hospital wait times in New Jersey, the number of smiling face emoji's used on twitter, BART train delays, comment counts on the front page of {\em Hacker News} and traffic delays for the bridges and tunnels around New York City. 
+
+They are identifying which algorithms are suited to water height prediction, as compared with the position of a badminton player.\endnote{See \cite{cottonbadminton} for a description of the Badminton example.} They are sourcing insights into the dynamics of a laboratory helicopter, whose physical description is elusive due to frictions of various kinds. Algorithms fight to predict dynamics of a three-body system, the scoring differentials between two NBA teams, wind speeds and more. 
+
+Algorithms are modeling the residuals of other algorithms. They are examining the community implied percentiles of each and every recorded data point. This multi-layer assessment of predictive accuracy is more rigorous and comprehensive than what we find in most in-house data science work.
+
+
+The joint behavior of five major cryptocurrencies provides a different challenge. An epidemic agent model generates another time series, thus providing an example of crowd-sourcing a surrogate model. 
+
+Herein I hope to convince you that this path can be followed to its logical conclusion - one that dethrones humans and instead, leans on a postulated world-wide network of self-navigating programs that build models, find data, and self-organize through statistical games. 
+
+Perhaps you wish to predict how many customers will visit your restaurant in the next hour, or the number of bus tickets that will remain unsold at an imminent time of departure. Maybe it is something further into the economic tail, such as the temperature of your living room ten minutes hence or the probability you will occupy it. 
+
+
+In this thought experiment, our preconceived notions about expense and quality of bespoke work must be squished into oblivion. 
+
+
+\section{The role of mathematics}
+
+As we consider the possibility of a prediction web, mathematics will have a key role to play. 
+
+I'm keeping it pretty light, and I view the inclusion of technologists as the crucial ingredient. But I know many of you are mathematically curious, and if we follow the path from the application down to the source of its intelligence, we see why mathematical ideas must be informative. 
+
+Mathematical techniques create the demand for explicit as compared with implicit or embedded microprediction, because mathematics converts ``business problems'' into control or reinforcement learning problems (or something else) and from there into microprediction. See chapter \ref{chapter:decisions}. 
+
+Mathematics advises on the manner in which these applications plug into the microprediction power source. For instance through the theory of scoring rules, as considered in chapter \ref{chapter:scoring}. Mathematics also informs micro-manager design, and it goes without saying that mathematics is also the language in which the vast collection of prediction, classification, optimization, and inference algorithms are written - though look elsewhere for a survey. 
+
+
+\section{Summary and outline}
+\label{section:case}
+ 
+In an imagined future where ubiquitous real-time operational intelligence has arrived at zero cost, I have prompted the reader to speculate as to the most likely origin. 
+
+Maybe this all starts when a hyper-intelligent agent with generalized intelligence escapes from the DeepMind lab and starts scanning the paper for data science job openings. That might even leave industry largely unchanged, from the organizational perspective. 
+
+However, I've suggested a rather different possibility: a world-wide prediction web analogous in some ways to the internet itself. I offer the following line of argument.     
+
+\begin{enumerate}
+  \item Most real-time operational optimization can be formulated in terms of frequently repeated predictions of instrumented quantities, intermediate rewards, differences of value functions (chapter \ref{chapter:decisions}) averages of predictions yet received, or something else. 
+   \item We interpret the existence of the machine learning revolution as a statement that most models can be assessed in a mechanical fashion.
+  \item Therefore, only trade friction prevents reward from being enough (for repeated prediction). Only trade friction prevents the emergence of radically low cost self-organizing supply chains for microprediction. 
+  \item When algorithms can traverse to repeated statistical games, and businesses abstract away microprediction from the rest of the applications logic, direct search cost plummets. The lemons problem fades also (due to the law of large numbers). And the walls that separate us (privacy, intellectual property) can be addressed by skullduggery of various kinds (chapter \ref{chapter:privacy}). 
+    \item Microprediction quality can also continuously improve as costs fall due to network feedback (more data, more models, shared feature spaces). 
+  \item At these extremely low levels of economic friction and microprediction cost, further feedback occurs as micro managers start to feed off the same capability for their own managerial decisions (hiring, firing, navigation, contract formation, and so forth). This further reduces economic friction, and so on. 
+  \item Enterprise artisan data science is severely challenged, because in the limit, trade is sufficient. In the vast majority of cases, economics dictates that algorithms summon the humans, if necessary, not the other way around.  
+\end{enumerate}
+
+Like a micro-manager meandering through the prediction web, I find I bump into several somewhat unrelated fields in an effort to refine this hypothesis. 
+
+\begin{itemize}
+  \item Errors-in-variables models, optimization, and automated machine learning. In chapters \ref{chapter:mental} and  \ref{chapter:scoring} I consider the challenge of purely algorithmic management of the production of prediction. 
+  \item (Micro) economics. In chapter \ref{chapter:economics} I argue that a microprediction network addresses the problem of local knowledge much more effectively than other organizing principles.  
+   \item Contest theory and practice. In chapter \ref{chapter:crowd} I argue that fan out of microprediction tasks is likely to be effective given the theoretical efficacy of contests - not to mention a key role they have played catalyzing the machine learning revolution.
+    \item Control and reinforcement learning. chapter \ref{chapter:decisions} examines the interplay between microprediction and well-worn, effective techniques in control theory and reinforcement learning. 
+    \item Privacy preserving computation. chapter \ref{chapter:privacy} considers the coming wave of federated and outsourced analytics, and some reasons why microprediction capability can move through the seemingly impermeable membranes separating private firms.  
+  \end{itemize}
+
+I hope you find them as interesting as I do. 
+
+
+
+
+
+

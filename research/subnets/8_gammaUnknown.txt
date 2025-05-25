@@ -1,0 +1,23 @@
+# gammaUnknown (Subnet 8)
+Description: Processes experimental tasks. Miners handle new workloads. Validators verify results and track metrics.
+
+![gammaUnknown Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/gamma_arch.png)
+*Architecture diagram showing experimental task processing flow*
+
+Built By: gamma Labs
+GitHub: https://github.com/gamma-labs/unknown
+
+Team:
+- Experimental task specialists
+- Workload optimization experts
+- System engineers
+
+Additional Info:
+- Processes new tasks
+- Verifies task results
+- Tracks performance metrics
+- Optimizes workload handling
+- Rewards based on success
+
+![gammaUnknown Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/gamma_perf.png)
+*Performance metrics showing task completion and success rates* 

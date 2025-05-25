@@ -1,0 +1,23 @@
+# Nakamoto (Subnet 4)
+Description: Validates blockchain transactions. Miners process transactions and create blocks. Validators verify blocks and maintain consensus.
+
+![Nakamoto Consensus](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/nakamoto_consensus.png)
+*Consensus flow diagram showing block creation and validation*
+
+Built By: Nakamoto Labs
+GitHub: https://github.com/opentensor/nakamoto-subnet
+
+Team:
+- Blockchain specialists
+- Consensus experts
+- Cryptography engineers
+
+Additional Info:
+- Processes blockchain transactions
+- Creates and verifies blocks
+- Maintains network consensus
+- Ensures transaction validity
+- Rewards based on block production and validation
+
+![Nakamoto Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/nakamoto_perf.png)
+*Performance metrics showing block production and validation rates* 

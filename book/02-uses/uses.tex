@@ -1,0 +1,456 @@
+\chapter{Commercial use}
+\label{chapter:uses}
+
+I wish to persuade you that frequently repeated prediction is profoundly useful {\em everywhere}, and that it is best assembled by a billion little self-interested buzzards coordinated predominantly by market forces (rather than by Dilbert the data scientist). 
+
+I must say I agonized about which part of the more in-depth argument should precede the other. Why would you want to know about all the uses of something whose implementation has not been described? On the other hand, why bother with the fanciful notion of a prediction web if it isn't clear why it will benefit all players, or at least your own business or application? 
+
+Fortunately, the trend is my friend, and many already consider it a mathematical truism that frequently repeated prediction is not only useful but also in some sense, {\em universally useful}. Enumerating applications can be tedious, so my recommendation would be that you skip forward as soon as you are convinced of this. 
+
+On the other hand, a more abstract connection between microprediction and repeated decisions {\em of just about any kind} is the subject of chapter \ref{chapter:decisions}. I don't know if you prefer examples or logic.   
+
+The more controversial ansatz for this chapter is the notion of a so-called microprediction oracle. That will be refined in chapters \ref{chapter:oracles} and \ref{chapter:mental} but for now, we shall assume a powerful source of predictive power has been made available to us that works only on {\em frequently repeated tasks of the same kind}. 
+
+Beyond that, you don't need to know a great deal, if anything, about the internal workings of the oracle. Suffice to say that if you were to open it you'd find a seething, teeming melee of algorithms all trying to out-do each other in their efforts to provide you superior prediction. 
+
+
+
+\section{Cleaning reference data}
+\label{sec:cleaning}
+
+In our quest to change data science, we shall start with a janitorial position and see if we can work our way up. It is daunting because data cleaning is a vast problem. No grandiose solution is contemplated here, but it can certainly benefit from repeated prediction.  
+
+Let's dispense with one misunderstanding - the mostly harmful meme captured by the hackneyed phrase ``garbage in, garbage out''. This can be construed as meta-advice: that some {\em non-mathematical} data cleaning activity should always precede mathematical analysis of data. For instance, it is the norm to employ people to clean databases in the style of pecking chickens, and without any overarching theoretical strategy. 
+
+Rules piled upon rules are a recipe for technical debt and plateauing accuracy. We all have our war stories. I once participated in the acquisition of a data company that, under the covers, comprised an ever increasing list of regular expressions used to extract market data. 
+
+
+Over time, these rules had begun to contradict each other. And the system was so aggressive in extracting data that it created multiple versions of prices for the very same company. It could not be salvaged, and our engineers had to gut it and start from scratch with a different system. 
+
+There were no microprediction oracles on hand at the time which is a shame, because these wonderful things provide an easy way to chip away at a situation which we can all agree is dismal. The idea is simple enough: predict whether humans are going to fix a data point, or record, or not.  
+
+I'd ask you not to recoil at the fact that this is a kind of secondary, or derived prediction of something that isn't accurate - because that's precisely why I mention it.  
+
+It's just data. The status of a record will change if a human corrects the record in some way, such as by reconciling a company name, fixing an erroneous zip code or moving a decimal two places to the left. 
+
+The oracle is asked for a probability that this record will be  corrected. Records with a relatively high probability of change are flagged. Then we rank sort by probabilities of change, and this helps direct humans towards dubious records faster. The end. 
+
+Now is this a win? Perhaps a small one. Perhaps a large one. It all depends on what's instrumented, rates of data flow, and so on. But don't let me limit your strategies. I merely use this example of chicken feeding to disabuse you of the notion, if that were necessary, that microprediction targets need to be holy truths (let's face it, that's a pretty decent trap for those anchoring to prediction markets). Once you realize they don't need to be, the space of possibilities explodes. 
+
+Just to beat up on that a little, notice that it matters not that the probabilities of changing a record are low, or that there is a high chance that a dirty record will remain that way when the time comes to assess the veracity of prediction. It also doesn't matter if a human sometimes incorrectly modifies a record, making it worse than before. 
+
+Evidently, there is no pristine ground truth to be found in this usage pattern. There is injustice in the judging. And that seems terrible at first until you realize that it is merely a time saving device. I'm guessing your whiny data scientists might complain about being asked to predict something that is clearly wrong, but the oracle won't.   
+
+Oracles are portals into competitive prediction. But you'll notice that my emphasis runs very much against the grain of the long tradition of machine learning contests. Usually, in a contest, one works hard to ensure the target is of high quality - the rationale being that answers that are noisy, frequently incorrect or lacking in authority might dissuade earnest effort or fail to align with scientific goals. (We return to contests in chapter \ref{chapter:crowd}).
+
+Yet the pattern, and many like it, is not alien to machine learning research. It is reminiscent of the use of weakly supervised data for training, and I think the reader will find inspiration in other data augmentation techniques as well, or in crowd-sourcing techniques such as expectation maximization.  
+
+When combined with privacy techniques considered in chapter \ref{chapter:privacy}, or when used on public reference data, oracles used for data cleaning can be more effective. Competing parties can help each other reduce common costs, even if they would not in the normal course of events take the time to collaborate on the minutiae of field types, names of columns, spelling, sub-category labels and so forth.
+
+Evidently, if an oracle is asked about the domicile of a legal entity by six or seven different oracle users it will learn more quickly, thus achieving the benefits of an otherwise unwieldy consortium. I'm brushing aside privacy concerns for now because although we aren't there yet, theory demonstrates that it is not necessary for parties to reveal information to each other in order that this goal be achieved (and in some cases, they don't mind anyway).  
+
+One might devise other intricate patterns of use. A microprediction oracle can be used at different levels of granularity. For instance, one oracle might predict the type of a field based only on values taken by records. It might be clever enough to conclude, having inspected a list of dates, that some are highly likely to take on specific significance (such as roll dates for financial contracts, high volume shopping days, or half days). 
+
+Mathematical approaches to data cleaning are arguably more advanced and nuanced than straight-up supervised learning problems. The search in the space of possible algorithms (with their various strengths and compromises) is correspondingly more difficult.
+
+Take practical fast Bayesian inference, for example. That's a super-category of data cleaning technique. It will always be improved by someone, somewhere. Wouldn't it be good if data cleaning algorithms could travel across a prediction network and find an unexpected application? 
+
+
+\section{Enhancing live data feeds}
+\label{sec:live}
+
+Closely related to the cleaning of data is the use of microprediction oracles for defining, enhancing and discovering live data that can help drive business decisions. (You're moving up in the world, after your data cleaning success, so let's impress the front office.) 
+
+
+As we will explore in chapter \ref{chapter:mental}, real-time competitive prediction encourages exogenous data search, and can thereby turn weak notions of truth into statistically stronger representations. Alternatively, it can turn complex multifaceted data into a clean representative, univariate time series. 
+
+
+As a special case, microprediction oracles can turn intermittent data into continuous. If something is measured once a day or once an hour, it can be converted into a continuous estimate using an oracle.
+
+
+Oracles can be created for all the standard operators on stochastic processes, such as the conditional expectation operator. An oracle can produce a martingale given any time-series. An oracle receiving distributional predictions can standardize any time series by performing a probability integral transform - and we'll see an example in chapter \ref{chapter:mental}.
+
+For those readers with the stomach, allow me to illustrate oracle patterns for streaming data enhancement with a very specific example. After all, data cleaning is all about getting down and dirty. I steer you to the Depository Trust and Clearing Corporation's (DTCC) Swap Data Repository (SDR) which you can direct your browser to while reading this, should you wish.\endnote{\cite{sdr}. At the time of writing, the left hand panel of the SDR realtime dashboard contained ``slice'' files which, when unzipped, are comma separated files containing one trade per row. The comments in the text refer to the prices listed in these files.}
+
+The SDR data is lagged, contains erroneous trade timestamps from time to time, demonstrates trade data arriving out of order (quite common in data feeds), illustrates the simultaneous use of multiple price conventions that can potentially confuse a naive user, and lists prices of transactions without a label indicating who was the likely aggressor in the transaction.
+
+The data issues illustrated by the public swap data feed are not intended as a criticism, merely an opportunity for enhancement. It is an example of the pragmatic difficulties faced by anyone intending to use such information in a fully automated fashion. As a minor yet subtle example, reported transaction volume is capped. Yet sometimes it is later revealed. 
+
+A more useful and unrelated enhancement of the data might involve a more detailed statistical analysis of price time-series - one that might contain enough material for several Ph.D. theses. For instance, the feed could be enhanced with a mid price. (Alhough ``mid price'' often refers to the average of the current bid and offer for a security, this is rarely a useful definition for many securities - except at certain points of liquidity accumulation during the trading day.)
+
+There are different kinds of mid prices. Let's say a mid price refers to a more elusive and ill-defined quantity representing a stable reflection of the market implied value of a security - minus the jiggling that occurs due to asynchronous arrival of trades with different motivations from different clientele.
+
+If the prices reported were to be compared to any reasonably constructed mid price of this sort, and the differences termed an error for the sake of discussion, then the data will resemble a latent variable model with skewed and serially correlated errors.
+
+
+The data revealed in a history of trades of different types is subject to an asymmetric pattern of noise due mostly to the possibility of winner's curse. In the context of limit order books (stock exchanges) the phenomenon of serial correlation in price relative to a mid is called bid-offer bounce. The interested reader is referred to the market microstructure literature.\endnote{For an example of how microstructure complicates econometric estimation see \cite{Hansen2006RealizedNoise} and \cite{OHara2015HighMicrostructure} } 
+
+Understandably, this combination of statistical and domain noise creates problems for those looking to use this feed downstream. This suggests the use of microprediction oracles as a means of {\em defining} a feed that is likely to have more benign characteristics. A layering of oracle use cases can be employed, as follows.  
+
+The first step could use an unsupervised oracle pattern to identify outliers in the data - such as prices reported using alternative quoting conventions. The oracle will use some style of consensus calculation, for example using the contributions themselves as part of the answer against which all algorithms are judged. 
+
+Next, another oracle can be used to predict the next price reported  fifteen minutes from now that has a less than 10 percent chance of being deemed an outlier. The oracle's response can be called a mid. 
+
+Next, mids created in this manner can be used to construct more elaborate targets for forecasting including the realized covariance between mid changes - a quantity that might feed downstream into some useful application for trading or hedging.  
+
+Other oracle calls could be used to flag possible anomalies in market behaviour such as liquidity problems or suspicious activity. And as explored in chapter \ref{chapter:decisions}, real-time decisions can be driven by all this information that is generated on the fly. 
+
+There is, of course, nothing special about our choice of the swap data repository as an example. Almost any market data feed can be expanded to a richer feature space - provided there is sufficient flowing or cross-sectional data to justify use of a microprediction oracle. 
+
+Boutique and obscure data sold to market participants can be enhanced by adding an oracle generated term structure. (A term structure in our context refers to a collection of separate but related microprediction tasks pertaining to predictions at different horizons, such as one hour, two hours, end of day, one business day, one week or one month hence.) As explained in chapter \ref{chapter:oracles}, the oracle can fan out the task. Who can say that the temporal dependence structure is not a good match for an algorithm developed by a hobbyist in Budapest? 
+
+You can see where this is going. In fact, we have arrived at a recipe for generating an almost limitless number of applications. One finds two parties, one of which sells streaming data for the other, and then one stages a ``microprediction in the middle'' attack. 
+
+Furthermore, because of the ease with which superior prediction of market data can be monetized by some participants (either by market taking or market making), it is equally apparent that data directly {\em defining} financial securities, or investing parameters, or otherwise embedded in the mechanics of trading securities can also be enhanced. 
+
+If you need an example, look no further than the use of evaluated bond prices sold by vendors. These determine the daily calculation of net asset values for some exchange traded credit funds. Predicting what others will assess is worthwhile. Further discussion might take us far afield. The world is full of data feeds and most of them are very difficult to use, yet potentially very easy for a swarm of algorithms to reformulate. Cleaning is inference. Inference is a variety of microprediction. 
+
+Now if you skimmed this section, I don't blame you. But I also don't want you to forget this massive category of application. The short version is, that if you allow ravenous algorithms to feed off anomalies and statistical artifacts in a data feed they will, in the process, enhance it in various important ways. 
+
+I dare say this resembles the Japanese practice, now spreading to the United Kingdom and elsewhere, of cleaning one's feet by dipping them in a bucket of hungry fish. There, now you will remember it.\endnote{ ``Nibblefish'' was once a candidate name for the prediction web project, with rather mixed focus group results. I urge the reader to consult the Scottish Health Protection agency report on risks associated with {\em Garra rufa} fish pedicures before engaging in that activity.\cite{garra}}  
+
+
+
+\section{Enhancing Business Intelligence}
+\label{sec:dashboard}
+
+
+Business intelligence (BI) projects allocate a technology spend (often quite large) for the aggregation of business information deemed important to real-time decisions.   
+
+Yes, I know that some of you out there regard ``business intelligence,'' by this definition, to be a rung or two below artificial intelligence when the only remotely analytic activity involves pivoting data in a table. However, you will be re-educated in chapter \ref{chapter:economics} until you appreciate the key role of fleeting situational awareness in any economy. 
+
+Besides, your CEO, impressed by your ability to enhance data, wants you to surface insights. It's dashboard time! That translates into considerable engineering resources operating through multiple feedback cycles, and the cost of commercial visualization software as well, quite often. 
+
+You explain to your grateful leader that since the company is investing so much in dashboards, it's a no-brainer to add the marginal cost of oracle-based microprediction of those very same numbers. After all, the information is already streaming to eyeballs. The data preparation has already been done. And a live source of data is within inches of a well defined prediction task.
+
+Even better, the steps for converting a live source of data (such as a table) into a well defined microprediction task by specifying an accuracy metric (pitfall are discussed in chapter  \ref{chapter:scoring}) do not require programming. Selection of fields to be predicted, attributes, prediction horizons, and other configuration can be accomplished with a user dialog. 
+
+Dashboards are often passive applications. However, an extension of this idea applies when humans have control levers to move. There are many possibilities for rich applications to be built, powered by oracles. For example, action conditional micropredictions could be supplied as described in chapter \ref{chapter:decisions} and rendered in imaginative ways for the user.  
+
+
+\section{Weak universal data feeds}
+\label{sec:universal}
+
+Really, the only problem you experience with the dashboard enhancement is it's insufferable triviality. It actually hurts you physically to explain that if provided a microprediction oracle, a live number can be predicted at zero marginal cost. To maintain sanity, you start to play with the oracle in more imaginative ways. 
+
+
+As with the use of imperfect human-cleaned data, you become interested in microprediction of things that aren't true. You consider the use of a ``weak fact'' like the number of times ``raining [in] Auckland'' is mentioned in texting conversations or social media posts between 11:00 a.m. and 11:30 a.m. 
+
+This is evidently not equivalent to a physical fact, but when fed to a microprediction network it is a lure for ``real data'': such as meteorological reading from a sensor, images from a webcam, or any other source of information in the physical or media world that can help a clever algorithm make a prediction.  
+
+
+When you ask the prediction web to predict ``bad'' data, better data can be surfaced, connections to other exogenous data can be discovered, and useful transformations of the data can be found. Indeed, this data that is lured into the prediction web can be {\em more valuable than the target}. So predicting something seemingly worthless can be very worthwhile! 
+
+After all, good data is a highly competitive predictor of ``bad data'' that pretends to instrument the same ground truth. Good predictions of bad representations of ground truth are {\em correlated} with better data, and thus with the ground truth itself.  
+
+
+Expanding on our example of rain in Auckland, consider a large corpus of streaming text data. We look for the phrase ``bridge traffic'', ``trump resigns'',``blackout'', ``GE raises capital'' and so on. Each generates its own stream of data, and each is very far from any normal definition of ground truth. 
+
+More likely, these counts mostly represent anything other than contemporaneous truth -- probably gossip, false reports, historical commentary and uses of words with other intents. But this doesn't matter. Behind an oracle tasked with predicting fake news lies a self-organizing supply chain hungry for data, and reaching out its tentacles in a cost efficient manner. 
+
+Thus, in sending counts of ``raining [in] Auckland'' to the microprediction web we are not only determining if it is raining in Auckland but also be ``seeding rain'' -- as it were -- a cascade of new data feeds. Thereby we are helping give rise to a large and interesting live feature space of interest to many. This pattern is not limited to sources of text data. 
+
+
+\section{Ongoing performance analysis}
+\label{sec:ongoing}
+
+You've been having fun but its time to get promoted. Your manager suggest you move to model governance to accomplish this. Aside from constituting good practice, the ongoing performance analysis of models (OPA) is a regulatory requirement in some industries. The cost of model oversight in banking, to pick one, is significant and thus any automated means of enhancing the process bears consideration. 
+
+Anecdotally, up to a third of quantitative employee time can easily be consumed by various tasks related to model compliance. An example is provided by SR-11-7 - the advisory notice on model risk management issued by the Federal Reserve and Office of the Comptroller of the Currency.
+
+
+What's striking about a microprediction web populated by hungry micro-managers is the extent to which regulators have been asking for it. The act of feeding streaming data to an oracle serves as a clear definition of inputs up and down the line, as suggested by regulators. It encodes the notification of the use of new sources of historical data.
+
+
+Regulators have asked for verification of numerical approximations. They have suggested that the completeness of data be considered (impossible without a microprediction web) and that data cleaning procedures be scrutinized. They have demanded that models be scrutinized for robustness to missing data in inputs and, and that consistent use of inputs be monitored. 
+
+
+As will become clear in chapters \ref{chapter:scoring} and \ref{chapter:mental}, many more well-meaning ambitions of regulators are automatically satisfied in a microprediction web. This can include specific tests of predictive capability, such as the monitoring of upstream and downstream model interactions, or the monitoring of key drivers of predictions feeding business applications.
+
+
+At some level it is rather obvious that subjecting models to competition (or competitively predicting their errors) contributes materially to the myriad objectives of model governance. And evidently, businesses not subject to regulatory requirements can also benefit from the spirit of those regulatory ambitions. In particular, all firms submitting model residuals to oracles can benefit from the ongoing improvement in performance that arises from the maturation of the microprediction supply chain. We shall return to this pattern in chapter \ref{chapter:privacy}. 
+
+\section{Fairness}
+\label{sec:fairness}
+
+Now you are a manager. It's a good thing you are a fair person with a fair amygdala. That is the part of the neural system that is believed to control your sense of perceived threat. (As an aside, studies have shown that amygdala sensitivity to race is not something we are born with, emerging later around the time of adolescence. Studies of sensitivity to mathematics amongst senior management are forthcoming.) 
+
+Your new boss wants you to tackle the immensely difficult question of model fairness. Fairness is just one of many regulatory requirements, but surely bears special consideration. 
+
+Unfortunately, in my view, noble desires to improve modeling fairness are rarely accompanied with an equal desire to solve the problem I consider to be inextricably linked: search in the space of data, and this is where a microprediction network can come to the fore. It isn't possible to be fair if relevant data explaining bias is never found, because the identification of exogenous data is critical to the discovery of {\em hidden} biases. 
+
+There are pitfalls in simple interpretations of models, such as in using direct influence of a variable as a substitute for explanation. A representation of a model that attributes a decision made by a model to a small number of factors may create the false impression that other variables are irrelevant to what is really going on. 
+ 
+  The classic example in the United States is redlining: the systematic denial of various services to residents of specific, often racially associated, neighborhoods or communities, either directly or through the selective raising of prices.\endnote{Definition of redlining is from Wikipedia.} A potentially clever use of an oracle for civic use is suggested by studies that use the Home Mortgage Disclosure Act (HMDA) data.
+  
+  Mendez et al demonstrated that mortgage approval models that did not {\em explicitly} reference race were indirectly influenced via  zip code.\endnote{  \cite{Mendez2011InstitutionalLevel}}. The problem remains pervasive across many types of modeling used to extend consumer credit - according to some literature - and in decisions such as where to build grocery stores.\endnote{Credit redlining is discussed in \cite{Cohen-Cole2011CreditRedlining}. Groceries in \cite{Eisenhauer2001InNutrition}. See \cite{Lang1993ARedlining} for further discussion.} 
+  
+Although not all of these problems are quintessential uses of a real-time microprediction oracle, there may well be sufficient cross-sectional data for automated detection of unfairness. A microprediction network that can locate explanatory data serves a supervisory role - one that no supervision of the type we are used to could achieve. 
+
+
+Imaginative use of oracles that fan out prediction tasks can drive down the cost of fairness. That should be important even to those not prioritizing the task, because fairness will increasingly become mandated. New York City is among the first to legislate fairness in algorithmic decision making, for example.\endnote{The New York City Council passed legislation on December 11, 2017 according to an article published by the UCLA \cite{newyorkcity}} 
+
+Micro-managers who source data, create features, and analyse outputs can be helpful to the process, given that bias is a curious thing. For example it has been shown that light skinned subjects who adopted a dark-skinned avatar in a virtual reality game significantly reduced their measured racial bias against dark-skinned people.\endnote{\cite{Peck2013PuttingBias}} 
+
+But did we need humans to discover this? Could a traveling fairness algorithm, observing player statistics, have alerted us much earlier? Could this have been done without invading the privacy of players or the commercial interests of the game makers? (Almost certainly yes, along the lines of chapter \ref{chapter:privacy}).
+
+Needless to say, algorithms have their own problems, insofar as they grow up in environments taking the form of training examples. So they may be the biggest consumers of micro-fairness. They themselves know that they can be unfair in ways that are more subtle than the redlining example. The {\em indirect} effects of variables must be screened. One approach uses data augmentation and runs as follows:\endnote{ \cite{Adler2017AuditingInfluence}.}
+\begin{enumerate}
+	\item Minimal modifications are made to the data until the feature in question (say race) cannot be predicted from the remaining data.
+	\item Model predictions are assessed before and after this data augmentation.
+\end{enumerate}
+I can't tell you if this is the best method, but why do I need to? With a clever setup, methods for fairness and explanation can traverse the prediction web looking for models to interrogate. As with the data cleaning example, this can surface good opportunities for targeted use of human generalized intelligence. 
+
+\section{Explaining}
+\label{sec:explaining}
+
+I have claimed that fairness demands a better search for data. Fairness also involves model explanation, our next topic. 
+
+The really unfair thing in this world is that models need to explain themselves in great detail, whereas human decision makers aren't held to quite the same standard. explainable AI is an area that attracts the mathematical meta-advisers too, because it seems like one can fake sensible-sounding advice without a great deal of technical experience to back it up. 
+
+You don't need to explain yourself to them, fortunately, but you do need to explain why you spent the company's money attending an AI conference. Naturally it was to stay up to speed with the fast moving field of explainable AI. 
+
+To give an example, the influence function traces the output of a model back to the individual data points that were used to train it. An example of an influence function used in finance would be the impact of a single past trade on the current indicative price supplied to a trader. Techniques such as this tend to travel surprisingly slowly from one field to another over the course of many years. Many started in robust statistics, fifty years ago. 
+
+As another example, the utility of adjoint sensitivity techniques was better appreciated in meteorology than finance when, faced with a large scale financial data assimilation task a few years ago, I found myself looking for them. What if algorithms didn't have to wait on humans and our relatively feeble search ability?
+
+Most major conferences include an explainability track. At the Neural Information Processing Systems (NeurIPS) conference in $2017$, I took note of the wording of the ambition:
+\begin{quotation}
+New machine-learning systems will have the ability to explain their rationale, characterize their strengths and weaknesses, and convey an understanding of how they will behave in the future. 
+\end{quotation}
+In the light of the microprediction web hypothesis, this may be a limited and limiting ambition, because in the presence of a prediction web the algorithms need not all have the ability to explain themselves (but they will be able to reach other algorithms that can.) To assume otherwise is to place too much overhead on the creation of a model, and too little faith in the self-organizing ability of micro-managers. 
+
+Automated assessment of explanations is not far-fetched at all. Not nearly as far-fetched as the idea that humans, using only the English language, can agree on what XAI is supposed to be. 
+
+For example, the military is investing in explainable artificial intelligence. The Defense Advanced Research Projects Agency (DARPA) program puts the emphasis on the production of a greater quantity of {\em explainable} models (as opposed to efforts to explain models not designed to be explainable at the outset) while maintaining a high level of learning performance (as opposed to what I'm not sure).\endnote{\cite{darpaxai}. Also emphasized is the enabling of human users to understand, appropriately trust, and effectively manage the emerging generation of artificially intelligent partners.} Perhaps I over-read, but this suggests to me that explainability is leaning towards being a {\em constraint} and not just an ambition. 
+
+Should XAI stand for ``explaining artificial intelligence'' or ``explainable artificial intelligence''? I churlishly suggest that if humans aren't sure what XAI actually stands for, and can't communicate precisely, then we best leave it to the machines. Do we want more ``explainable models'', or ``more explainable'' models?
+
+But however we interpret XAI, this undertaking is likely to be frustrated by the availability of data, just as fairness is. Data cannot be easily found in general, cannot be owned at reasonable price sometimes, and often cannot be sold at {\em any price} due to regulations or privacy. Suppose you are issuing credit. No matter how advanced the technique might be, if you don't possess a critical attribute of a small business, you have to ask yourself if you really understand {\em yourself} precisely why you denied it credit. 
+
+But if more firms tap into the prediction web, fairness and explainability might advance with the ongoing development of statistical and cryptographic techniques which allow calculations to be performed across boundaries, including those that offer model explanations.  
+
+An example of a fairness-enhancing private calculation is a secure join. Another is a computation of Granger causality between two parties who never reveal any data to each other. Traditional methods of achieving privacy by aggregation (such as with census reporting) may also work. 
+
+If not, advanced techniques which exploit individual information without ever revealing it can succeed. While the methods are already very clever, they will get faster and more convenient over time. We'll return to the topic of privacy in chapter \ref{chapter:privacy}.
+
+In the interim, I want to go just a little deeper into model explainability to advance a hypothesis that is very important to my case for a prediction web. The key observation is that while some types of model explanation will be particular to specific approaches, many explanations are {\em model independent}. 
+
+Why would we want to allow humans to get in the middle of things, and add tremendous cost to the application of model independent explainability techniques, when the algorithms are perfectly capable of finding each other? 
+
+\section{Models analyzing models }
+
+Explainability can be viewed as an example of models interrogating other models - something we could see a lot more of when a microprediction web emerges. The topic is more general than XAI, but to make this discussion concrete, I would like to couch it in reference to the mildly dubious notion of explainable human intelligence (XHI). 
+
+I suggest that for the most part, machines can already explain themselves. They can explain each other, roughly as well as humans explain themselves, or each other. If you are not convinced, using that benchmark, that explainability is more a last mile problem than a fundamental one, consider the following examples of human explanation:
+\begin{enumerate}
+\item {\em The sparse coefficients explanation:} Our decision is complex but we explain it in terms of a single regressor: {\em I'm pretty sure I am going to like this movie because Harrison Ford is in it}.
+\item {\em The influence explanation:} We explain a decision in terms of past evidence that was key to forming the theories in our heads. {\em I'm been short bitcoin ever since that gas bag touted it at the conference last year.} 
+\end{enumerate}
+These are pretty straightforward for the machines observing other machines, provided there's enough data flowing. But let's continue with some additional types of human explanation (and algorithmic equivalents) to see if we humans can improve. 
+\begin{enumerate}
+\item {\em The surrogate model:} Confronted with the impossible task of explaining what is really in our heads (and how we might have reacted to different hypothetical input) we reach for a simpler surrogate model that has more or less equivalent conclusions. {\em I decided that XAI is a nascent field because wiggle words like ``towards'' appears too often in talk titles}. 
+\item {\em The proximity explanation:} We proffer hypothetical examples of the model in our heads that are proximal to the data point in question. {\em Well I know this seems strange, and if one of those four test results had been different I would have started you on antibiotics, but take two of these instead and call me in the morning if you still can't get out of bed.} 
+\item {\em The intermediate results explanation:} We provide transparency into some calculation that occurred along the way without necessarily providing the preceding or following details. {\em Your total itemized deductions are right at the standard deduction and that's why you'll lose under the Trump tax plan.}
+\item {\em The inversion explanation:} We try to provide quintessential, or sometimes extremal, examples of input corresponding to a classification output. This doesn't really explain the model in the mind of the highway patrolman, but it can mollify. {\em I don't know where the line is but look buddy, if you drive at 100 on the parkway and weave all over the place, I'm pulling you over.} 
+\end{enumerate} 
+
+As can be seen, humans struggle to make these explanations compelling and consistent - assuming one is provided at all. Our ``mental model'' explanations seem too often to depend on the question, and even a large number of questions might fail to reveal some consistent underlying model.
+
+A possible exception is the legal system, which has tried to counter human mental model inconsistency by holding to a reasonably simple global model, something akin to a classification tree.\endnote{\cite{Kastellec2010TheTrees}} Judges will sometimes argue from precedent, which can be viewed as a variety of influence explanation. Ways of steering away from making any judgment in some circumstances are also the subject of ongoing research. 
+
+Yet it will be clear to the technical reader that all these categories of human explanation, and no doubt others, can already be replicated in algorithms - often quite simply. And far more importantly, the explanation is {\em model independent}. The explaining model does not know the operation of the model that is being explained. So, let me replay my argument:
+\begin{enumerate}
+  \item We'd like algorithms to explain themselves as well as humans, but
+    \item Humans can't really exhibit an underlying model and {\em there probably isn't one}. 
+    \item It follows that model independent explanation is the best we can do, but these can be applied en masse. 
+    \item It follows that the cost of applying model independent explanation can, and should, be driven towards zero. 
+\end{enumerate}
+
+In contrast, the status quo implicitly assumes that the person who creates the model also has encyclopedic knowledge and time required to explain the predictions. This is quaint, and implausible. 
+
+It is, I conclude, high time we got that prediction web off the ground. Let the algorithms roam, including those that help explain other models.
+
+
+\section{Surrogate models}
+\label{sec:surrogate}
+
+Explainability is a segue into the topic of surrogate modeling, since that was one of the methods I listed for explaining a model. However, if you really want to wow your boss it is worth considering the independent motivations for modeling a model. For instance you might be able to present a five order of magnitude speed increase in a regularly used business calculation - one that has a much lower effective dimensionality than might appear from all the inputs. 
+
+chapter \ref{chapter:mental} will consider some ways that oracles can be used to assist or entirely replace the process of building surrogates. A long running calculation can serve as the truth provided to the oracle, long after the fact if necessary.
+
+To illustrate, let us imagine that an open source algorithm for simulating a component of a climate model is available, but takes ten minutes to run. Let us further suppose this results in five key numbers as outputs. The prediction task conveyed to the oracle would specify these parameters but insist on a five second timeout, forcing the competing algorithms to make approximations. 
+
+
+Surrogate models are widely used in atmospheric modeling and industrial simulation. The use of surrogate functions in applied mathematics is well developed, particularly in the context of optimization.\endnote{See \cite{Forrester2009RecentOptimization} for a survey of surrogate methods for optimization, though plenty has occurred since.} 
+
+
+Beyond the desire to explain, the term {\em surrogate} often brings additional connotations - such as when the model used to approximate another has convenient qualities. It may admit derivatives, or it may be possible to know where the minimum or maximum points lie.   
+
+
+For all their utility, surrogate functions might not be as useful as what we might call surrogate microprediction. Oracles are both surrogate model {\em and surrogate data} attractors. By surrogate data, I mean any data substituting for the predictive capability (not standard terminology, as far as I know). 
+
+A business may believe it is beholden to an important prediction ingredient such as an expensive data feed or an in-house process, but a micro-manager can be used to quantify the marginal contribution of the data. This can inform data procurement decisions, which sometimes take on a combinatorial flavor (three cheap feeds replacing two expensive ones).   
+
+
+\section{Augmenting control systems} 
+
+Still reading? 
+
+In the preceding examples, you have leveraged a mysterious source of repeated prediction power to sneak up the data science pyramid. Perhaps nobody paid much attention to how you did it, because your use of a general purpose prediction application programming interface (API) was so nonchalant.
+
+Perhaps they are simply too proud to follow in your footsteps. After all, to use a prediction oracle requires a acknowledgement of your own modeling or data search limitations. Studies suggest that less than 5 percent of data scientists are ready to go there. 
+
+But as noted in the introduction, the entire edifice of artisan data science might be ready to come crashing down for this and other reasons, so it's time to head for the exit. As a last example, we consider the elevator - or really process optimization in its generality.  
+
+In the early stages of COVID-19, while we were still at work but socially distanced, elevators were a maligned optimization problem. Long delays were experienced in the lobby. People had a lot of time to ponder about value function prediction, and the fact that at a high level, elevator optimization is analogous to lots of other optimization tasks. (If you didn't, there's still time in chapter \ref{chapter:decisions}).
+
+Elevator optimization presents a pattern of the use of decentralized, but related, repeated decisions - with very well studied analogues in reinforcement learning and control. One can try to approximate a globally optimal solution through the use of individual oracles driving each elevator car.\endnote{\cite{Crites1998ElevatorAgents}} 
+
+Traditional elevators without floor dispatch already present an NP-hard problem to modelers (meaning darn hard). But one harbinger of the so-called artificial intelligence revolution is the fact that optimized dispatch in elevator banks has been creeping in to buildings in recent years. 
+
+A person approaches the elevator bank and enters a floor number. The dispatcher sends them to elevator C. Elevator C stops at floors 13, 19, 27 and 28. This dispatch can be viewed as an example of a conditional micro-decision made over and over again by software. 
+
+The details will depend on what can be instrumented. For example, if we have video feeds of people waiting on floors more precision could be brought to bear. But even if we only have the operational data from the elevator itself we can construct the equivalent of a positional evaluation of a chess board based on passenger throughput and journey time. 
+
+Alternatively, we can start with a relatively non-invasive assessment of an existing elevator dispatch system. Consider it a side optimization, if you will. We can assume that a mathematical approach has already been implemented in the elevator system - but that approach has shortcomings, which will be revealed as the prediction web matures. (One day it will seem unacceptable for an elevator dispatch system to be ignorant of Saint Patrick's Day pedestrian flow, early closes to trading, or the progress of important court cases keeping lawyers on the high floors at night.)  
+
+Whatever the elevator dispatch program does, the one thing we might boldly assume is that it generates a stream of explicit or implicit predictions about its own performance - the future state of the combined happiness of all elevator passengers (travel time and comfort) against some measure of energy consumption and safety. 
+
+The elevator program might even generate falsifiable predictions of individual travel times and other quantities that enter its calculations. An oracle can be used to correct bias and reduce uncertainty in any number of these internal predictions, thereby improving the internal optimization that may remain opaque to the oracle. 
+
+Alternatively, an oracle pattern may be used that invites a direct decision or an estimation of an action-conditional value function forecast, as also discussed in chapter \ref{chapter:decisions}. 
+
+It may seem strange that I pick on elevators but as noted by Andrew G. Barto, a long recognized pioneer in reinforcement learning, elevator optimization is a testbed for new approaches (such as the speculative use of oracles I propose). The classical elevator problem presents a {\em combination of challenges not seen in most multi-agent learning to date}.\cite{Barto1996ImprovingLearning}
+
+If so, it bodes well for the efficacy of oracle usage, given that different tasks might be better performed by different people and algorithms, utilizing different sources of data. I will return to the topic of specialization within decision making in chapter \ref{chapter:decisions}, as further motivation for a microprediction supply chain. 
+
+
+\section{What's It All Worth?}
+\label{sec:mckinsey}
+
+Well, good for you for reading this far into this chapter, given that enumerating the uses of repeated short term prediction is a bit like enumerating the uses of duct tape. 
+
+I honestly do not intended a survey of artificial intelligence - but from these examples one could certainly pan out and, in some very hand wavy way, assess the monetary potential for a microprediction web. 
+
+Actually, I have left out many areas not because they are commercially uninteresting, but because I presume you are already familiar with them. There is a glut of material these days and many existing applications of AI to business. I will be content with two ways we can try to wrap our arms around all of this.   
+
+The first idea is to look at the historical use of statistical crowd-sourcing. This lower bound on the utility of data-hungry methods seems appropriate, given that we wish to learn from data science contests in chapter \ref{chapter:crowd}. Needless to say, a problem for which a data science contest has been arranged suggests a repeated statistical task whose solution can be assessed mechanically. If not, it might have been a dud contest.  
+
+
+Table \ref{tab:categories} is intended to provide a glance at the fanout in application taxonomy suggested merely by examples that - would you believe - have already been the subject of competitive prediction. I have taken some data science contest examples and placed them in respective categories, or rather sub-sub-categories.\endnote{In the taxonomy I'm drawing upon numerous sources including some mentioned in chapter \ref{chapter:crowd}. Kaggle provides more data than most.\cite{KaggleInc.2014TheScience}} 
+
+That's the best I can do in this format, but in reading Table \ref{tab:categories} one has to appreciate that in addition to ``image'' being a subcategory of ``recognition'' we also have subcategories for motion, audio, text, EEG, accelerometry, MEG, written code, microelectromechanical and mass spectrometry not shown. 
+
+\begin{table}[h!]
+\begin{tabular}{|l|l|l|l|}
+\hline
+ Category & Example Sub-cat. & Example Sub-sub cat. \\
+ \hline
+  Recognition &  Image & Facial  \\
+  Search      &  Travel & Personalization \\
+  Recommendation &  Ad-tech & Click-throughs \\
+  Government &  Open cities & Flight status \\
+  Sales and CRM   &  Repeat shopping & Visitation  \\
+  Internet of things &  Homes & Usage  \\
+  Environment        &  Air  & Pollutants  \\
+  Transport          &  Driving & Distracted driver  \\
+  Manufacturing  &  Industrial control & Predictive maintenance  \\
+  Agriculture        &  Juice & Orange juice  \\
+  Finance        &  Investment banking & Commercial loans \\
+  Energy        & Power & Wind  \\
+  Medicine        &  Inventory & Hospital stays \\
+  \hline
+\end{tabular}
+\caption{Fanout in taxonomy of categories of applications for crowd-sourced microprediction. For each major category we list only one sub-category. For each sub-category I list only one sub-sub-subcategory.}
+\label{tab:categories}
+\end{table}
+  
+Then, even within the sub-category of recognition using images, we have handwriting, remote sensing, radiology and so forth. Then, within sub-categories of facial recognition, we have further fanout into topics such as keypoint detection, face recognition, age recognition, smoking recognition, autism and many others. 
+
+Clearly space does not permit a survey here of the uses of quantitative modeling in a world flooded with data - not even those for which data science contests (more cumbersome than the apparatus we envisage) have already been arranged, or could quite easily be. 
+
+A second approach to sizing the use cases for microprediction leans on existing industry surveys. The magnitude of the opportunity has been obvious for some time now. Back when data was big, McKinsey went into detail to argue why a trillion dollars in value would be added to the U.S. economy with increased use of just one source of new data - consumer location.\endnote{\cite{McKinseyCompany2011BigProductivity}}  They considered health care, government and consumer use. 
+\begin{quotation}
+First, big data can unlock significant value by {\em making information transparent} and usable at much higher frequency. Second, as organizations create and store more transactional data in digital form, they can collect more accurate and detailed performance information on everything from product inventories to sick days, and therefore expose variability and boost performance.
+\end{quotation}
+As I've noted, this kind of business intelligence can easily be enhanced by microprediction oracles. But the real lift comes when actions are modified. 
+\begin{quotation}
+Leading companies are using data collection and analysis to conduct {\em controlled experiments} to make better management decisions.\endnote{\cite{McKinseyCompany2011BigProductivity}} 
+\end{quotation}
+It is my task in chapter \ref{chapter:decisions} to complete this thought, tying microprediction to real-time operational optimization via the use of value functions. But as McKinsey's overview suggests, ad hoc adjustments can capture some of the benefit too.  
+\begin{quotation}
+Others are using data for basic low-frequency {\em forecasting} to high-frequency nowcasting to {\em adjust their business levers just in time}. 
+\end{quotation}
+This is important, but doesn't flesh out the benefits of very low cost prediction and bespoke intelligence - unless it spreads to companies with much smaller size than the authors probably anticipated (those with no data scientists). What if every business could benefit? For example:
+\begin{quotation}
+Big data allows ever-narrower segmentation of customers and therefore much more precisely {\em tailored products or services}. 
+\end{quotation}
+It isn't unrealistic to believe falling costs can bring these techniques to a larger demographic. A microprediction web can also be ``used to improve the development of the next generation of products and services,'' as the author's continue, and hopefully for everyone. 
+
+Whether we read this particular industry analysis or another, it is easy to translate goals into a common abstraction rendered by a prediction web. In McKinsey's case, the terms {\em transparency}, {\em forecasting}, {\em variability} and {\em nowcasting} are just different ways to parameterize a task assigned to an oracle, or ways to choose oracles. The phrases {\em tailored}, {\em boost performance}, {\em controlled experiments}, and {\em adjustment of business levers} refer to microprediction also, albeit in a mildly more subtle manner, as discussed in chapter \ref{chapter:decisions}.
+
+\section{Accuracy in dollars}
+
+One thing is clear, and that is that all industry observers are inclined to assign very large numbers to statistical value creation. I leave it to the reader, after perusing the chapters that follow, to estimate the fraction of this lift that is {\em not} served trivially by a collection of microprediction oracles - the power outlets connecting to a prediction grid. 
+
+Table \ref{tab:estimates} provides McKinsey's estimates from the aforementioned report. These numbers seem low, and already dated. And needless to say the value creation is much larger when the price of a good decreases. What will happen to this trillion dollar figure when the price of bespoke business optimization falls by ten, one hundred, or one thousand? 
+
+\begin{table}[h!]
+\label{tab:estimates}
+\begin{tabular}{|l|l|}
+\hline
+ Category & Value added  \\
+ \hline
+   U.S. healthcare  & \$300 billion \\
+   European government  & \$100 billion \\
+   Consumer location data  & \$600 billion \\
+  \hline
+\end{tabular}
+\caption{A somewhat dated McKinsey & Company estimate of economic value creation arising from better use of location data. \cite{McKinseyCompany2011BigProductivity}. This presumes a high cost of data science, and so vastly underestimates the potential.}
+\end{table}
+
+So while I have provided some usage categories of microprediction, and patterns,  I hope it is clear as we proceed, that {\em any} instrumented business throwing off a sufficient number of data points can benefit, so long as there is some ability to make, or improve, thousands of decisions. 
+
+The question is not so much ``is it useful?'', but ``where should I start?'' I do not know the details of your business, but I do know that there are some instances where one can get a pretty tight grasp on the likely impact of improved accuracy. 
+$$
+benefit = (accuracy\ increase) \times (materiality) \times revenue 
+$$
+where materiality of accuracy is defined:
+$$
+   accuracy\ materiality = \frac{percentage\ revenue\ increase}{percentage\ accuracy\ increase}
+$$
+I'm not peddling you a tautology here because sometimes, we get lucky and can estimate the materiality quite well. For example, if we know the super-linear cost of performing maintenance on a machine as a function of its degradation, it isn't too hard to back into the relationship between prediction accuracy and cost.
+
+One of my favorites examples of computing accuracy materiality comes from the world of over-the-counter market making. It translates easily to most trade, for that matter, and therein, one is able to compute the sufficient statistics that drive the profitability of a market maker.
+
+We find that the most important number to estimate is the location parameter of other people's bids and offers (assumed stochastic). I show that the materiality of this number is, to first order:
+$$
+   accuracy\ materiality \approx 1.5
+$$
+This leads one to believe that better prediction, say 6 percent less standard error, could translate into a 10 percent revenue increase.\endnote{\cite{rfq}}
+
+That's some serious dough. It would not surprise me if price optimization in the trading of relatively illiquid goods turns out to be a key driver of the prediction web. But who knows if microstructure gets there before microsurgery? It will be interesting to see. 
+
+
+\section{Summary}
+\label{sec:uses_summary}
+
+I've suggested that if an enormous quantity of cheap repeated prediction were to fall on us some day, hopefully without anyone being seriously hurt, then a lot of time and money could be saved. Ideally we'd like prediction pixie dust to waft its way gently into every nook and cranny of operations.   
+
+Some uses will be invisible. Most end users will not need to understand and will not want to understand how microprediction is used inside applications.  They will be as likely to consume raw microprediction as we are to consume raw electricity - devoid of an electrical appliance, that is. 
+
+There will be many small uses. But my case does not rest on a long tail. I don't need to convince you of the gravitational pull provided by trillions of seemingly inconsequential micro-life-optimizations - even if I claim to sense that disturbance in the Force. 
+
+Instead, I have walked through some commercially significant uses of microprediction, consciously trying to steer you away from the usual sirens associated with the word {\em prediction}, such as predicting the stock market.
+
+Microprediction isn't just prediction. It can turn weak data into strong, dirty data into clean, and intermittent data into continuous in much the same way that a continuously traded stock price converts a mix of lagged accounting data into a forward looking estimate. 
+
+Microprediction is also repeated decision making, process optimization, recommendation,  supervision, anomaly detection, and many other things in many categories which rarely carry the label ``prediction.'' 
+
+With that motivation, let us turn next to the question of how to create the best possible micropredictions at the lowest possible cost. 
+
+ 
+
+
+

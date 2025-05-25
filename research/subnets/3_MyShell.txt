@@ -1,4 +1,4 @@
-Subnet 3: MyShell
+# gammaτemplar (Subnet 3)
 Description: A specialized subnet focused on advancing text-to-speech technology and custom chatbot development, with a reward system for high-quality model contributions.
 Primary Function: Text-to-speech and chatbot development with quality-based incentives
 Key Features:

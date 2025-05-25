@@ -1,0 +1,23 @@
+# chetTao (Subnet 8)
+Description: Processes image data. Miners analyze images and generate features. Validators verify features and measure quality.
+
+![chetTao Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/chettao_arch.png)
+*Architecture diagram showing image processing and feature extraction flow*
+
+Built By: chetTao Labs
+GitHub: https://github.com/opentensor/chettao-subnet
+
+Team:
+- Computer vision specialists
+- Feature extraction experts
+- Image engineers
+
+Additional Info:
+- Processes image data
+- Generates image features
+- Evaluates feature quality
+- Tracks visual metrics
+- Rewards based on feature quality
+
+![chetTao Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/chettao_perf.png)
+*Performance metrics showing feature quality across different image types* 

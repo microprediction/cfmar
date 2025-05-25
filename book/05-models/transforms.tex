@@ -1,0 +1,118 @@
+
+\section{Transforming tasks}
+\label{chapter:transforms}
+
+We turn to the issue of transformations of questions. Motivations include the convenience for the child algorithm answering a question, or convenience of a parent looking to absorb knowledge from the child. 
+
+\subsection{Power transforms}
+
+The astute reader will notice that a transformation of data need to change the game at all. We could use the following scoring rule for example:
+$$
+    score = (\overbrace{x^{4}}^{actual} - \overbrace{y^{4}}^{predicted})^2 
+$$
+where we have built the transformation directly. Here $x$ is $\tau^{1/4}$ and $y$ is $t^{1/4}$). This isn't necessary because squared error will do just fine applied to $x$ and $y$ directly - as our energy arguments in Chapter \ref{chapter:scoring} demonstrate.  
+
+
+
+\subsection{Economically motivated transforms}
+
+\subsection{History and state}
+\label{sec:history}
+
+Keeping in mind Hayek's insistence that we value the contributions of middlemen performing seemingly trivial tasks, we note that some transformations of prediction tasks might be as simple as the provision of historical data. 
+
+More broadly, transformations of the {\em history} of a sequence of questions can be used to generate the payload for one or more questions that oracles might have an easier time answering.
+
+This serves as a reminder of why the principle of inexpensive parenting (Chapter \ref{chapter:oracles}) is important. It obviates normative approaches to data summarizing, history management and state - leaving those decisions to the marketplace. 
+
+Returning to our example of the school bus arrival time, an algorithm that enters the top level oracle contest could maintain a history of the last three hundred questions. It could pass through the same question to an oracle together with this history, receive an answer, and respond. 
+
+This arbitrage may or may not work. It seems reasonable to assume that some algorithms might appreciate the convenience of a vector of past history presented to them and, therefore, this added convenience might increase the number of respondents and their collective accuracy. 
+
+However there are also costs to storing this history. And there may be cross-sectional data (other people's bus stop questions) in addition to exogenous data (snow) that is far more relevant. Thus it isn't clear that enforcing history as a first class citizen will lead to an oracle that is
+
+Preparation of history is an example of transforming one type of question sequence into another sequence. In this case the shape of the question payload is changed, but the question remains the same. 
+
+We could also create an entirely new sequence. Suppose for example that an algorithm enters an oracle contest and receives one question every five minutes. Suppose that it decides to ask an oracle a question every ten seconds based on the history. 
+
+The algorithm's idea is that by replaying the history up until the present question in a loop it will be easier for other algorithms to get fast feedback. This setup achieves some of the benefits of back-testing but in an elegant fashion. 
+
+If the algorithm is clever it can time the sequence of repetitive fast questions in such a way that the tape runs out just as the next new question from the real world arrives. In this way the algorithm gets to ask a real-time question and use the responses to give to its parent. 
+
+The algorithm {\em might} need to assess children based only on their answers to the real-time question, not the historical data points which have obviously already been revealed. 
+
+\section{Migration}
+\label{sec:migration}
+
+Another class of transformation is important enough in the grand scheme of things to warrant special mention, since it is a mechanism that can enable intelligence to pass through walls - in particular the boundaries of a private firm that is concerned about intellectual property and data security. 
+
+A parent can introduce one level of indirection in scoring in order to take possession of a model, assuming there is a broad enough class of models (and probably reference implementations of the same) available to both parent and child. 
+
+For example, suppose a parametrized function $f(x;\theta)$ depending on some parateter $\theta$ is known to parent and child. the child responds with a representation $\theta$ in response to a question $x$ and the parent evaluates as 
+$$
+     score(\theta) = score( f(x;\theta) )
+$$
+In other words the child is relaying to the parent a recipe for computing an answer, not the answer itself. 
+Technically this can be viewed as a transformation of the question from one space to another, namely the parameter space of the function $f$. 
+
+There need not be a one to one correspondence between questions $x$ and the relaying of $\theta$ to parent. Instead the parameter might apply for an entire epoch. The parent might take on more responsibility such as maintaining state required by $f$ from one invocation to the next. 
+
+This use pattern above makes a literal connection between oracles and the theory of extremal estimation, M-estimation and likelihood estimation in statistics. Therefore the statistical and econometric literature suggests many ideas. 
+
+Migration of intelligence from child to parent can be achieved in other ways. The parent can also seek help in analyzing children. Here are some examples of questions that might facilitate algorithms managing other algorithms, or migration of intelligence through a privacy wall. 
+
+\begin{enumerate}
+\item What ONNX serialization of a neural net works best? 
+\item What parameters would answer this best? 
+\item What hyper-parameters should my algorithm use? 
+\item What are the best weights for an ensemble algorithm? 
+\item Is performance on this data point likely to be positively or negatively correlated with performance overall?
+\end{enumerate}
+
+Next consider the possibility of a private firm providing synthetic or augmented data to a public oracle, while being simultaneously able to implement some function $f(x;\theta)$ on private data never revealed. A whole class of algorithms can be developed that advance the primary objectives: recruiting good algorithms and predicting private data. 
+
+These techniques may borrow from theoretical work that tries to understand how best to select training examples for algorithms. This is sometimes referred to as Machine Teaching. However this new use case is likely to spur entirely different approaches. 
+
+When private firms are visualized as informational Black Holes the possibilities for using a prediction network may seem few and far between. But even Black Holes emit radiation, with a dance occurring at their horizon which may be somewhat analogous to the manner in which companies' private prediction networks will interface with a public prediction network. 
+
+\section{Other ways parents can help}
+
+A good manager helps those she manages perform their work. There are notable ways in which algorithms managing other algorithms can assist their children, as it were, beyond the transformation or careful design of microprediction tasks as we have already discussed. 
+
+Some of these come down to implementation. Not all participants in a predictiom network need follow the same pattern. Some may run in process and some may be reactive ``lambdas''. At any given time some algorithms may be alive and others dormant. 
+
+Not so many years ago it required a small interdisciplinary team to deploy analytic microservices. Now this can be accomplished by one person with half an hour to spare. The person with the arcane skill in statistics still needs to be somewhat knowledgeable in technology, but the bar has been lowered considerably. 
+
+At the time of writing there are increasingly convenient tools for deploying cloud based functions. Examples of implementations include AWS Lambda, Google Cloud Functions, Azure Functions. One might argue that web centric languages such as JavaScript also fall in this category. A child might be little more than a function or callback of this variety. 
+
+Some algorithms may be mere recipes implementing minimal discovery (which can be passive) in advance of hydration. What is important is that intelligence stored and maintained by whatever means can be drawn into the supply chain when the economics warrants.
+
+\subsection{State}
+
+To say that an oracle is {\em stateful} is to observe that it contains mutable data which changes from one call to the next. Our bus stop oracle maintained the variances $V_1,V_2,\dots$ of its children which allow it to efficiently keep a running assessment of relative accuracy and use this to return a combination of responses. 
+
+
+
+\subsection{Guidance}
+
+Parents can help children navigate. One method is through recommendations. Since parents see the performance of algorithms on different problems, and can choose to publicize this information, it is not difficult to compute sensible recommendations for algorithms.\footnote{All leaderboards at www.microprediction.org are public and included in the API, for example.} 
+
+Algorithms can help manage people who write algorithms in other ways, such as through analysis of which algorithms, used for predictive purposes, have been forked and modified. 
+
+Algorithms can help each other. The Federated Learning literature is a branch of Machine Learning research that can inspire collective recommendation. The key insight is that model calculations, or good approximations of any given calculation, can be split up amongst multiple parties. These parties communicate information about model parameters intermittently to a central server, but this communication is lightweight compared to the number crunching that is performed by each party. 
+
+One such model could be a predictive model for which algorithms will perform well in the immediate future. There are many other possibilities. 
+
+\section{Conclusion}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+# Cortex (Subnet 3)
+Description: Runs machine learning models for inference. Miners host models and make predictions. Validators send inputs and check outputs.
+
+![Cortex Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/cortex_arch.png)
+*Architecture diagram showing model deployment and inference flow*
+
+Built By: Cortex Labs
+GitHub: https://github.com/opentensor/cortex-subnet
+
+Team:
+- Machine learning specialists
+- Model deployment experts
+- Infrastructure engineers
+
+Additional Info:
+- Hosts ML models for inference
+- Processes inputs and generates predictions
+- Evaluates prediction accuracy
+- Optimizes model performance
+- Rewards based on inference quality
+
+![Cortex Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/cortex_perf.png)
+*Performance metrics showing inference latency and accuracy* 

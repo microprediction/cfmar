@@ -1,0 +1,23 @@
+# alphaApex (Subnet 6)
+Description: Processes financial data. Miners analyze markets. Validators verify analysis and track accuracy.
+
+![alphaApex Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/alphaapex_arch.png)
+*Architecture diagram showing financial data analysis flow*
+
+Built By: alphaApex Labs
+GitHub: https://github.com/alphaapex-labs/alphaapex
+
+Team:
+- Financial analysis specialists
+- Market prediction experts
+- Data processing engineers
+
+Additional Info:
+- Processes market data
+- Analyzes trends
+- Tracks prediction accuracy
+- Optimizes analysis speed
+- Rewards based on accuracy
+
+![alphaApex Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/alphaapex_perf.png)
+*Performance metrics showing analysis speed and prediction accuracy* 

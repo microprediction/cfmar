@@ -1,0 +1,23 @@
+# betaomron (Subnet 7)
+Description: Processes text data. Miners analyze content. Validators verify analysis and track quality.
+
+![betaomron Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/betaomron_arch.png)
+*Architecture diagram showing text analysis flow*
+
+Built By: betaomron Labs
+GitHub: https://github.com/betaomron-labs/betaomron
+
+Team:
+- Text analysis specialists
+- Content processing experts
+- Quality control engineers
+
+Additional Info:
+- Processes text content
+- Analyzes meaning
+- Tracks analysis quality
+- Optimizes processing speed
+- Rewards based on accuracy
+
+![betaomron Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/betaomron_perf.png)
+*Performance metrics showing processing speed and analysis quality* 

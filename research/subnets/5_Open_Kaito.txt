@@ -1,4 +1,4 @@
-Subnet 5: Open Kaito
+# epsilonOpenKaito (Subnet 5)
 Description: Specializes in image categorization and classification, providing tools for visual content organization
 Primary Function: Image categorization and analysis
 Key Features:

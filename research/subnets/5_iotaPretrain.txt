@@ -1,0 +1,23 @@
+# iotaPretrain (Subnet 5)
+Description: Trains language models. Miners run training jobs. Validators verify models and track performance.
+
+![iotaPretrain Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/iotapretrain_arch.png)
+*Architecture diagram showing model training flow*
+
+Built By: iota Labs
+GitHub: https://github.com/iota-labs/pretrain
+
+Team:
+- Model training specialists
+- Training optimization experts
+- Performance engineers
+
+Additional Info:
+- Runs training jobs
+- Verifies model quality
+- Tracks training metrics
+- Optimizes training speed
+- Rewards based on quality
+
+![iotaPretrain Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/iotapretrain_perf.png)
+*Performance metrics showing training speed and model quality scores* 

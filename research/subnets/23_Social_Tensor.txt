@@ -1,26 +1,28 @@
-Subnet 23: Social Tensor
-Description: Analyzes and processes social network data to understand relationships and interactions between entities
-Primary Function: Social network analysis and relationship mapping
-Key Features:
-- Network analysis
-- Relationship mapping
-- Social graph processing
-- Community detection
-- Interaction analysis
-Built By: Social Tensor Team
+# Social Tensor (Subnet 23)
+Description: Analyzes social networks. Miners process network data. Validators verify analysis and track metrics.
+
+![Social Tensor Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/socialtensor_arch.png)
+*Architecture diagram showing social network analysis flow*
+
+Built By: Social Tensor Labs
+GitHub: https://github.com/socialtensor-labs/social-tensor
+
 Team:
-- Network analysts
-- Data scientists
-- Social computing experts
+- Network analysis specialists
+- Graph theory experts
+- Data processing engineers
+
 Additional Info:
-- Focuses on social network analysis
-- Implements relationship mapping
-- Enables community detection
-- Supports interaction analysis
-- Provides network visualization tools 
+- Processes network data
+- Analyzes relationships
+- Tracks network metrics
+- Optimizes analysis speed
+- Rewards based on accuracy
 
+![Social Tensor Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/socialtensor_perf.png)
+*Performance metrics showing analysis speed and accuracy scores*
 
-​Bittensor Subnet 23, known as Social Tensor, is a decentralized network that leverages the Bittensor protocol to facilitate distributed image generation. The primary objective of Social Tensor is to enable scalable image generation by incentivizing miners to enhance their computational resources, thereby allowing for the generation of thousands of images per minute when equipped with sufficient GPU capabilities. This approach addresses the growing demand for high-quality, AI-generated images across various applications, including digital art, marketing, and content creation.​
+Bittensor Subnet 23, known as Social Tensor, is a decentralized network that leverages the Bittensor protocol to facilitate distributed image generation. The primary objective of Social Tensor is to enable scalable image generation by incentivizing miners to enhance their computational resources, thereby allowing for the generation of thousands of images per minute when equipped with sufficient GPU capabilities. This approach addresses the growing demand for high-quality, AI-generated images across various applications, including digital art, marketing, and content creation.​
 Bittensor.ai | Home
 
 Miners within Social Tensor are responsible for generating images based on prompts provided by validators. They utilize their computational resources, particularly GPUs, to produce images that meet the specifications outlined in the prompts. The performance of miners is evaluated by validators, who assess the quality and relevance of the generated images. Miners are incentivized to maintain high performance to earn rewards, and their registration status is influenced by their task completion efficiency and effectiveness.​

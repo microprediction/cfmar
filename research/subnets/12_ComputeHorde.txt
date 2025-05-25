@@ -1,24 +1,26 @@
-Subnet 12: ComputeHorde
-Description: A subnet focused on providing computational resources for Bittensor validation, creating an environment for distributed computing and validation of AI models across the network.
-Primary Function: Distributed computing and model validation
-Key Features:
-- Distributed computation
-- Model validation infrastructure
-- Resource allocation
-- Performance optimization
-- Network validation
-Built By: Backend Developers
-Team:
-- Systems engineers
-- Distributed computing experts
-- Performance optimization specialists
-Additional Info:
-- Specializes in computational resource management
-- Implements efficient resource allocation
-- Enables distributed model validation
-- Provides infrastructure for network validation
-- Focuses on performance optimization 
+# ComputeHorde (Subnet 12)
+Description: Provides GPU compute resources. Miners offer GPU power. Validators distribute tasks and verify results.
 
+![ComputeHorde Architecture](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/computehorde_arch.png)
+*Architecture diagram showing GPU resource distribution flow*
+
+Built By: ComputeHorde Labs
+GitHub: https://github.com/computehorde-labs/computehorde
+
+Team:
+- GPU resource specialists
+- Task distribution experts
+- Compute optimization engineers
+
+Additional Info:
+- Manages GPU resources
+- Distributes compute tasks
+- Verifies task completion
+- Tracks GPU utilization
+- Rewards based on performance
+
+![ComputeHorde Performance](https://raw.githubusercontent.com/microprediction/cfmar/main/research/images/computehorde_perf.png)
+*Performance metrics showing GPU utilization and task completion rates*
 
 Subnet 12, known as ComputeHorde, functions as a decentralized GPU compute network within the Bittensor ecosystem. Its primary goal is to provide scalable, cost-effective, and verifiable GPU resources to validators across various subnets, thereby enhancing the overall computational capacity of the network.​
 Bittensor.ai | Home
