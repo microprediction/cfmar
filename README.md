@@ -1,33 +1,99 @@
-# Microprediction: An Update
+# Decentralized AI & Prediction Markets Research
 
-This repository contains scrappy notes related to the microprediction thesis to help prepare for a public lecture at https://cfmar.pstat.ucsb.edu/. If you are doing
-interesting things in Collective AI then by all means make a pull request. 
+This repository contains research and analysis of decentralized AI systems and prediction markets, with a focus on their intersection and potential for creating more accurate, transparent, and accessible prediction mechanisms.
 
+## Project Structure
 
+### Research Overview
+- [Projects Summary](research/summary.md) - Comprehensive overview of all projects and their relationships
+- [Book Critique](book-critique/) - Analysis and critique of relevant literature
+- [Research Projects](research/projects/) - Detailed profiles of individual projects
 
-![](https://github.com/microprediction/cfmar/blob/main/slides/assets/cfmar_announce.png)
+### Project Categories
+The research is organized into several key categories:
 
+1. **Core Infrastructure**
+   - Decentralized AI Networks (e.g., Bittensor)
+   - Oracle & Data Networks (e.g., Chainlink)
 
+2. **Prediction Market Platforms**
+   - Traditional Markets (e.g., Augur)
+   - Cross-Chain Markets (e.g., Polymarket)
+   - Quantitative Markets (e.g., CrunchDAO)
 
-## Contents
+3. **AI Development & Training**
+   - Open Source Research (e.g., EleutherAI)
+   - Decentralized Training (e.g., Nous Research)
+   - Competitive Training (e.g., AIArena)
 
-- `/slides`: Presentation materials and lecture slides
-- `/book`: The microprediction book and related materials
-- `/research`: Additional research materials and 
-- `/resources`: Additional resources and links
+4. **Computing Resources**
+   - General Computing (e.g., Golem)
+   - GPU Resources (e.g., Render Network)
+   - Resource Optimization (e.g., NodeGoAI)
 
-## About Microprediction
+5. **Collective Intelligence**
+   - Swarm Intelligence (e.g., Unanimous AI)
+   - Collaborative Reasoning (e.g., The SWARM Project)
+   - Democratic AI (e.g., Collective Intelligence Project)
+   - Quantitative Intelligence (e.g., CrunchDAO)
 
-Microprediction refers to the concept of making predictions at a very fine-grained level, often involving many small predictions that collectively form a larger predictive system. This approach contrasts with traditional macro-level prediction methods and has implications for various fields including economics, finance, and machine learning.
+6. **Privacy & Data**
+   - Healthcare Intelligence (e.g., DHIN)
+   - Search & Discovery (e.g., Presearch)
 
-## Getting Started
+7. **Autonomous Decentralized AI Agents**
+   - Economic Agents (e.g., Fetch.ai)
+   - AI Marketplaces (e.g., SingularityNET)
+   - Agent Platforms (e.g., Autonolas)
+   - Agent Tokenization (e.g., Virtuals Protocol)
+   - IoT & Robotics (e.g., Robonomics Network)
+   - AI-Centric Blockchain (e.g., Lightchain AI)
+   - Knowledge Infrastructure (e.g., OriginTrail)
+   - Financial Agents (e.g., Numerai)
+   - Infrastructure Agents (e.g., Surtrac)
 
-1. Make a PR replaceing the auto-gen bull.
-2. Brag about your project
-3. Dump assets and pretty pictures. 
- 
+## Key Relationships
 
+The projects are analyzed in terms of their:
+
+1. **Infrastructure Dependencies**
+   - How projects rely on each other
+   - Critical infrastructure requirements
+   - Integration points
+
+2. **Data Flow**
+   - Information pathways
+   - Data transformation
+   - Value creation
+
+3. **Economic Incentives**
+   - Token economics
+   - Reward mechanisms
+   - Market dynamics
+
+## Future Directions
+
+Research focuses on:
+
+1. **Integration Opportunities**
+   - Cross-project collaboration
+   - Technical integration
+   - Market integration
+
+2. **Development Priorities**
+   - Technical improvements
+   - Market enhancements
+   - Infrastructure development
+
+3. **Research Focus**
+   - Emerging technologies
+   - Market mechanisms
+   - AI advancements
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
