@@ -9,6 +9,13 @@
   - Provides subnet architecture for specialized tasks
   - Key for distributed prediction capabilities
 
+- **CrunchDAO**
+  - Permissionless AI architecture
+  - Global ML community access
+  - Model collaboration platform
+  - Merit-based rewards
+  - Quantitative finance focus
+
 ### Oracle & Data Networks
 - **Chainlink**
   - Ground truth mechanism for predictions
@@ -181,6 +188,7 @@
   - Performance tracking
   - Merit-based rewards
   - Financial analysis
+  - Global ML community
 
 ### Public Health Intelligence
 - **IWasPoisoned**

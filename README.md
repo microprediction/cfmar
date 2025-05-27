@@ -5,7 +5,7 @@ This repository contains research and analysis of decentralized AI systems and p
 ## Project Structure
 
 ### Research Overview
-- [Projects Summary](research/summary.md) - Comprehensive overview of all projects and their relationships
+- [Projects Summary](projects-summary.md) - Comprehensive overview of all projects and their relationships
 - [Book Critique](book-critique/) - Analysis and critique of relevant literature
 - [Research Projects](research/projects/) - Detailed profiles of individual projects
 
@@ -13,7 +13,7 @@ This repository contains research and analysis of decentralized AI systems and p
 The research is organized into several key categories:
 
 1. **Core Infrastructure**
-   - Decentralized AI Networks (e.g., Bittensor)
+   - Decentralized AI Networks (e.g., Bittensor, CrunchDAO)
    - Oracle & Data Networks (e.g., Chainlink)
 
 2. **Prediction Market Platforms**
@@ -36,6 +36,7 @@ The research is organized into several key categories:
    - Collaborative Reasoning (e.g., The SWARM Project)
    - Democratic AI (e.g., Collective Intelligence Project)
    - Quantitative Intelligence (e.g., CrunchDAO)
+   - Public Health Intelligence (e.g., IWasPoisoned)
 
 6. **Privacy & Data**
    - Healthcare Intelligence (e.g., DHIN)
