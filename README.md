@@ -6,7 +6,7 @@ This repository contains research and analysis of decentralized AI systems and p
 
 ### Research Overview
 - [Projects Summary](projects-summary.md) - Comprehensive overview of all projects and their relationships
-- [Book Critique](book-critique/) - Analysis and critique of relevant literature
+- [Book Critique](book-critique/) - including a [scathing review](https://github.com/microprediction/cfmar/blob/main/scathing-review.md).
 - [Research Projects](research/projects/) - Detailed profiles of individual projects
 
 ### Project Categories
