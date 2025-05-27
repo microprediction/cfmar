@@ -9,8 +9,8 @@ This repository contains research and analysis of decentralized AI systems and p
 - [Book Critique](book-critique/) - including a [scathing review](https://github.com/microprediction/cfmar/blob/main/scathing-review.md).
 - [Research Projects](research/projects/) - Detailed profiles of individual projects
 
-### Project Categories
-The research is organized into several key categories:
+### Examples
+
 
 1. **Core Infrastructure**
    - Decentralized AI Networks (e.g., Bittensor, CrunchDAO)
@@ -53,6 +53,7 @@ The research is organized into several key categories:
    - Financial Agents (e.g., Numerai)
    - Infrastructure Agents (e.g., Surtrac)
 
+etc etc
 
 ## Contributing
 
