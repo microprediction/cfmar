@@ -4,32 +4,14 @@ May 28th, 2025
 
 ---
 
-## Overview
 
-- Fine-grained prediction systems
-- Evolution since original thesis
-- Current applications and impact
+1. A brief history of beaurocracy 
 
----
 
-## Key Developments
 
-1. Algorithmic improvements
-2. New application domains
-3. Industry adoption
+2. A Microprediction network
+ 
 
----
 
-## What's New?
+3. 
 
-- Latest research findings
-- Practical implementations
-- Future directions
-
----
-
-## Next Steps
-
-- Technical foundations
-- Case studies
-- Future outlook 

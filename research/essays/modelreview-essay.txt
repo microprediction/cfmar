@@ -1,0 +1,35 @@
+Rating Agencies: “Regulatory Licences to Print AAA”
+
+The Basel Committee itself concedes that pre‑crisis trading‑book capital rules were “inadequate” and had to be trebled or quadrupled under the 2009 “Basel 2.5” stop‑gap. (bis.org)  In theory, that admission should have triggered epistemic humility; in practice, most large institutions responded by hiring more librarians of documentation rather than intellectual iconoclasts.  As the Financial Stability Forum warned in April 2009, supervisors and banks alike had become addicted to mechanically generated risk numbers, amplifying pro‑cyclicality. (fsb.org)
+
+---
+
+The standard PowerPoint slide boasts three impermeable ‘lines of defence’.  In reality, bureaucratic layering diffuses accountability: fifteen committees, thirty sign‑offs, and zero genuine challenge.  Case in point: before its collapse, Lehman Brothers possessed “quantitative risk models that accurately calculated risk and reported repeated limit breaches”—but senior management simply overrode them. (astrid-online.it)  The overflow of process became a perfect alibi for inaction: If risk were real, surely one of these committees would have stopped us?
+
+Structured‑finance tranches backed by sub‑prime mortgages enjoyed AAA ratings at a rate that defied empirical logic.  A Columbia study of Moody’s data shows that by May 2009 only 52 % of originally‑AAA tranches were still AAA, while 37 % had collapsed to CCC or lower. (columbia.edu)  The business‑model (issuers pay for ratings) created a feedback loop in which negative model‑review findings jeopardised revenue, so they were gently massaged away.
+
+3.2 Short‑Termism in Banks
+
+Bear Stearns linked bonus pools to return‑on‑equity—a metric turbo‑charged by leverage.  The U.S. Financial Crisis Inquiry Commission later concluded that this “created incentives to use excessive leverage and focus on short‑term gains,” directly undermining prudent model governance. (cfo.com)  When risk managers’ pay is dwarfed by traders’, dissonant voices fall silent.
+
+4 Oversight Malfunctions: Five Exhibit Pieces
+
+4.1 Value‑at‑Risk: When 25‑Sigma Happens Thrice a Week
+
+Goldman Sachs’ CFO infamously claimed, “We were seeing things that were **25‑standard‑deviation moves, several days in a row.” (arxiv.org)  Statistically, one 25‑σ event should not occur even once in the lifetime of the universe—but it did occur repeatedly in the risk model’s imagination because the model’s distributional assumptions ignored fat tails.  The Basel Committee’s remedy was ‘stressed VaR’, tacitly admitting standard VaR’s blindness. (bis.org)
+
+4.2 Gaussian Copula: Mis‑Used, Not Malevolent
+
+Popular media such as Wired portrayed David X. Li’s Gaussian copula as “the formula that killed Wall Street.”  Serious scholarship is less melodramatic: the copula is mathematically sound but was mis‑calibrated and applied with implausibly low correlation assumptions. (samueldwatts.com)  In short, the villain was organisational over‑confidence, not a rogue equation.
+
+4.3 AAA‑to‑Junk in 24 Months
+
+An NBER review finds that 36,346 tranches were downgraded in 2007–08, with average notch cuts of 5.8—a collapse unprecedented in ratings history. (nber.org)  Internal bank policies that outsourced credit analysis to rating agencies allowed this risk to metastasise unchecked.
+
+4.4 Lehman’s Risk Officer: Memento Audere Semper?
+
+Madelyn Antoncic, CRO until late 2007, testified that her team’s warnings were “repeatedly overruled.” (astrid-online.it)  By the Dilbert Principle, Lehman ultimately chose a less combative successor—paradoxically ensuring that risk governance posed no obstacle to doubling down on real‑estate bets.
+
+4.5 European Echoes: RBS and UBS
+
+A UK regulator’s post‑mortem labelled RBS’s 2008 failure a case of “incompetence in strategic judgment.”  (hks.harvard.edu)  UBS, meanwhile, recorded over $50 billion in write‑downs related to sub‑prime CDOs, revealing that dependency on imported AAA tranches was a pan‑Atlantic affliction.
