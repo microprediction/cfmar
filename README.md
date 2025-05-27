@@ -1,6 +1,6 @@
 # Decentralized AI & Prediction Markets Research
 
-This repository contains research and analysis of decentralized AI systems and prediction markets, with a focus on their intersection and potential for creating more accurate, transparent, and accessible prediction mechanisms.
+This repository contains research and analysis of decentralized AI systems and prediction markets, with a focus on their intersection and potential for creating more accurate, transparent, and accessible prediction mechanisms. I put it together in advance of this [talk](https://cfmar.pstat.ucsb.edu/news/event/646). 
 
 ## Project Structure
 
@@ -53,43 +53,6 @@ The research is organized into several key categories:
    - Financial Agents (e.g., Numerai)
    - Infrastructure Agents (e.g., Surtrac)
 
-## Key Relationships
-
-The projects are analyzed in terms of their:
-
-1. **Infrastructure Dependencies**
-   - How projects rely on each other
-   - Critical infrastructure requirements
-   - Integration points
-
-2. **Data Flow**
-   - Information pathways
-   - Data transformation
-   - Value creation
-
-3. **Economic Incentives**
-   - Token economics
-   - Reward mechanisms
-   - Market dynamics
-
-## Future Directions
-
-Research focuses on:
-
-1. **Integration Opportunities**
-   - Cross-project collaboration
-   - Technical integration
-   - Market integration
-
-2. **Development Priorities**
-   - Technical improvements
-   - Market enhancements
-   - Infrastructure development
-
-3. **Research Focus**
-   - Emerging technologies
-   - Market mechanisms
-   - AI advancements
 
 ## Contributing
 
