@@ -5,7 +5,7 @@ This repository contains research and analysis of decentralized AI systems and p
 ## Project Structure
 
 ### Research Overview
-- [Projects Summary](projects-summary.md) - Comprehensive overview of all projects and their relationships
+- [Projects Summary](projects-summary.md) - relevant to broad vision of this [book](https://direct.mit.edu/books/book/5486/MicropredictionBuilding-an-Open-AI-Network)).
 - [Book Critique](book-critique/) - including a [scathing review](https://github.com/microprediction/cfmar/blob/main/scathing-review.md).
 - [Research Projects](research/projects/) - Detailed profiles of individual projects
 
